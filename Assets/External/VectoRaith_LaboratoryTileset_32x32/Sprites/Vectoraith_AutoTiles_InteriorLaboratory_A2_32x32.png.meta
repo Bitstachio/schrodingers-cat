@@ -1,0 +1,4046 @@
+fileFormatVersion: 2
+guid: 7f29a0b7d8f88452b8060691b05de934
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1847064246904508357
+    second: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_0
+  - first:
+      213: -7056058487812415086
+    second: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_1
+  - first:
+      213: 309361028408045023
+    second: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_2
+  - first:
+      213: -6921593792506326869
+    second: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_3
+  - first:
+      213: 4898110917123219628
+    second: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_4
+  - first:
+      213: -7134407954454026490
+    second: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_5
+  - first:
+      213: 1714646409992411574
+    second: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_6
+  - first:
+      213: 3689787401718314735
+    second: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_7
+  - first:
+      213: -6896031726254017651
+    second: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_8
+  - first:
+      213: -7581724576739234366
+    second: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_9
+  - first:
+      213: 4363633773771118531
+    second: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_10
+  - first:
+      213: 1342288679655909069
+    second: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_11
+  - first:
+      213: 8093909808782940977
+    second: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_12
+  - first:
+      213: 5608123309122655291
+    second: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cf411a752712a910800000000000000
+      internalID: 1847064246904508357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 291af8f9038d31e90800000000000000
+      internalID: -7056058487812415086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdd6c9d57321b4400800000000000000
+      internalID: 309361028408045023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba09c1e2e1f81ff90800000000000000
+      internalID: -6921593792506326869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca0a7958de599f340800000000000000
+      internalID: 4898110917123219628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 607eb00e3cd7dfc90800000000000000
+      internalID: -7134407954454026490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b91ff643d5abc710800000000000000
+      internalID: 1714646409992411574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_7
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe6b120b712c43330800000000000000
+      internalID: 3689787401718314735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_8
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d833ec48eaf5c40a0800000000000000
+      internalID: -6896031726254017651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_9
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cdeb9acaad48c690800000000000000
+      internalID: -7581724576739234366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_10
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c756873ccdbe8c30800000000000000
+      internalID: 4363633773771118531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_11
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc62be04174c0a210800000000000000
+      internalID: 1342288679655909069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_12
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13b9e847618535070800000000000000
+      internalID: 8093909808782940977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_13
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3418d0cf6e04dd40800000000000000
+      internalID: 5608123309122655291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_14
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c43ee369d0ba84158ba7f0f373a6cc39
+      internalID: 1121336022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_15
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85fd478655308414db0f4e3059441478
+      internalID: 1597200497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15b452c7fe2f941a9a3bf689d770b406
+      internalID: -1666236934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_17
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d6852d8f4d88407f86d48797b42105a
+      internalID: 979226462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_18
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56b60cb8c9c8f43af804620285787239
+      internalID: -559005626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_19
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9d4eb55eb5b54d83895c1297c90e290
+      internalID: -524964520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_20
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 771ee8bebcedc4dfcba6c40a582bd79d
+      internalID: 986356809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_21
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ce0609a09299479b8936767dafdb572
+      internalID: 1328473389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_22
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfeee3268ef6f4cd3bf0fe84e3e48b33
+      internalID: -844537211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_23
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43b14c393858b4a448cf260a1c044906
+      internalID: -1992555086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_24
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4509f670c180647e0857567b78f7613b
+      internalID: 1127046175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_25
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10c977b6180864c5381f55301b171c7f
+      internalID: -1373609054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_26
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aace89bf64c7a4950937581a77ce79f6
+      internalID: 510225731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_27
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b07f7083e2ffc4dd0985288c49abc975
+      internalID: -1862687347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_28
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3113eb701231545b4a9eff1f40e3834b
+      internalID: 99304630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_29
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71da7e9eb2dd64124b3ca1dd3d22b0e4
+      internalID: -1053560201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_30
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31e30ac8e3a5e421884925797af864fa
+      internalID: 1018810558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_31
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 953b0cd3393cc40158e8045dbc6bab03
+      internalID: -904817900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a3df95fded9445fd91548bd2d8c9023
+      internalID: -371061302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_33
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 116f4a51c8d164942b9704ec8bf875fd
+      internalID: 296637659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_34
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ea19bbeabdf8437fa82571e4f150aff
+      internalID: 1373223374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_35
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1271e16375096403890b351d4fadd0fa
+      internalID: -544902058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_36
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 014054c6a302f43099a71e456000e76a
+      internalID: -2062439751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_37
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19af4710ee39b4678adf66da86b777aa
+      internalID: 2029858395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_38
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0846fd293c3f43209c95eb01cdb6d5b
+      internalID: -1203563881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_39
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c289f8197c41e4b91ad2b3dce8898798
+      internalID: -39367288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_40
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ef9d37654c9344b3a04eaa74a4bf936
+      internalID: 1470664308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_41
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30af7f68e02a4491f8ce508121b01a45
+      internalID: -108947520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_42
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed459f59dd5cf484bb5c731ae462d698
+      internalID: 1123612634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_43
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36cac97477cb748088219b87e3451a07
+      internalID: -520427418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_44
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d516d73d3f35347828a634320c366cb7
+      internalID: -1899779840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_45
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bd9227fff7d14923bb35bb8096d64d4
+      internalID: 518662319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_46
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e3bfebb4e75e472f9892adf0663fdd9
+      internalID: 1074765542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_47
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c14b14cf90ad642aebd98c345689da0b
+      internalID: -382584714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3555de334a000479991f3db326c4e617
+      internalID: -272069516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_49
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8528af9ec1384e5d905b9fa5ff104a2
+      internalID: -2090571749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_50
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72081497f2df8479ebb890d1e5d135b0
+      internalID: -1375114516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_51
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcae7d8b4f6a4465589abafa2c2a5fbe
+      internalID: 2111649136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_52
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ad4b85730af942fb9faecfb8a4fa1e9
+      internalID: 2062916780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_53
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f50942bdb431e4d6a9cc1a598799bf4f
+      internalID: -896411326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_54
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c4acbe935c1f421390cf345924cf2a5
+      internalID: -1641271491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_55
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1740f034416814ee98767942f5efc56a
+      internalID: -1349224397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_56
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a64b8b80df8c4c43887ee9326488e68
+      internalID: 2021314424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_57
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c9864cdc2c0a481ab02f418dfcf6eb6
+      internalID: -1576437236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_58
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0568ec0af68dc48baabcbf4f6c5a6b1d
+      internalID: 333385411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_59
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f079e1f1153684d0cb9add85e62fb814
+      internalID: -1498382288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_60
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ebe80e7942014cefa47ee8ebd705c36
+      internalID: 2034235231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_61
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99876c11c0c9c4a38b0c7e044a8b6d40
+      internalID: 834297869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_62
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84ee628157c2a423ea06638f91782de6
+      internalID: -1774864974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_63
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15c96874440b249b09fecec50becc573
+      internalID: -1536566239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b46f0510c0f74d719249e169cfa4192
+      internalID: -1645294072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_65
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a5cc30d8e8b0473c8717795ee8be0eb
+      internalID: 659144011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_66
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5f5d7059ecc74f39999599fa87dedcb
+      internalID: -1669410383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_67
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24a5003788f0947eba721a6afcd133f5
+      internalID: -2101046974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_68
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f418f729e2eb8469ebe5b722023b10ca
+      internalID: 1821954347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_69
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b59794d21936d4992a693fd69d7ceb0b
+      internalID: -517583011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_70
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd2a6a958ac984489a2cc95ce34f9fc1
+      internalID: 1789852228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_71
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fbe4c985d1ba464abc77ea04786fb84
+      internalID: 358892862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_72
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16b6bf27b958445d5a6aa266ca020d24
+      internalID: 1440272947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_73
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2c7be5b82b07496b948953c6d87596e
+      internalID: 1376440210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_74
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10f62d102510e4e7cb37b94fb4e7667d
+      internalID: -336912536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_75
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b1f9485169e64d03ab2e15e6611a047
+      internalID: 2106052831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_76
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56a27624e088144a598106c89f18d4d4
+      internalID: -231125113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_77
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 123d78a8982684e3e97f3b923cb562ec
+      internalID: -22524543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_78
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f779d5bed15b7424883dd72020d58bd1
+      internalID: 2094520324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_79
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd6ab78d0b8dc4d08a68722c41fdfcf3
+      internalID: -1526281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22f1242d06c004c8d9d29655a7ff60d9
+      internalID: -1810299207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_81
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 085cf3761ede14ff794c3dab27f18bdc
+      internalID: -1946988352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_82
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67060795be86543fba5d609dab1cecb8
+      internalID: 430788936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_83
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98030738ab5fb499c81ec280c097d3f2
+      internalID: -1890956849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_84
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f5e91a1b94b9478f8f4b3b1f6b5de65
+      internalID: 1819461199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_85
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 154abce9cf6b34388843f8212b00518c
+      internalID: 381027475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_86
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4cbd1cccf90044049f97bf154754256
+      internalID: 1967135492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_87
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01bce215532d64bc6a9b26d0797cbe14
+      internalID: -1575592500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_88
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cabd9d6b27364e529fb9886d79268d3
+      internalID: 1215590649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_89
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4121d29eaf9864a3abf554a2e7ee6b3b
+      internalID: 930153170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_90
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07685f82e84914ad5ad108048ce82a5c
+      internalID: 1579474927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_91
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a9bdd92589b44f829c84cd516a3d6e8
+      internalID: -994148554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_92
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17e1ff9f35c2146d3a3ba1020c77fcf1
+      internalID: 943065585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_93
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9916bf2f90c8241cbad4e4e73b8b3741
+      internalID: 2068219448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_94
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7424c1b83ac204fbea4d4bcb1a028c3e
+      internalID: 293486303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_95
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da0188073d0bd4099956f902da61e581
+      internalID: 178823650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_96
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7f1b525d8c1b4a19abbf0bb2f84da3c
+      internalID: -244979424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_97
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95acdb80f256041cf8b24f30e414ce86
+      internalID: -1709530105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_98
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9c4b93702bf144afb03b5e096f4e834
+      internalID: 367782171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_99
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39d04ce003a04482182b97f4d964cf9e
+      internalID: -1607409969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_100
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb0f79b809664425e999d9899a7adbbf
+      internalID: -2025037853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_101
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44028080983f74907af658c9aefee145
+      internalID: 1067103500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_102
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39ddee7c4f836425cbc7d971da3d6d93
+      internalID: 1852911218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_103
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dd11667c05f444f1a42eb9190c51402
+      internalID: -258088186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_104
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 185ff1668e5d845afa8889a140683574
+      internalID: -361414350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_105
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5209e868356e4cd5a6f53c5af83dccc
+      internalID: -1612631081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_106
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22eb818ff8d2c43509e63010d6eee370
+      internalID: -1735590208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_107
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e04acca1054394a3e97bb9cb5f1b2217
+      internalID: 1243274629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_108
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5998c336569a4928b3596551f457006
+      internalID: -2038309075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_109
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a01734af9bae45cb815a5adcf8747f0
+      internalID: -744773310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_110
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4031058586f0c444a96df32ee44c6e5d
+      internalID: 15683056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_111
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05c9715611cbb48fc851692007bde82c
+      internalID: 1690061565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_112
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86c3ecde596164976ba8ef0cf2127f82
+      internalID: 862767980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_113
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 923a71c827f0840ff9dd4300f26d6f7d
+      internalID: 186194555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_114
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00f8a4aa493fd4e29946d599e1d195a0
+      internalID: 932000999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_115
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49220816e69c8469da6ce38fe881d497
+      internalID: 1129195533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_116
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1a5bbae18d1a422b8967ac2f8ee3729
+      internalID: -1346814973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_117
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c5d9ade9e8ee4b3192eaf338451b8de
+      internalID: -456804009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_118
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bd9c55b3caea410bbd651dedd419caa
+      internalID: 1355744804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_119
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60b5c7eb1046a4501a43fecbdea0da5d
+      internalID: -526441385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_120
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c1fa5d33648a4cb5bf6db81454cc0db
+      internalID: -1167695785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_121
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a8480d3c5ac84f53b38231f6ed26520
+      internalID: 913337987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_122
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 354361c1b456a484287e4e77c2df5d9f
+      internalID: 1586192858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_123
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c418a252ff402443dbeddb1d08a7a0bc
+      internalID: -444666062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_124
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf281f56829ed4b03910c638897439d7
+      internalID: -1578028736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_125
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af95ee8a1919c45c4bfc09c4fa6790fc
+      internalID: 1644980856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_126
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c00aed7e36504a2e9b3f3b35916d1b3
+      internalID: -684757816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_127
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3075a6171ae5a4071878695cbf8bc983
+      internalID: -2037877000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_128
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27f1121abbc5f47e18574c6c47044979
+      internalID: -1591529736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_129
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 283e5b63045d349cf90e7cb83d164821
+      internalID: 1952043130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_130
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c092592df03a04e80bc2c03f245e79a8
+      internalID: -1049819047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_131
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb384472fb96f425fb65ae0829d6891f
+      internalID: 481883361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_132
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6249a4be3784f4d4d97ffea56e47d7e8
+      internalID: 714824562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_133
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9149a2d9b1c47415999db6a2af3428fd
+      internalID: 1690726185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_134
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb455f6975cff45618dc02729c9ec3ea
+      internalID: 347163333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_135
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 015d3c659e61345e5a8c2aa05e8daa59
+      internalID: -624981979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_136
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2225e4abcb3642e5a913fd7e7298d38
+      internalID: -19549358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_137
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2b40a1d15c4c42d7a6db84248eb05f9
+      internalID: -1593909353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_138
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f362a007c89504db2a7bbbf80be62700
+      internalID: -209441555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_139
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6df34cbfcfc374b39b6427888bbfe68f
+      internalID: 342447903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_140
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7a967a2dcf384362b602980822345b2
+      internalID: -651894501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_141
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 267df4192fab945f59b2ae024d42a9cb
+      internalID: 1337274253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_142
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59b850ee20100434e88218bd8f1e44bb
+      internalID: 2047927261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_143
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f93bf513919df46a89d2c61868057a21
+      internalID: 451438932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_144
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c61382a3be6eb4136b6d32df91ec45c6
+      internalID: -1497590944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_145
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 548864cfc37bb4c6ba8bbadca8bc5fd1
+      internalID: -1718696960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_146
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89c7a23f61a3d452ca5f1d05f9e86465
+      internalID: -1889031507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_147
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 629c6aafeee3d47b7b1df21a22048d78
+      internalID: 861681641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_148
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c1dc8765833d4d9c827108b9601b466
+      internalID: 681030123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_149
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a899a8690ba984b178fa4e33f5bd5fc2
+      internalID: -794047498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_150
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d51a56cd6a9c43d693f38ba6bf3282c
+      internalID: -1867045729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_151
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e55ff793b5024d47a01aa1d9d70b127
+      internalID: -1463594662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_152
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33ea143ade75c41ea9cb9029d17f672d
+      internalID: -984675307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_153
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92f4e9f7b84584f1c9bf53a718b7592b
+      internalID: -1557985069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_154
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ee30f5b907ad4e888bb7ed5274f19af
+      internalID: -1775331803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_155
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c24bee392e734ea683188defb52c099
+      internalID: 1970933260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_156
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 372941c8d07ff40d7868d81ae24d683f
+      internalID: -18630465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_157
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5d9650f23d6647c68d5b690f8a35904
+      internalID: 1368235253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_158
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b928e5e9b75144c048b6f0a257d9e6c0
+      internalID: 1489351781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_159
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 734b9502b1c404a1388666924e51596a
+      internalID: -2139131629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_160
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02fcc2516d97e4d54be4b48ba98957e2
+      internalID: 1879545688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_161
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15777c388d9fa4cc38d10f326580cb9e
+      internalID: 1465053900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_162
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9573ae3c495274cf0b89dee7f37a60a8
+      internalID: 2147300918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_163
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a22b31850c205496698d6c3c2aa90a24
+      internalID: -966056354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_164
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8379f7f94590746b3860d2548deb2ee5
+      internalID: 1258237771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_165
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 655a37d19f3a44d33bf732bb9f084063
+      internalID: 562936657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_166
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 109de66c1ea63461c9c862ac5a1d50bf
+      internalID: -2112163899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_167
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5f0d995f8cd04895aff451f5db0e0c5
+      internalID: 829277829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_168
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 309
+        width: 87
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e90f4cae8ac048eb9d218f0b93144a0
+      internalID: 1483567095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 494ba8ccee20e4136a8cafb0376ef830
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_0: 1847064246904508357
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_1: -7056058487812415086
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_10: 4363633773771118531
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_100: -2025037853
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_101: 1067103500
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_102: 1852911218
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_103: -258088186
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_104: -361414350
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_105: -1612631081
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_106: -1735590208
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_107: 1243274629
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_108: -2038309075
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_109: -744773310
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_11: 1342288679655909069
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_110: 15683056
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_111: 1690061565
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_112: 862767980
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_113: 186194555
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_114: 932000999
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_115: 1129195533
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_116: -1346814973
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_117: -456804009
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_118: 1355744804
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_119: -526441385
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_12: 8093909808782940977
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_120: -1167695785
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_121: 913337987
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_122: 1586192858
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_123: -444666062
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_124: -1578028736
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_125: 1644980856
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_126: -684757816
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_127: -2037877000
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_128: -1591529736
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_129: 1952043130
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_13: 5608123309122655291
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_130: -1049819047
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_131: 481883361
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_132: 714824562
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_133: 1690726185
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_134: 347163333
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_135: -624981979
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_136: -19549358
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_137: -1593909353
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_138: -209441555
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_139: 342447903
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_14: 1121336022
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_140: -651894501
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_141: 1337274253
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_142: 2047927261
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_143: 451438932
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_144: -1497590944
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_145: -1718696960
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_146: -1889031507
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_147: 861681641
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_148: 681030123
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_149: -794047498
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_15: 1597200497
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_150: -1867045729
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_151: -1463594662
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_152: -984675307
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_153: -1557985069
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_154: -1775331803
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_155: 1970933260
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_156: -18630465
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_157: 1368235253
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_158: 1489351781
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_159: -2139131629
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_16: -1666236934
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_160: 1879545688
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_161: 1465053900
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_162: 2147300918
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_163: -966056354
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_164: 1258237771
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_165: 562936657
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_166: -2112163899
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_167: 829277829
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_168: 1483567095
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_17: 979226462
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_18: -559005626
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_19: -524964520
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_2: 309361028408045023
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_20: 986356809
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_21: 1328473389
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_22: -844537211
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_23: -1992555086
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_24: 1127046175
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_25: -1373609054
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_26: 510225731
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_27: -1862687347
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_28: 99304630
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_29: -1053560201
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_3: -6921593792506326869
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_30: 1018810558
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_31: -904817900
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_32: -371061302
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_33: 296637659
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_34: 1373223374
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_35: -544902058
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_36: -2062439751
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_37: 2029858395
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_38: -1203563881
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_39: -39367288
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_4: 4898110917123219628
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_40: 1470664308
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_41: -108947520
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_42: 1123612634
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_43: -520427418
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_44: -1899779840
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_45: 518662319
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_46: 1074765542
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_47: -382584714
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_48: -272069516
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_49: -2090571749
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_5: -7134407954454026490
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_50: -1375114516
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_51: 2111649136
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_52: 2062916780
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_53: -896411326
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_54: -1641271491
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_55: -1349224397
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_56: 2021314424
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_57: -1576437236
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_58: 333385411
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_59: -1498382288
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_6: 1714646409992411574
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_60: 2034235231
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_61: 834297869
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_62: -1774864974
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_63: -1536566239
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_64: -1645294072
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_65: 659144011
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_66: -1669410383
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_67: -2101046974
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_68: 1821954347
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_69: -517583011
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_7: 3689787401718314735
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_70: 1789852228
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_71: 358892862
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_72: 1440272947
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_73: 1376440210
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_74: -336912536
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_75: 2106052831
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_76: -231125113
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_77: -22524543
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_78: 2094520324
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_79: -1526281
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_8: -6896031726254017651
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_80: -1810299207
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_81: -1946988352
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_82: 430788936
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_83: -1890956849
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_84: 1819461199
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_85: 381027475
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_86: 1967135492
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_87: -1575592500
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_88: 1215590649
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_89: 930153170
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_9: -7581724576739234366
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_90: 1579474927
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_91: -994148554
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_92: 943065585
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_93: 2068219448
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_94: 293486303
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_95: 178823650
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_96: -244979424
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_97: -1709530105
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_98: 367782171
+      Vectoraith_AutoTiles_InteriorLaboratory_A2_32x32_99: -1607409969
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
