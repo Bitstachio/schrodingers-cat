@@ -7,17 +7,19 @@ namespace Player.Scripts
     public class Movement : MonoBehaviour
     {
         [SerializeField] private float moveSpeed = 5f;
-        
+
         private Rigidbody2D _rb;
         private Animator _animator;
         private Vector2 _movement;
-        
+        private SpriteRenderer _spriteRenderer;
+
         private static readonly int IsMoving = Animator.StringToHash("IsMoving");
 
         private void Awake()
         {
             _rb = GetComponent<Rigidbody2D>();
             _animator = GetComponent<Animator>();
+            _spriteRenderer = GetComponent<SpriteRenderer>();
         }
 
         private void Update()
@@ -27,11 +29,17 @@ namespace Player.Scripts
 
             var isMoving = _movement.sqrMagnitude > 0;
             _animator.SetBool(IsMoving, isMoving);
+
+            // Flip sprite depending on horizontal direction
+            if (_movement.x != 0) _spriteRenderer.flipX = _movement.x < 0;
         }
 
         private void FixedUpdate()
         {
-            _rb.MovePosition(_rb.position + _movement * moveSpeed * Time.fixedDeltaTime);
+            // Normalize to prevent faster diagonal movement
+            var normalizedMovement = _movement.normalized;
+
+            _rb.MovePosition(_rb.position + normalizedMovement * moveSpeed * Time.fixedDeltaTime);
         }
     }
 }
