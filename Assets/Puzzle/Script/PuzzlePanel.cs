@@ -10,7 +10,7 @@ namespace Puzzle.Script
         [SerializeField] private TMP_InputField answerInput;
         [SerializeField] private EvaluationPanel evaluationPanel;
 
-        public UnityEvent onPlayerSucceed;
+        public UnityEvent<int> onPlayerSucceed;
 
         private Puzzle _puzzle;
 
@@ -33,7 +33,7 @@ namespace Puzzle.Script
         {
             var evaluation = _puzzle.Evaluator.Evaluate(answerInput.text);
             evaluationPanel.Show(evaluation);
-            if (evaluation.Result) onPlayerSucceed.Invoke();
+            if (evaluation.Result) onPlayerSucceed.Invoke(_puzzle.Id);
             Hide();
         }
     }
