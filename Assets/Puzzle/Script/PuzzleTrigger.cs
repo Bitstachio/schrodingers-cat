@@ -8,11 +8,15 @@ namespace Puzzle.Script
         [SerializeField] private PuzzleManager puzzleManager;
         [SerializeField] private string question;
         [SerializeField] private GameObject evaluatorObj;
+        [SerializeField] private GameObject indicator;
         
         private bool _playerInRange;
+        
+        private void Start() => indicator.SetActive(false);
 
         private void Update()
         {
+            indicator.SetActive(_playerInRange);
             if (!_playerInRange || !Input.GetKeyDown(KeyCode.E)) return;
             // TODO: Fix this messy casting
             var evaluator = evaluatorObj.GetComponent<MonoBehaviour>() as IEvaluator;
