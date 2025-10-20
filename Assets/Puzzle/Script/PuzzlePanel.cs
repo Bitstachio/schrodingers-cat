@@ -7,15 +7,16 @@ namespace Puzzle.Script
     {
         [SerializeField] private TextMeshProUGUI questionText;
         [SerializeField] private TMP_InputField answerInput;
+        [SerializeField] private EvaluationPanel evaluationPanel;
 
         private Puzzle _puzzle;
 
         public void Show(Puzzle puzzle)
         {
             _puzzle = puzzle;
-            gameObject.SetActive(true);
             questionText.text = _puzzle.Question;
             answerInput.text = "";
+            gameObject.SetActive(true);
         }
 
         public string GetAnswer() => answerInput.text;
@@ -28,8 +29,8 @@ namespace Puzzle.Script
         public void Submit()
         {
             var evaluation = _puzzle.Evaluator.Evaluate(answerInput.text);
-            Debug.Log(evaluation.Result);
-            Debug.Log(evaluation.Feedback);
+            evaluationPanel.Show(evaluation);
+            Hide();
         }
     }
 }
