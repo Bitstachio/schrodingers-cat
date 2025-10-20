@@ -6,15 +6,11 @@ namespace Puzzle.Script
     {
         [SerializeField] private PuzzlePanel panel;
 
-        public void Show(Puzzle puzzle)
-        {
-            panel.Show(puzzle);
-        }
+        private void Start() => Hide();
 
-        public void Hide()
-        {
-            panel.Hide();
-        }
+        public void Show(Puzzle puzzle) => panel.Show(puzzle);
+
+        public void Hide() => panel.Hide();
 
         public void SubmitAnswer()
         {
