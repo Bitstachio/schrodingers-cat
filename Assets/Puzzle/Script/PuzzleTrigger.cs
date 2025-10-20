@@ -10,6 +10,7 @@ namespace Puzzle.Script
         [SerializeField] private GameObject evaluatorObj;
         [SerializeField] private GameObject proximityIndicator;
         [SerializeField] private GameObject completionIndicator;
+        [SerializeField] private int id;
 
         // TODO: Place event in the puzzle manager
         [SerializeField] private PuzzlePanel puzzlePanel;
@@ -27,7 +28,11 @@ namespace Puzzle.Script
             puzzlePanel.onPlayerSucceed.RemoveListener(HandlePlayerSuccess);
         }
 
-        private void HandlePlayerSuccess() => _completed = true;
+        private void HandlePlayerSuccess(int circuitId)
+        {
+            if (id != circuitId) return;
+            _completed = true;
+        }
 
         private void Start() {
             proximityIndicator.SetActive(false);
@@ -42,7 +47,7 @@ namespace Puzzle.Script
             if (_completed || !_playerInRange || !Input.GetKeyDown(KeyCode.E)) return;
             // TODO: Fix this messy casting
             var evaluator = evaluatorObj.GetComponent<MonoBehaviour>() as IEvaluator;
-            puzzleManager.Show(new Puzzle(question, evaluator));
+            puzzleManager.Show(new Puzzle(id, question, evaluator));
         }
 
         private void OnTriggerEnter2D(Collider2D other)
