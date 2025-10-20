@@ -15,7 +15,7 @@ namespace Puzzle.Script.Evaluator
 
             return responseDouble switch
             {
-                >= answer * (1 - innerTolerance) and <= answer * (1 + innerTolerance) => new Evaluation(true, ""),
+                >= answer * (1 - innerTolerance) and <= answer * (1 + innerTolerance) => new Evaluation(true, "Success"),
                 > answer * (1 + innerTolerance) and <= answer * (1 + outerTolerance) => new Evaluation(false,
                     "During proton acceleration testing, the input energy was slightly higher than required. While the target of 99.9% of the speed of light was reached, the excess energy caused minor overheating damage."),
                 > answer * (1 + outerTolerance) => new Evaluation(false,
