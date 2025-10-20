@@ -331,7 +331,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -345,7 +345,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -369,7 +369,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -397,10 +397,10 @@ TextureImporter:
       name: Vectoraith_Tileset_InteriorLaboratory_Details_32x32_0
       rect:
         serializedVersion: 2
-        x: 35
-        y: 447
-        width: 26
-        height: 65
+        x: 36
+        y: 448
+        width: 24
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -419,10 +419,10 @@ TextureImporter:
       name: Vectoraith_Tileset_InteriorLaboratory_Details_32x32_1
       rect:
         serializedVersion: 2
-        x: 67
-        y: 479
-        width: 26
-        height: 33
+        x: 68
+        y: 480
+        width: 24
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -441,10 +441,10 @@ TextureImporter:
       name: Vectoraith_Tileset_InteriorLaboratory_Details_32x32_2
       rect:
         serializedVersion: 2
-        x: 101
-        y: 489
-        width: 22
-        height: 23
+        x: 102
+        y: 490
+        width: 20
+        height: 22
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -463,10 +463,10 @@ TextureImporter:
       name: Vectoraith_Tileset_InteriorLaboratory_Details_32x32_3
       rect:
         serializedVersion: 2
-        x: 131
-        y: 485
-        width: 26
-        height: 27
+        x: 132
+        y: 486
+        width: 24
+        height: 26
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -485,10 +485,10 @@ TextureImporter:
       name: Vectoraith_Tileset_InteriorLaboratory_Details_32x32_4
       rect:
         serializedVersion: 2
-        x: 159
-        y: 485
-        width: 34
-        height: 27
+        x: 160
+        y: 486
+        width: 32
+        height: 26
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -507,10 +507,10 @@ TextureImporter:
       name: Vectoraith_Tileset_InteriorLaboratory_Details_32x32_5
       rect:
         serializedVersion: 2
-        x: 197
-        y: 485
-        width: 22
-        height: 27
+        x: 198
+        y: 486
+        width: 20
+        height: 26
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -529,10 +529,10 @@ TextureImporter:
       name: Vectoraith_Tileset_InteriorLaboratory_Details_32x32_6
       rect:
         serializedVersion: 2
-        x: 231
-        y: 487
-        width: 18
-        height: 22
+        x: 232
+        y: 488
+        width: 16
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -551,10 +551,10 @@ TextureImporter:
       name: Vectoraith_Tileset_InteriorLaboratory_Details_32x32_7
       rect:
         serializedVersion: 2
-        x: 325
-        y: 459
-        width: 86
-        height: 48
+        x: 326
+        y: 460
+        width: 84
+        height: 46
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -573,10 +573,10 @@ TextureImporter:
       name: Vectoraith_Tileset_InteriorLaboratory_Details_32x32_8
       rect:
         serializedVersion: 2
-        x: 421
-        y: 459
-        width: 86
-        height: 48
+        x: 422
+        y: 460
+        width: 84
+        height: 46
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -595,10 +595,10 @@ TextureImporter:
       name: Vectoraith_Tileset_InteriorLaboratory_Details_32x32_9
       rect:
         serializedVersion: 2
-        x: 5
-        y: 447
-        width: 22
-        height: 24
+        x: 6
+        y: 448
+        width: 20
+        height: 22
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -617,10 +617,10 @@ TextureImporter:
       name: Vectoraith_Tileset_InteriorLaboratory_Details_32x32_10
       rect:
         serializedVersion: 2
-        x: 67
-        y: 447
-        width: 26
-        height: 28
+        x: 68
+        y: 448
+        width: 24
+        height: 26
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -639,10 +639,10 @@ TextureImporter:
       name: Vectoraith_Tileset_InteriorLaboratory_Details_32x32_11
       rect:
         serializedVersion: 2
-        x: 101
-        y: 463
-        width: 10
-        height: 16
+        x: 102
+        y: 464
+        width: 8
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -661,10 +661,10 @@ TextureImporter:
       name: Vectoraith_Tileset_InteriorLaboratory_Details_32x32_12
       rect:
         serializedVersion: 2
-        x: 111
-        y: 459
-        width: 12
-        height: 14
+        x: 112
+        y: 460
+        width: 10
+        height: 12
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -683,10 +683,10 @@ TextureImporter:
       name: Vectoraith_Tileset_InteriorLaboratory_Details_32x32_13
       rect:
         serializedVersion: 2
-        x: 139
-        y: 453
-        width: 18
-        height: 28
+        x: 140
+        y: 454
+        width: 16
+        height: 26
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -705,10 +705,10 @@ TextureImporter:
       name: Vectoraith_Tileset_InteriorLaboratory_Details_32x32_14
       rect:
         serializedVersion: 2
-        x: 177
-        y: 449
-        width: 12
-        height: 32
+        x: 178
+        y: 450
+        width: 10
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -727,10 +727,10 @@ TextureImporter:
       name: Vectoraith_Tileset_InteriorLaboratory_Details_32x32_15
       rect:
         serializedVersion: 2
-        x: 195
-        y: 453
-        width: 26
-        height: 28
+        x: 196
+        y: 454
+        width: 24
+        height: 26
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -749,10 +749,10 @@ TextureImporter:
       name: Vectoraith_Tileset_InteriorLaboratory_Details_32x32_16
       rect:
         serializedVersion: 2
-        x: 227
-        y: 453
-        width: 26
-        height: 26
+        x: 228
+        y: 454
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -771,10 +771,10 @@ TextureImporter:
       name: Vectoraith_Tileset_InteriorLaboratory_Details_32x32_17
       rect:
         serializedVersion: 2
-        x: 1
-        y: 401
-        width: 30
-        height: 32
+        x: 2
+        y: 402
+        width: 28
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -793,10 +793,10 @@ TextureImporter:
       name: Vectoraith_Tileset_InteriorLaboratory_Details_32x32_18
       rect:
         serializedVersion: 2
-        x: 19
-        y: 419
-        width: 12
-        height: 16
+        x: 20
+        y: 420
+        width: 10
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -815,10 +815,10 @@ TextureImporter:
       name: Vectoraith_Tileset_InteriorLaboratory_Details_32x32_19
       rect:
         serializedVersion: 2
-        x: 31
-        y: 405
-        width: 34
-        height: 40
+        x: 32
+        y: 406
+        width: 32
+        height: 38
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -837,10 +837,10 @@ TextureImporter:
       name: Vectoraith_Tileset_InteriorLaboratory_Details_32x32_20
       rect:
         serializedVersion: 2
-        x: 69
-        y: 419
-        width: 26
-        height: 26
+        x: 70
+        y: 420
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -859,10 +859,10 @@ TextureImporter:
       name: Vectoraith_Tileset_InteriorLaboratory_Details_32x32_21
       rect:
         serializedVersion: 2
-        x: 101
-        y: 421
-        width: 18
-        height: 20
+        x: 102
+        y: 422
+        width: 16
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -881,10 +881,10 @@ TextureImporter:
       name: Vectoraith_Tileset_InteriorLaboratory_Details_32x32_22
       rect:
         serializedVersion: 2
-        x: 131
-        y: 421
-        width: 18
-        height: 28
+        x: 132
+        y: 422
+        width: 16
+        height: 26
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -903,10 +903,10 @@ TextureImporter:
       name: Vectoraith_Tileset_InteriorLaboratory_Details_32x32_23
       rect:
         serializedVersion: 2
-        x: 163
-        y: 417
-        width: 12
-        height: 32
+        x: 164
+        y: 418
+        width: 10
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -925,10 +925,10 @@ TextureImporter:
       name: Vectoraith_Tileset_InteriorLaboratory_Details_32x32_24
       rect:
         serializedVersion: 2
-        x: 195
-        y: 421
-        width: 26
-        height: 28
+        x: 196
+        y: 422
+        width: 24
+        height: 26
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -947,10 +947,10 @@ TextureImporter:
       name: Vectoraith_Tileset_InteriorLaboratory_Details_32x32_25
       rect:
         serializedVersion: 2
-        x: 225
-        y: 421
-        width: 28
-        height: 28
+        x: 226
+        y: 422
+        width: 26
+        height: 26
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -969,10 +969,10 @@ TextureImporter:
       name: Vectoraith_Tileset_InteriorLaboratory_Details_32x32_26
       rect:
         serializedVersion: 2
-        x: 325
-        y: 395
-        width: 86
-        height: 48
+        x: 326
+        y: 396
+        width: 84
+        height: 46
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -991,10 +991,10 @@ TextureImporter:
       name: Vectoraith_Tileset_InteriorLaboratory_Details_32x32_27
       rect:
         serializedVersion: 2
-        x: 421
-        y: 395
-        width: 86
-        height: 48
+        x: 422
+        y: 396
+        width: 84
+        height: 46
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1013,10 +1013,10 @@ TextureImporter:
       name: Vectoraith_Tileset_InteriorLaboratory_Details_32x32_28
       rect:
         serializedVersion: 2
-        x: 69
-        y: 389
-        width: 22
-        height: 22
+        x: 70
+        y: 390
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1035,10 +1035,10 @@ TextureImporter:
       name: Vectoraith_Tileset_InteriorLaboratory_Details_32x32_29
       rect:
         serializedVersion: 2
-        x: 99
-        y: 391
-        width: 26
-        height: 24
+        x: 100
+        y: 392
+        width: 24
+        height: 22
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1057,10 +1057,10 @@ TextureImporter:
       name: Vectoraith_Tileset_InteriorLaboratory_Details_32x32_30
       rect:
         serializedVersion: 2
-        x: 131
-        y: 389
-        width: 26
-        height: 20
+        x: 132
+        y: 390
+        width: 24
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1079,10 +1079,10 @@ TextureImporter:
       name: Vectoraith_Tileset_InteriorLaboratory_Details_32x32_31
       rect:
         serializedVersion: 2
-        x: 159
-        y: 389
-        width: 34
-        height: 28
+        x: 160
+        y: 390
+        width: 32
+        height: 26
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1101,10 +1101,10 @@ TextureImporter:
       name: Vectoraith_Tileset_InteriorLaboratory_Details_32x32_32
       rect:
         serializedVersion: 2
-        x: 197
-        y: 389
-        width: 22
-        height: 28
+        x: 198
+        y: 390
+        width: 20
+        height: 26
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1123,10 +1123,10 @@ TextureImporter:
       name: Vectoraith_Tileset_InteriorLaboratory_Details_32x32_33
       rect:
         serializedVersion: 2
-        x: 227
-        y: 401
-        width: 10
-        height: 14
+        x: 228
+        y: 402
+        width: 8
+        height: 12
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1145,10 +1145,10 @@ TextureImporter:
       name: Vectoraith_Tileset_InteriorLaboratory_Details_32x32_34
       rect:
         serializedVersion: 2
-        x: 237
-        y: 399
-        width: 16
-        height: 16
+        x: 238
+        y: 400
+        width: 14
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1167,10 +1167,10 @@ TextureImporter:
       name: Vectoraith_Tileset_InteriorLaboratory_Details_32x32_35
       rect:
         serializedVersion: 2
-        x: 1
-        y: 355
-        width: 30
-        height: 30
+        x: 2
+        y: 356
+        width: 28
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1189,10 +1189,10 @@ TextureImporter:
       name: Vectoraith_Tileset_InteriorLaboratory_Details_32x32_36
       rect:
         serializedVersion: 2
-        x: 35
-        y: 319
-        width: 26
-        height: 66
+        x: 36
+        y: 320
+        width: 24
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1211,10 +1211,10 @@ TextureImporter:
       name: Vectoraith_Tileset_InteriorLaboratory_Details_32x32_37
       rect:
         serializedVersion: 2
-        x: 67
-        y: 351
-        width: 26
-        height: 34
+        x: 68
+        y: 352
+        width: 24
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1233,10 +1233,10 @@ TextureImporter:
       name: Vectoraith_Tileset_InteriorLaboratory_Details_32x32_38
       rect:
         serializedVersion: 2
-        x: 97
-        y: 355
-        width: 30
-        height: 28
+        x: 98
+        y: 356
+        width: 28
+        height: 26
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1255,10 +1255,10 @@ TextureImporter:
       name: Vectoraith_Tileset_InteriorLaboratory_Details_32x32_39
       rect:
         serializedVersion: 2
-        x: 133
-        y: 363
-        width: 22
-        height: 20
+        x: 134
+        y: 364
+        width: 20
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1277,10 +1277,10 @@ TextureImporter:
       name: Vectoraith_Tileset_InteriorLaboratory_Details_32x32_40
       rect:
         serializedVersion: 2
-        x: 163
-        y: 355
-        width: 26
-        height: 28
+        x: 164
+        y: 356
+        width: 24
+        height: 26
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1299,10 +1299,10 @@ TextureImporter:
       name: Vectoraith_Tileset_InteriorLaboratory_Details_32x32_41
       rect:
         serializedVersion: 2
-        x: 193
-        y: 325
-        width: 30
-        height: 56
+        x: 194
+        y: 326
+        width: 28
+        height: 54
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1321,10 +1321,10 @@ TextureImporter:
       name: Vectoraith_Tileset_InteriorLaboratory_Details_32x32_42
       rect:
         serializedVersion: 2
-        x: 225
-        y: 323
-        width: 30
-        height: 58
+        x: 226
+        y: 324
+        width: 28
+        height: 56
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1343,10 +1343,10 @@ TextureImporter:
       name: Vectoraith_Tileset_InteriorLaboratory_Details_32x32_43
       rect:
         serializedVersion: 2
-        x: 255
-        y: 289
-        width: 98
-        height: 90
+        x: 256
+        y: 290
+        width: 96
+        height: 88
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1365,10 +1365,10 @@ TextureImporter:
       name: Vectoraith_Tileset_InteriorLaboratory_Details_32x32_44
       rect:
         serializedVersion: 2
-        x: 353
-        y: 299
-        width: 30
-        height: 66
+        x: 354
+        y: 300
+        width: 28
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1387,10 +1387,10 @@ TextureImporter:
       name: Vectoraith_Tileset_InteriorLaboratory_Details_32x32_45
       rect:
         serializedVersion: 2
-        x: 385
-        y: 299
-        width: 30
-        height: 66
+        x: 386
+        y: 300
+        width: 28
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1409,10 +1409,10 @@ TextureImporter:
       name: Vectoraith_Tileset_InteriorLaboratory_Details_32x32_46
       rect:
         serializedVersion: 2
-        x: 417
-        y: 299
-        width: 30
-        height: 66
+        x: 418
+        y: 300
+        width: 28
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1431,10 +1431,10 @@ TextureImporter:
       name: Vectoraith_Tileset_InteriorLaboratory_Details_32x32_47
       rect:
         serializedVersion: 2
-        x: 449
-        y: 299
-        width: 30
-        height: 66
+        x: 450
+        y: 300
+        width: 28
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1453,10 +1453,10 @@ TextureImporter:
       name: Vectoraith_Tileset_InteriorLaboratory_Details_32x32_48
       rect:
         serializedVersion: 2
-        x: 481
-        y: 299
-        width: 30
-        height: 66
+        x: 482
+        y: 300
+        width: 28
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1475,10 +1475,10 @@ TextureImporter:
       name: Vectoraith_Tileset_InteriorLaboratory_Details_32x32_49
       rect:
         serializedVersion: 2
-        x: 5
-        y: 319
-        width: 22
-        height: 24
+        x: 6
+        y: 320
+        width: 20
+        height: 22
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1497,10 +1497,10 @@ TextureImporter:
       name: Vectoraith_Tileset_InteriorLaboratory_Details_32x32_50
       rect:
         serializedVersion: 2
-        x: 67
-        y: 319
-        width: 26
-        height: 28
+        x: 68
+        y: 320
+        width: 24
+        height: 26
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1519,10 +1519,10 @@ TextureImporter:
       name: Vectoraith_Tileset_InteriorLaboratory_Details_32x32_51
       rect:
         serializedVersion: 2
-        x: 99
-        y: 323
-        width: 26
-        height: 30
+        x: 100
+        y: 324
+        width: 24
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1541,10 +1541,10 @@ TextureImporter:
       name: Vectoraith_Tileset_InteriorLaboratory_Details_32x32_52
       rect:
         serializedVersion: 2
-        x: 133
-        y: 327
-        width: 22
-        height: 20
+        x: 134
+        y: 328
+        width: 20
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1563,10 +1563,10 @@ TextureImporter:
       name: Vectoraith_Tileset_InteriorLaboratory_Details_32x32_53
       rect:
         serializedVersion: 2
-        x: 163
-        y: 325
-        width: 26
-        height: 28
+        x: 164
+        y: 326
+        width: 24
+        height: 26
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1585,10 +1585,10 @@ TextureImporter:
       name: Vectoraith_Tileset_InteriorLaboratory_Details_32x32_54
       rect:
         serializedVersion: 2
-        x: 3
-        y: 291
-        width: 12
-        height: 16
+        x: 4
+        y: 292
+        width: 10
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1607,10 +1607,10 @@ TextureImporter:
       name: Vectoraith_Tileset_InteriorLaboratory_Details_32x32_55
       rect:
         serializedVersion: 2
-        x: 15
-        y: 273
-        width: 16
-        height: 32
+        x: 16
+        y: 274
+        width: 14
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1629,10 +1629,10 @@ TextureImporter:
       name: Vectoraith_Tileset_InteriorLaboratory_Details_32x32_56
       rect:
         serializedVersion: 2
-        x: 31
-        y: 277
-        width: 34
-        height: 40
+        x: 32
+        y: 278
+        width: 32
+        height: 38
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1651,10 +1651,10 @@ TextureImporter:
       name: Vectoraith_Tileset_InteriorLaboratory_Details_32x32_57
       rect:
         serializedVersion: 2
-        x: 65
-        y: 291
-        width: 26
-        height: 26
+        x: 66
+        y: 292
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1673,10 +1673,10 @@ TextureImporter:
       name: Vectoraith_Tileset_InteriorLaboratory_Details_32x32_58
       rect:
         serializedVersion: 2
-        x: 99
-        y: 291
-        width: 26
-        height: 30
+        x: 100
+        y: 292
+        width: 24
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1695,10 +1695,10 @@ TextureImporter:
       name: Vectoraith_Tileset_InteriorLaboratory_Details_32x32_59
       rect:
         serializedVersion: 2
-        x: 133
-        y: 295
-        width: 22
-        height: 20
+        x: 134
+        y: 296
+        width: 20
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1717,10 +1717,10 @@ TextureImporter:
       name: Vectoraith_Tileset_InteriorLaboratory_Details_32x32_60
       rect:
         serializedVersion: 2
-        x: 163
-        y: 293
-        width: 26
-        height: 28
+        x: 164
+        y: 294
+        width: 24
+        height: 26
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1739,10 +1739,10 @@ TextureImporter:
       name: Vectoraith_Tileset_InteriorLaboratory_Details_32x32_61
       rect:
         serializedVersion: 2
-        x: 195
-        y: 261
-        width: 26
-        height: 56
+        x: 196
+        y: 262
+        width: 24
+        height: 54
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1761,10 +1761,10 @@ TextureImporter:
       name: Vectoraith_Tileset_InteriorLaboratory_Details_32x32_62
       rect:
         serializedVersion: 2
-        x: 227
-        y: 261
-        width: 26
-        height: 56
+        x: 228
+        y: 262
+        width: 24
+        height: 54
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1783,10 +1783,10 @@ TextureImporter:
       name: Vectoraith_Tileset_InteriorLaboratory_Details_32x32_63
       rect:
         serializedVersion: 2
-        x: 1
-        y: 273
-        width: 14
-        height: 16
+        x: 2
+        y: 274
+        width: 12
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1805,10 +1805,10 @@ TextureImporter:
       name: Vectoraith_Tileset_InteriorLaboratory_Details_32x32_64
       rect:
         serializedVersion: 2
-        x: 69
-        y: 261
-        width: 22
-        height: 22
+        x: 70
+        y: 262
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1827,10 +1827,10 @@ TextureImporter:
       name: Vectoraith_Tileset_InteriorLaboratory_Details_32x32_65
       rect:
         serializedVersion: 2
-        x: 97
-        y: 257
-        width: 30
-        height: 30
+        x: 98
+        y: 258
+        width: 28
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1849,10 +1849,10 @@ TextureImporter:
       name: Vectoraith_Tileset_InteriorLaboratory_Details_32x32_66
       rect:
         serializedVersion: 2
-        x: 133
-        y: 257
-        width: 22
-        height: 24
+        x: 134
+        y: 258
+        width: 20
+        height: 22
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1871,10 +1871,10 @@ TextureImporter:
       name: Vectoraith_Tileset_InteriorLaboratory_Details_32x32_67
       rect:
         serializedVersion: 2
-        x: 163
-        y: 257
-        width: 26
-        height: 30
+        x: 164
+        y: 258
+        width: 24
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1893,10 +1893,10 @@ TextureImporter:
       name: Vectoraith_Tileset_InteriorLaboratory_Details_32x32_68
       rect:
         serializedVersion: 2
-        x: 3
-        y: 201
-        width: 48
-        height: 54
+        x: 4
+        y: 202
+        width: 46
+        height: 52
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1915,10 +1915,10 @@ TextureImporter:
       name: Vectoraith_Tileset_InteriorLaboratory_Details_32x32_69
       rect:
         serializedVersion: 2
-        x: 77
-        y: 201
-        width: 48
-        height: 54
+        x: 78
+        y: 202
+        width: 46
+        height: 52
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1937,10 +1937,10 @@ TextureImporter:
       name: Vectoraith_Tileset_InteriorLaboratory_Details_32x32_70
       rect:
         serializedVersion: 2
-        x: 131
-        y: 201
-        width: 26
-        height: 54
+        x: 132
+        y: 202
+        width: 24
+        height: 52
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1959,10 +1959,10 @@ TextureImporter:
       name: Vectoraith_Tileset_InteriorLaboratory_Details_32x32_71
       rect:
         serializedVersion: 2
-        x: 163
-        y: 197
-        width: 26
-        height: 56
+        x: 164
+        y: 198
+        width: 24
+        height: 54
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1981,10 +1981,10 @@ TextureImporter:
       name: Vectoraith_Tileset_InteriorLaboratory_Details_32x32_72
       rect:
         serializedVersion: 2
-        x: 197
-        y: 205
-        width: 22
-        height: 34
+        x: 198
+        y: 206
+        width: 20
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2003,10 +2003,10 @@ TextureImporter:
       name: Vectoraith_Tileset_InteriorLaboratory_Details_32x32_73
       rect:
         serializedVersion: 2
-        x: 229
-        y: 205
-        width: 22
-        height: 34
+        x: 230
+        y: 206
+        width: 20
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2025,10 +2025,10 @@ TextureImporter:
       name: Vectoraith_Tileset_InteriorLaboratory_Details_32x32_74
       rect:
         serializedVersion: 2
-        x: 257
-        y: 203
-        width: 62
-        height: 66
+        x: 258
+        y: 204
+        width: 60
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2047,10 +2047,10 @@ TextureImporter:
       name: Vectoraith_Tileset_InteriorLaboratory_Details_32x32_75
       rect:
         serializedVersion: 2
-        x: 321
-        y: 203
-        width: 62
-        height: 66
+        x: 322
+        y: 204
+        width: 60
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2069,10 +2069,10 @@ TextureImporter:
       name: Vectoraith_Tileset_InteriorLaboratory_Details_32x32_76
       rect:
         serializedVersion: 2
-        x: 385
-        y: 203
-        width: 62
-        height: 66
+        x: 386
+        y: 204
+        width: 60
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2091,10 +2091,10 @@ TextureImporter:
       name: Vectoraith_Tileset_InteriorLaboratory_Details_32x32_77
       rect:
         serializedVersion: 2
-        x: 449
-        y: 203
-        width: 62
-        height: 66
+        x: 450
+        y: 204
+        width: 60
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2113,10 +2113,10 @@ TextureImporter:
       name: Vectoraith_Tileset_InteriorLaboratory_Details_32x32_78
       rect:
         serializedVersion: 2
-        x: 1
-        y: 159
-        width: 30
-        height: 30
+        x: 2
+        y: 160
+        width: 28
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2135,10 +2135,10 @@ TextureImporter:
       name: Vectoraith_Tileset_InteriorLaboratory_Details_32x32_79
       rect:
         serializedVersion: 2
-        x: 33
-        y: 135
-        width: 30
-        height: 54
+        x: 34
+        y: 136
+        width: 28
+        height: 52
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2157,10 +2157,10 @@ TextureImporter:
       name: Vectoraith_Tileset_InteriorLaboratory_Details_32x32_80
       rect:
         serializedVersion: 2
-        x: 85
-        y: 95
-        width: 54
-        height: 82
+        x: 86
+        y: 96
+        width: 52
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2179,10 +2179,10 @@ TextureImporter:
       name: Vectoraith_Tileset_InteriorLaboratory_Details_32x32_81
       rect:
         serializedVersion: 2
-        x: 159
-        y: 127
-        width: 34
-        height: 50
+        x: 160
+        y: 128
+        width: 32
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2201,10 +2201,10 @@ TextureImporter:
       name: Vectoraith_Tileset_InteriorLaboratory_Details_32x32_82
       rect:
         serializedVersion: 2
-        x: 193
-        y: 127
-        width: 28
-        height: 46
+        x: 194
+        y: 128
+        width: 26
+        height: 44
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2223,10 +2223,10 @@ TextureImporter:
       name: Vectoraith_Tileset_InteriorLaboratory_Details_32x32_83
       rect:
         serializedVersion: 2
-        x: 223
-        y: 127
-        width: 34
-        height: 52
+        x: 224
+        y: 128
+        width: 32
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2245,10 +2245,10 @@ TextureImporter:
       name: Vectoraith_Tileset_InteriorLaboratory_Details_32x32_84
       rect:
         serializedVersion: 2
-        x: 257
-        y: 107
-        width: 62
-        height: 66
+        x: 258
+        y: 108
+        width: 60
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2267,10 +2267,10 @@ TextureImporter:
       name: Vectoraith_Tileset_InteriorLaboratory_Details_32x32_85
       rect:
         serializedVersion: 2
-        x: 321
-        y: 107
-        width: 62
-        height: 66
+        x: 322
+        y: 108
+        width: 60
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2289,10 +2289,10 @@ TextureImporter:
       name: Vectoraith_Tileset_InteriorLaboratory_Details_32x32_86
       rect:
         serializedVersion: 2
-        x: 385
-        y: 107
-        width: 62
-        height: 66
+        x: 386
+        y: 108
+        width: 60
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2311,10 +2311,10 @@ TextureImporter:
       name: Vectoraith_Tileset_InteriorLaboratory_Details_32x32_87
       rect:
         serializedVersion: 2
-        x: 449
-        y: 107
-        width: 62
-        height: 66
+        x: 450
+        y: 108
+        width: 60
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2333,10 +2333,10 @@ TextureImporter:
       name: Vectoraith_Tileset_InteriorLaboratory_Details_32x32_88
       rect:
         serializedVersion: 2
-        x: 1
-        y: 127
-        width: 30
-        height: 30
+        x: 2
+        y: 128
+        width: 28
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2355,10 +2355,10 @@ TextureImporter:
       name: Vectoraith_Tileset_InteriorLaboratory_Details_32x32_89
       rect:
         serializedVersion: 2
-        x: 5
-        y: 97
-        width: 22
-        height: 28
+        x: 6
+        y: 98
+        width: 20
+        height: 26
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2377,10 +2377,10 @@ TextureImporter:
       name: Vectoraith_Tileset_InteriorLaboratory_Details_32x32_90
       rect:
         serializedVersion: 2
-        x: 37
-        y: 97
-        width: 22
-        height: 28
+        x: 38
+        y: 98
+        width: 20
+        height: 26
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2399,10 +2399,10 @@ TextureImporter:
       name: Vectoraith_Tileset_InteriorLaboratory_Details_32x32_91
       rect:
         serializedVersion: 2
-        x: 135
+        x: 136
         y: 0
-        width: 58
-        height: 113
+        width: 56
+        height: 112
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2421,10 +2421,10 @@ TextureImporter:
       name: Vectoraith_Tileset_InteriorLaboratory_Details_32x32_92
       rect:
         serializedVersion: 2
-        x: 225
-        y: 63
-        width: 28
-        height: 44
+        x: 226
+        y: 64
+        width: 26
+        height: 42
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2443,10 +2443,10 @@ TextureImporter:
       name: Vectoraith_Tileset_InteriorLaboratory_Details_32x32_93
       rect:
         serializedVersion: 2
-        x: 1
-        y: 33
-        width: 30
-        height: 62
+        x: 2
+        y: 34
+        width: 28
+        height: 60
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2465,10 +2465,10 @@ TextureImporter:
       name: Vectoraith_Tileset_InteriorLaboratory_Details_32x32_94
       rect:
         serializedVersion: 2
-        x: 33
-        y: 33
-        width: 30
-        height: 62
+        x: 34
+        y: 34
+        width: 28
+        height: 60
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2487,10 +2487,10 @@ TextureImporter:
       name: Vectoraith_Tileset_InteriorLaboratory_Details_32x32_95
       rect:
         serializedVersion: 2
-        x: 71
+        x: 72
         y: 0
-        width: 50
-        height: 95
+        width: 48
+        height: 94
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2509,10 +2509,10 @@ TextureImporter:
       name: Vectoraith_Tileset_InteriorLaboratory_Details_32x32_96
       rect:
         serializedVersion: 2
-        x: 319
-        y: 83
-        width: 34
-        height: 12
+        x: 320
+        y: 84
+        width: 32
+        height: 10
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2531,10 +2531,10 @@ TextureImporter:
       name: Vectoraith_Tileset_InteriorLaboratory_Details_32x32_97
       rect:
         serializedVersion: 2
-        x: 199
-        y: 3
-        width: 50
-        height: 50
+        x: 200
+        y: 4
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2553,10 +2553,10 @@ TextureImporter:
       name: Vectoraith_Tileset_InteriorLaboratory_Details_32x32_98
       rect:
         serializedVersion: 2
-        x: 255
-        y: 5
-        width: 257
-        height: 72
+        x: 256
+        y: 6
+        width: 256
+        height: 70
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2575,7 +2575,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: e440c10b544644487846c7c16189fe63
     internalID: 0
     vertices: []
     indices: 
