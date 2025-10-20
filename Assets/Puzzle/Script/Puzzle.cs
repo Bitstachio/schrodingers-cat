@@ -1,14 +1,16 @@
+using Puzzle.Interface;
+
 namespace Puzzle.Script
 {
     public class Puzzle
     {
         public string Question { get; }
-        public string Answer { get; }
+        public IEvaluator Evaluator { get; }
 
-        public Puzzle(string question, string answer)
+        public Puzzle(string question, IEvaluator evaluator)
         {
             Question = question;
-            Answer = answer;
+            Evaluator = evaluator;
         }
     }
 }
