@@ -8,21 +8,43 @@ namespace Puzzle.Script
         [SerializeField] private PuzzleManager puzzleManager;
         [SerializeField] private string question;
         [SerializeField] private GameObject evaluatorObj;
-        [SerializeField] private GameObject indicator;
-        
+        [SerializeField] private GameObject proximityIndicator;
+        [SerializeField] private GameObject completionIndicator;
+
+        // TODO: Place event in the puzzle manager
+        [SerializeField] private PuzzlePanel puzzlePanel;
+
         private bool _playerInRange;
-        
-        private void Start() => indicator.SetActive(false);
+        private bool _completed;
+
+        private void OnEnable()
+        {
+            puzzlePanel.onPlayerSucceed.AddListener(HandlePlayerSuccess);
+        }
+
+        private void OnDisable()
+        {
+            puzzlePanel.onPlayerSucceed.RemoveListener(HandlePlayerSuccess);
+        }
+
+        private void HandlePlayerSuccess() => _completed = true;
+
+        private void Start() {
+            proximityIndicator.SetActive(false);
+            completionIndicator.SetActive(false);
+        }
 
         private void Update()
         {
-            indicator.SetActive(_playerInRange);
-            if (!_playerInRange || !Input.GetKeyDown(KeyCode.E)) return;
+            proximityIndicator.SetActive(!_completed && _playerInRange);
+            completionIndicator.SetActive(_completed);
+            
+            if (_completed || !_playerInRange || !Input.GetKeyDown(KeyCode.E)) return;
             // TODO: Fix this messy casting
             var evaluator = evaluatorObj.GetComponent<MonoBehaviour>() as IEvaluator;
             puzzleManager.Show(new Puzzle(question, evaluator));
         }
-         
+
         private void OnTriggerEnter2D(Collider2D other)
         {
             if (other.CompareTag("Player")) _playerInRange = true;

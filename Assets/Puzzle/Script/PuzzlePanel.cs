@@ -1,5 +1,6 @@
 using TMPro;
 using UnityEngine;
+using UnityEngine.Events;
 
 namespace Puzzle.Script
 {
@@ -8,6 +9,8 @@ namespace Puzzle.Script
         [SerializeField] private TextMeshProUGUI questionText;
         [SerializeField] private TMP_InputField answerInput;
         [SerializeField] private EvaluationPanel evaluationPanel;
+
+        public UnityEvent onPlayerSucceed;
 
         private Puzzle _puzzle;
 
@@ -30,6 +33,7 @@ namespace Puzzle.Script
         {
             var evaluation = _puzzle.Evaluator.Evaluate(answerInput.text);
             evaluationPanel.Show(evaluation);
+            if (evaluation.Result) onPlayerSucceed.Invoke();
             Hide();
         }
     }
