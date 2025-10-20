@@ -1,3 +1,4 @@
+using Puzzle.Interface;
 using UnityEngine;
 
 namespace Puzzle.Script
@@ -6,16 +7,16 @@ namespace Puzzle.Script
     {
         [SerializeField] private PuzzleManager puzzleManager;
         [SerializeField] private string question;
-        [SerializeField] private string answer;
+        [SerializeField] private GameObject evaluatorObj;
         
         private bool _playerInRange;
 
         private void Update()
         {
-            if (_playerInRange && Input.GetKeyDown(KeyCode.E))
-            {
-                puzzleManager.Show(new Puzzle(question, answer));
-            }
+            if (!_playerInRange || !Input.GetKeyDown(KeyCode.E)) return;
+            // TODO: Fix this messy casting
+            var evaluator = evaluatorObj.GetComponent<MonoBehaviour>() as IEvaluator;
+            puzzleManager.Show(new Puzzle(question, evaluator));
         }
          
         private void OnTriggerEnter2D(Collider2D other)

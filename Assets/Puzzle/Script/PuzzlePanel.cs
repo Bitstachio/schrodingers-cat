@@ -24,5 +24,12 @@ namespace Puzzle.Script
         {
             gameObject.SetActive(false);
         }
+
+        public void Submit()
+        {
+            var evaluation = _puzzle.Evaluator.Evaluate(answerInput.text);
+            Debug.Log(evaluation.Result);
+            Debug.Log(evaluation.Feedback);
+        }
     }
 }
