@@ -6,11 +6,24 @@ namespace Puzzle.Script
     {
         [SerializeField] private PuzzlePanel panel;
 
-        private void Start() => Hide();
+        private static PuzzleManager Instance { get; set; }
 
-        public void Show(Puzzle puzzle) => panel.Show(puzzle);
+        private void Awake()
+        {
+            if (Instance != null && Instance != this)
+            {
+                Destroy(gameObject);
+                return;
+            }
 
-        public void Hide() => panel.Hide();
+            Instance = this;
+        }
+
+        private void Start() => HidePanel();
+
+        public void ShowPanel(Puzzle puzzle) => panel.Show(puzzle);
+
+        public void HidePanel() => panel.Hide();
 
         public void SubmitAnswer()
         {

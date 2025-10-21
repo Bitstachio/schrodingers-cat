@@ -47,7 +47,7 @@ namespace Puzzle.Script
             if (_completed || !_playerInRange || !Input.GetKeyDown(KeyCode.E)) return;
             // TODO: Fix this messy casting
             var evaluator = evaluatorObj.GetComponent<MonoBehaviour>() as IEvaluator;
-            puzzleManager.Show(new Puzzle(id, question, evaluator));
+            puzzleManager.ShowPanel(new Puzzle(id, question, evaluator));
         }
 
         private void OnTriggerEnter2D(Collider2D other)
