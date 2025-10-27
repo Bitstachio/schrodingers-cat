@@ -1,3 +1,4 @@
+using Features.Console.Enums;
 using Features.Console.Interfaces;
 using UnityEngine;
 
@@ -5,10 +6,10 @@ namespace Features.Console.Scripts.ConsolePanels
 {
     public class ColliderPanel : MonoBehaviour, IConsolePanel
     {
+        public ConsoleType Type { get; } =  ConsoleType.Collider;
+        
         public void Show(int id)
         {
-            Debug.Log("Collider console is launched");
-            Debug.Log(id);
             gameObject.SetActive(true);
         }
 

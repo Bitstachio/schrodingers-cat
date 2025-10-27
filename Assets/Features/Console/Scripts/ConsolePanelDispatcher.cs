@@ -50,7 +50,10 @@ namespace Features.Console.Scripts
 
         private void OnConsoleOpened(object sender, ConsoleOpenEventArgs e)
         {
-            Debug.Log($"Console opened: Type={e.ConsoleType}, ID={e.ConsoleId}");
+            foreach (var panel in _panels)
+            {
+                if (panel.Type == e.ConsoleType) panel.Show(e.ConsoleId);
+            }
         }
 
         private void OnConsoleClosed(object sender, EventArgs e)
