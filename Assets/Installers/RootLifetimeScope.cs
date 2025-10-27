@@ -1,4 +1,5 @@
 using Features.Console.Interfaces;
+using Features.Console.Scripts;
 using Features.Console.Services;
 using Puzzle.Script;
 using VContainer;
@@ -17,7 +18,7 @@ namespace Installers
         protected override void Configure(IContainerBuilder builder)
         {
             builder.Register<IConsoleService, ConsoleService>(Lifetime.Singleton);
-            builder.RegisterComponentInHierarchy<PuzzleTrigger>();
+            builder.RegisterComponentInHierarchy<ConsoleTrigger>();
         }
     }
 }
