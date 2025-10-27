@@ -1726,8 +1726,8 @@ SpriteRenderer:
 --- !u!1 &810583294
 GameObject:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 8116786943268390256, guid: 833cdd8bedcb9452895a0f28bcda75aa, type: 3}
+  m_PrefabInstance: {fileID: 7051587664389798262}
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
@@ -1744,8 +1744,8 @@ GameObject:
 --- !u!4 &810583295
 Transform:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 7240042977856399370, guid: 833cdd8bedcb9452895a0f28bcda75aa, type: 3}
+  m_PrefabInstance: {fileID: 7051587664389798262}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 810583294}
   serializedVersion: 2
@@ -1759,8 +1759,8 @@ Transform:
 --- !u!114 &810583296
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 5769136322391676315, guid: 833cdd8bedcb9452895a0f28bcda75aa, type: 3}
+  m_PrefabInstance: {fileID: 7051587664389798262}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 810583294}
   m_Enabled: 1
@@ -1768,7 +1768,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1dd2212c7c4149a9bdd9a03e6f9a9c17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  puzzleManager: {fileID: 872718097}
+  puzzleManager: {fileID: 0}
   question: "Assuming each proton lands on a one-dimensional surface with positions
     following a normal distribution characterized by mean p and standard deviation
     \u03C3 = 1 mm, what is the probability that two protons, shot from opposite ends,
@@ -1781,8 +1781,8 @@ MonoBehaviour:
 --- !u!58 &810583297
 CircleCollider2D:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 5274898626758711561, guid: 833cdd8bedcb9452895a0f28bcda75aa, type: 3}
+  m_PrefabInstance: {fileID: 7051587664389798262}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 810583294}
   m_Enabled: 1
@@ -3013,7 +3013,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1dd2212c7c4149a9bdd9a03e6f9a9c17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  puzzleManager: {fileID: 872718097}
+  puzzleManager: {fileID: 0}
   question: We aim to design a mechanism for decelerating protons. The protons will
     be subjected to a field with friction f and will move in a circular path until
     they slow down to a specified speed. Calculate the maximum radius required to
@@ -3901,6 +3901,54 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1785759892
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1785759894}
+  - component: {fileID: 1785759893}
+  m_Layer: 0
+  m_Name: Root Lifetime Scope
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1785759893
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1785759892}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c214c737a694656b819748b3141386c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentReference:
+    TypeName: 
+  autoRun: 1
+  autoInjectGameObjects: []
+--- !u!4 &1785759894
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1785759892}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.14861885, y: 0.0329449, z: 0.00077790365}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1824935944
 GameObject:
   m_ObjectHideFlags: 0
@@ -15222,7 +15270,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1dd2212c7c4149a9bdd9a03e6f9a9c17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  puzzleManager: {fileID: 872718097}
+  puzzleManager: {fileID: 0}
   question: Determine the energy required to accelerate a single proton to 99.9%
     of the speed of light in Mega-electronvolts (MeV)
   evaluatorObj: {fileID: 1997533849}
@@ -15266,10 +15314,84 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0.25}
   m_Radius: 1.25
+--- !u!1001 &7051587664389798262
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 315247266}
+    m_Modifications:
+    - target: {fileID: 5769136322391676315, guid: 833cdd8bedcb9452895a0f28bcda75aa, type: 3}
+      propertyPath: puzzlePanel
+      value: 
+      objectReference: {fileID: 1142303611}
+    - target: {fileID: 5769136322391676315, guid: 833cdd8bedcb9452895a0f28bcda75aa, type: 3}
+      propertyPath: evaluatorObj
+      value: 
+      objectReference: {fileID: 1888438028}
+    - target: {fileID: 5769136322391676315, guid: 833cdd8bedcb9452895a0f28bcda75aa, type: 3}
+      propertyPath: proximityIndicator
+      value: 
+      objectReference: {fileID: 921736105}
+    - target: {fileID: 5769136322391676315, guid: 833cdd8bedcb9452895a0f28bcda75aa, type: 3}
+      propertyPath: completionIndicator
+      value: 
+      objectReference: {fileID: 310359816}
+    - target: {fileID: 7240042977856399370, guid: 833cdd8bedcb9452895a0f28bcda75aa, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7240042977856399370, guid: 833cdd8bedcb9452895a0f28bcda75aa, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7240042977856399370, guid: 833cdd8bedcb9452895a0f28bcda75aa, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7240042977856399370, guid: 833cdd8bedcb9452895a0f28bcda75aa, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7240042977856399370, guid: 833cdd8bedcb9452895a0f28bcda75aa, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7240042977856399370, guid: 833cdd8bedcb9452895a0f28bcda75aa, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7240042977856399370, guid: 833cdd8bedcb9452895a0f28bcda75aa, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7240042977856399370, guid: 833cdd8bedcb9452895a0f28bcda75aa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7240042977856399370, guid: 833cdd8bedcb9452895a0f28bcda75aa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7240042977856399370, guid: 833cdd8bedcb9452895a0f28bcda75aa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8116786943268390256, guid: 833cdd8bedcb9452895a0f28bcda75aa, type: 3}
+      propertyPath: m_Name
+      value: Puzzle Trigger
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 833cdd8bedcb9452895a0f28bcda75aa, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
+  - {fileID: 1785759894}
   - {fileID: 519420032}
   - {fileID: 619394802}
   - {fileID: 171504111}
