@@ -1,13 +1,15 @@
 using System;
+using Features.Console.Enums;
+using Features.Console.Models;
 
 namespace Features.Console.Interfaces
 {
     public interface IConsoleService
     {
-        event EventHandler Opened;
+        public event EventHandler<ConsoleOpenEventArgs> Opened;
         event EventHandler Closed;
-        
-        void Open();
+
+        void Open(ConsoleType consoleType, int consoleId);
         void Close();
     }
 }

@@ -1,3 +1,4 @@
+using Features.Console.Enums;
 using Features.Console.Interfaces;
 using Features.Indicator.Scripts;
 using UnityEngine;
@@ -10,6 +11,8 @@ namespace Features.Console.Scripts
         //===== Inspector Fields =====
 
         [SerializeField] private IndicatorImpl indicator;
+        [SerializeField] private ConsoleType consoleType;
+        [SerializeField] private int consoleId;
 
         //===== Internal Fields =====
 
@@ -30,7 +33,7 @@ namespace Features.Console.Scripts
         private void Update()
         {
             // TODO: Consider refactoring input handling to use input action
-            if (_playerInRange && Input.GetKeyDown(KeyCode.E)) _consoleService.Open();
+            if (_playerInRange && Input.GetKeyDown(KeyCode.E)) _consoleService.Open(consoleType, consoleId);
         }
 
         //===== Trigger Events =====

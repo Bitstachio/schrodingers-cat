@@ -1,18 +1,19 @@
 using System;
+using Features.Console.Enums;
 using Features.Console.Interfaces;
+using Features.Console.Models;
 using UnityEngine;
 
 namespace Features.Console.Services
 {
     public class ConsoleService : IConsoleService
     {
-        public event EventHandler Opened;
+        public event EventHandler<ConsoleOpenEventArgs> Opened;
         public event EventHandler Closed;
-        
-        public void Open()
+
+        public void Open(ConsoleType consoleType, int consoleId)
         {
-            Debug.Log("Console has been opened");
-            Opened?.Invoke(this, EventArgs.Empty);
+            Opened?.Invoke(this, new ConsoleOpenEventArgs(consoleType, consoleId));
         }
 
         public void Close()
