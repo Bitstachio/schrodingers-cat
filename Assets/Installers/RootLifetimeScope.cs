@@ -1,6 +1,7 @@
 using Features.Console.Interfaces;
 using Features.Console.Repositories;
 using Features.Console.Scripts;
+using Features.Console.Scripts.ConsolePanels;
 using Features.Console.Services;
 using UnityEngine;
 using VContainer;
@@ -26,6 +27,7 @@ namespace Installers
                 var triggers = FindObjectsByType<ConsoleTrigger>(FindObjectsSortMode.None);
                 foreach (var trigger in triggers) container.Inject(trigger);
             });
+            builder.RegisterComponentInHierarchy<ConsolePanelDispatcher>();
         }
     }
 }
