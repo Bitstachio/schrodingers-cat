@@ -1,5 +1,7 @@
+using Features.Console.Interfaces;
 using Puzzle.Interface;
 using UnityEngine;
+using VContainer;
 
 namespace Puzzle.Script
 {
@@ -17,7 +19,15 @@ namespace Puzzle.Script
 
         private bool _playerInRange;
         private bool _completed;
-
+        
+        private IConsoleService _consoleService;
+        
+        [Inject]
+        public void Construct(IConsoleService consoleService)
+        {
+            _consoleService = consoleService;
+        }
+        
         private void OnEnable()
         {
             puzzlePanel.onPlayerSucceed.AddListener(HandlePlayerSuccess);
@@ -47,7 +57,8 @@ namespace Puzzle.Script
             if (_completed || !_playerInRange || !Input.GetKeyDown(KeyCode.E)) return;
             // TODO: Fix this messy casting
             var evaluator = evaluatorObj.GetComponent<MonoBehaviour>() as IEvaluator;
-            puzzleManager.ShowPanel(new Puzzle(id, question, evaluator));
+            // puzzleManager.ShowPanel(new Puzzle(id, question, evaluator));
+            _consoleService.Open();
         }
 
         private void OnTriggerEnter2D(Collider2D other)

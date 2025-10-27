@@ -1,5 +1,6 @@
 using System;
 using Features.Console.Interfaces;
+using UnityEngine;
 
 namespace Features.Console.Services
 {
@@ -10,11 +11,13 @@ namespace Features.Console.Services
         
         public void Open()
         {
+            Debug.Log("Console has been opened");
             Opened?.Invoke(this, EventArgs.Empty);
         }
 
         public void Close()
         {
+            Debug.Log("Console has been closed");
             Closed?.Invoke(this, EventArgs.Empty);
         }
     }
