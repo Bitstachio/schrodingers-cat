@@ -1,7 +1,7 @@
 using Features.Console.Interfaces;
 using Features.Console.Scripts;
 using Features.Console.Services;
-using Puzzle.Script;
+using UnityEngine;
 using VContainer;
 using VContainer.Unity;
 
@@ -14,11 +14,16 @@ namespace Installers
             base.Awake();
             DontDestroyOnLoad(gameObject);
         }
-        
+
         protected override void Configure(IContainerBuilder builder)
         {
             builder.Register<IConsoleService, ConsoleService>(Lifetime.Singleton);
-            builder.RegisterComponentInHierarchy<ConsoleTrigger>();
+
+            builder.RegisterBuildCallback(container =>
+            {
+                var triggers = FindObjectsByType<ConsoleTrigger>(FindObjectsSortMode.None);
+                foreach (var trigger in triggers) container.Inject(trigger);
+            });
         }
     }
 }
