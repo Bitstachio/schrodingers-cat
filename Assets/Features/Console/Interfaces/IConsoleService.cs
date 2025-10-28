@@ -6,10 +6,8 @@ namespace Features.Console.Interfaces
 {
     public interface IConsoleService
     {
-        public event EventHandler<ConsoleOpenEventArgs> Opened;
-        event EventHandler Closed;
+        public event EventHandler<ConsoleInteractionEventArgs> Opened;
 
         void Open(ConsoleType consoleType, int consoleId);
-        void Close();
     }
 }

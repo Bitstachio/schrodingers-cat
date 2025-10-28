@@ -2181,8 +2181,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: Puzzle.Script.PuzzlePanel, Assembly-CSharp
+      - m_Target: {fileID: 270529505}
+        m_TargetAssemblyTypeName: Features.Console.Scripts.ConsolePanels.AcceleratorPanel,
+          Assembly-CSharp
         m_MethodName: Hide
         m_Mode: 1
         m_Arguments:

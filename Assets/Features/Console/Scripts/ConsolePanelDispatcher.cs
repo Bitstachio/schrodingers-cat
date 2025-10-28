@@ -1,4 +1,3 @@
-using System;
 using System.Linq;
 using Features.Console.Interfaces;
 using Features.Console.Models;
@@ -37,28 +36,21 @@ namespace Features.Console.Scripts
         private void OnEnable()
         {
             _consoleService.Opened += OnConsoleOpened;
-            _consoleService.Closed += OnConsoleClosed;
         }
 
         private void OnDisable()
         {
             _consoleService.Opened -= OnConsoleOpened;
-            _consoleService.Closed -= OnConsoleClosed;
         }
 
         //===== Event Handlers =====
 
-        private void OnConsoleOpened(object sender, ConsoleOpenEventArgs e)
+        private void OnConsoleOpened(object sender, ConsoleInteractionEventArgs e)
         {
             foreach (var panel in _panels)
             {
                 if (panel.ConsoleType == e.ConsoleType) panel.Show(e.ConsoleId);
             }
-        }
-
-        private void OnConsoleClosed(object sender, EventArgs e)
-        {
-            Debug.Log("Console closed");
         }
     }
 }
