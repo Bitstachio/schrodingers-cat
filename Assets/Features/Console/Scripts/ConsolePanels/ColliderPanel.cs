@@ -6,9 +6,9 @@ namespace Features.Console.Scripts.ConsolePanels
 {
     public class ColliderPanel : MonoBehaviour, IConsolePanel
     {
-        public ConsoleType Type { get; } =  ConsoleType.Collider;
+        public ConsoleType ConsoleType { get; } =  ConsoleType.Collider;
         
-        public void Show(int id)
+        public void Show(int consoleId)
         {
             gameObject.SetActive(true);
         }

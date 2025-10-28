@@ -6,11 +6,10 @@ namespace Features.Console.Scripts.ConsolePanels
 {
     public class AcceleratorPanel : MonoBehaviour, IConsolePanel
     {
-        public ConsoleType Type { get; } = ConsoleType.Accelerator;
+        public ConsoleType ConsoleType { get; } = ConsoleType.Accelerator;
 
-        public void Show(int id)
+        public void Show(int consoleId)
         {
-            Debug.Log($"Invoked... with {id}");
             gameObject.SetActive(true);
         }
 

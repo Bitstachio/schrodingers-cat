@@ -52,7 +52,7 @@ namespace Features.Console.Scripts
         {
             foreach (var panel in _panels)
             {
-                if (panel.Type == e.ConsoleType) panel.Show(e.ConsoleId);
+                if (panel.ConsoleType == e.ConsoleType) panel.Show(e.ConsoleId);
             }
         }
 

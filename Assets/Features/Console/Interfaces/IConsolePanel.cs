@@ -4,9 +4,9 @@ namespace Features.Console.Interfaces
 {
     public interface IConsolePanel
     {
-        void Show(int id);
+        void Show(int consoleId);
         void Hide();
 
-        public ConsoleType Type { get; }
+        public ConsoleType ConsoleType { get; }
     }
 }
