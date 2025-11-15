@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Player.Scripts
+namespace Features.Player.Scripts
 {
     [RequireComponent(typeof(Animator))]
     [RequireComponent(typeof(Rigidbody2D))]
