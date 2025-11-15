@@ -49,7 +49,7 @@ namespace Features.Console.Scripts
         {
             foreach (var panel in _panels)
             {
-                if (panel.ConsoleId == e.ConsoleId) panel.Show(e.ConsoleId);
+                if (panel.Id == e.ConsoleId) panel.Show(e.ConsoleId);
             }
         }
     }

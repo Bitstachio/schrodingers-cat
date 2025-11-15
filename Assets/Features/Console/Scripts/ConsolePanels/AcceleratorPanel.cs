@@ -9,8 +9,8 @@ namespace Features.Console.Scripts.ConsolePanels
     {
         [SerializeField] private int consoleId;
 
-        public int ConsoleId => consoleId;
-        public ConsoleType ConsoleType { get; } = ConsoleType.Accelerator;
+        public int Id => consoleId;
+        public ConsoleType Type { get; } = ConsoleType.Accelerator;
 
         //===== Internal Fields =====
 
