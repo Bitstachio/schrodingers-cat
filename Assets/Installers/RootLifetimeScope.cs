@@ -1,7 +1,5 @@
 using Features.Console.Interfaces;
-using Features.Console.Repositories;
 using Features.Console.Scripts;
-using Features.Console.Scripts.ConsolePanels;
 using Features.Console.Services;
 using UnityEngine;
 using VContainer;
@@ -20,7 +18,6 @@ namespace Installers
         protected override void Configure(IContainerBuilder builder)
         {
             builder.Register<IConsoleService, ConsoleService>(Lifetime.Singleton);
-            builder.Register<IConsoleStateRepository, ConsoleStateRepository>(Lifetime.Singleton);
 
             builder.RegisterBuildCallback(container =>
             {
