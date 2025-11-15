@@ -1,5 +1,3 @@
-using Features.Console.Enums;
-
 namespace Features.Console.Interfaces
 {
     public interface IConsolePanel
@@ -8,6 +6,5 @@ namespace Features.Console.Interfaces
         void Hide();
 
         public int Id { get; }
-        public ConsoleType Type { get; }
     }
 }

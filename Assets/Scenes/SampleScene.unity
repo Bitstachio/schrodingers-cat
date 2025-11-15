@@ -1514,8 +1514,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: Puzzle.Script.PuzzlePanel, Assembly-CSharp
+      - m_Target: {fileID: 496611392}
+        m_TargetAssemblyTypeName: Features.Console.Scripts.ConsolePanels.ColliderPanel,
+          Assembly-CSharp
         m_MethodName: Hide
         m_Mode: 1
         m_Arguments:
@@ -16567,7 +16568,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4156391331226488733, guid: bb22e43991b294ae3b3db62dc7dfbfc9, type: 3}
       propertyPath: consoleId
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4156391331226488733, guid: bb22e43991b294ae3b3db62dc7dfbfc9, type: 3}
       propertyPath: consoleType
