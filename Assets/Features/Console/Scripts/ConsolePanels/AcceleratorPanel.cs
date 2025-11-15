@@ -7,6 +7,9 @@ namespace Features.Console.Scripts.ConsolePanels
 {
     public class AcceleratorPanel : MonoBehaviour, IConsolePanel
     {
+        [SerializeField] private int consoleId;
+
+        public int ConsoleId => consoleId;
         public ConsoleType ConsoleType { get; } = ConsoleType.Accelerator;
 
         //===== Internal Fields =====
