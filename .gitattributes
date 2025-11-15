@@ -1,0 +1,5 @@
+*.meta linguist-vendored
+*.shader linguist-vendored
+*.hlsl linguist-vendored
+*.cginc linguist-vendored
+*.compute linguist-vendored
