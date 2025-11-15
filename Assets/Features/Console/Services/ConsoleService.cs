@@ -1,5 +1,4 @@
 using System;
-using Features.Console.Enums;
 using Features.Console.Interfaces;
 using Features.Console.Models;
 
@@ -13,7 +12,7 @@ namespace Features.Console.Services
 
         //===== Actions =====
 
-        public void Open(ConsoleType consoleType, int consoleId)
+        public void Open(int consoleId)
         {
             Opened?.Invoke(this, new ConsoleInteractionEventArgs(consoleId));
         }

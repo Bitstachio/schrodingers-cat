@@ -1,5 +1,4 @@
 using System;
-using Features.Console.Enums;
 using Features.Console.Models;
 
 namespace Features.Console.Interfaces
@@ -8,6 +7,6 @@ namespace Features.Console.Interfaces
     {
         public event EventHandler<ConsoleInteractionEventArgs> Opened;
 
-        void Open(ConsoleType consoleType, int consoleId);
+        void Open(int consoleId);
     }
 }

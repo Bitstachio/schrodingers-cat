@@ -1,4 +1,3 @@
-using Features.Console.Enums;
 using Features.Console.Interfaces;
 using UnityEngine;
 
@@ -9,7 +8,6 @@ namespace Features.Console.Scripts.ConsolePanels
         [SerializeField] private int id;
 
         public int Id => id;
-        public ConsoleType Type { get; } =  ConsoleType.Collider;
         
         public void Show(int consoleId)
         {

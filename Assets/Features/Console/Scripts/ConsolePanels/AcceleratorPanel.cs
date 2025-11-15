@@ -1,4 +1,3 @@
-using Features.Console.Enums;
 using Features.Console.Exceptions;
 using Features.Console.Interfaces;
 using UnityEngine;
@@ -10,7 +9,6 @@ namespace Features.Console.Scripts.ConsolePanels
         [SerializeField] private int consoleId;
 
         public int Id => consoleId;
-        public ConsoleType Type { get; } = ConsoleType.Accelerator;
 
         //===== Internal Fields =====
 
