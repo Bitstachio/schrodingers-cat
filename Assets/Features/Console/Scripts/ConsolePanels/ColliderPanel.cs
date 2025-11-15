@@ -6,10 +6,10 @@ namespace Features.Console.Scripts.ConsolePanels
 {
     public class ColliderPanel : MonoBehaviour, IConsolePanel
     {
-        [SerializeField] private int consoleId;
+        [SerializeField] private int id;
 
-        public int ConsoleId => consoleId;
-        public ConsoleType ConsoleType { get; } =  ConsoleType.Collider;
+        public int Id => id;
+        public ConsoleType Type { get; } =  ConsoleType.Collider;
         
         public void Show(int consoleId)
         {
