@@ -1,8 +1,8 @@
-using Features.Console.Interfaces;
+using Features.Panel.Interfaces;
 
-namespace Features.Console.Models
+namespace Features.Panel.Models
 {
-    public class AcceleratorData : IConsoleData
+    public class AcceleratorData : IPanelData
     {
         public float AccelerationForce { get; set; }
         public float EnergyConsumption { get; set; }
