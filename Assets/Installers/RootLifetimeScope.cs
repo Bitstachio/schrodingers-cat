@@ -1,6 +1,6 @@
-using Features.Console.Interfaces;
-using Features.Console.Scripts;
-using Features.Console.Services;
+using Features.Panel.Interfaces;
+using Features.Panel.Scripts;
+using Features.Panel.Services;
 using UnityEngine;
 using VContainer;
 using VContainer.Unity;
@@ -17,14 +17,14 @@ namespace Installers
 
         protected override void Configure(IContainerBuilder builder)
         {
-            builder.Register<IConsoleService, ConsoleService>(Lifetime.Singleton);
+            builder.Register<IPanelService, PanelService>(Lifetime.Singleton);
 
             builder.RegisterBuildCallback(container =>
             {
-                var triggers = FindObjectsByType<ConsoleTrigger>(FindObjectsSortMode.None);
+                var triggers = FindObjectsByType<PanelTrigger>(FindObjectsSortMode.None);
                 foreach (var trigger in triggers) container.Inject(trigger);
             });
-            builder.RegisterComponentInHierarchy<ConsolePanelDispatcher>();
+            builder.RegisterComponentInHierarchy<PanelDispatcher>();
         }
     }
 }

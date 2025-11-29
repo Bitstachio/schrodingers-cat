@@ -1,8 +1,8 @@
-using Features.Console.Interfaces;
+using Features.Panel.Interfaces;
 
-namespace Features.Console.Models
+namespace Features.Panel.Models
 {
-    public class ColliderData : IConsoleData
+    public class ColliderData : IPanelData
     {
         public float ImpactThreshold { get; set; }
         public float Elasticity { get; set; }

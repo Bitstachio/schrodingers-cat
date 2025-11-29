@@ -1,16 +1,17 @@
-using Features.Console.Interfaces;
 using Features.Indicator.Scripts;
+using Features.Panel.Interfaces;
 using UnityEngine;
+using UnityEngine.Serialization;
 using VContainer;
 
-namespace Features.Console.Scripts
+namespace Features.Panel.Scripts
 {
-    public class ConsoleTrigger : MonoBehaviour
+    public class PanelTrigger : MonoBehaviour
     {
         //===== Inspector Fields =====
 
         [SerializeField] private IndicatorImpl indicator;
-        [SerializeField] private int consoleId;
+        [SerializeField] private int panelId;
 
         //===== Internal Fields =====
 
@@ -18,12 +19,12 @@ namespace Features.Console.Scripts
 
         //===== Dependency Injection =====
 
-        private IConsoleService _consoleService;
+        private IPanelService _panelService;
 
         [Inject]
-        public void Construct(IConsoleService consoleService)
+        public void Construct(IPanelService panelService)
         {
-            _consoleService = consoleService;
+            _panelService = panelService;
         }
 
         //===== Lifecycle =====
@@ -31,7 +32,7 @@ namespace Features.Console.Scripts
         private void Update()
         {
             // TODO: Consider refactoring input handling to use input action
-            if (_playerInRange && Input.GetKeyDown(KeyCode.E)) _consoleService.Open(consoleId);
+            if (_playerInRange && Input.GetKeyDown(KeyCode.E)) _panelService.Open(panelId);
         }
 
         //===== Trigger Events =====
