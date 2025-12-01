@@ -22,14 +22,14 @@ namespace Installers
         {
             //===== Panel Service =====
             
-            builder.Register<IPanelService, PanelService>(Lifetime.Singleton);
+            builder.Register<IPanelService, StaticPanelService>(Lifetime.Singleton);
 
             builder.RegisterBuildCallback(container =>
             {
-                var triggers = FindObjectsByType<PanelInteractable>(FindObjectsSortMode.None);
+                var triggers = FindObjectsByType<StaticPanelInteractable>(FindObjectsSortMode.None);
                 foreach (var trigger in triggers) container.Inject(trigger);
             });
-            builder.RegisterComponentInHierarchy<PanelDispatcher>();
+            builder.RegisterComponentInHierarchy<StaticPanelDispatcher>();
 
             //===== Dialogue Service =====
             

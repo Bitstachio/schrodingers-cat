@@ -806,11 +806,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 929ee85b99054279a2509a9ad32e162a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  id: 23
   textComponent: {fileID: 284555270}
-  lines:
-  - This is the first line
-  - This is the second line
   typingDelay: 0.1
 --- !u!114 &688524972
 MonoBehaviour:

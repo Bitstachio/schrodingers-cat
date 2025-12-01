@@ -5,7 +5,7 @@ namespace Features.Panel.StaticPanel.Interfaces
 {
     public interface IPanelService
     {
-        public event EventHandler<PanelInteractionEventArgs> Opened;
+        public event EventHandler<StaticPanelInteractionEventArgs> Opened;
 
         void Open(int panelId);
     }
