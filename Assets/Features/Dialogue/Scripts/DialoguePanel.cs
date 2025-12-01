@@ -8,9 +8,10 @@ namespace Features.Dialogue.Scripts
     public class DialoguePanel : BasePanel
     {
         [SerializeField] private TextMeshProUGUI textComponent;
-        [SerializeField] private string[] lines;
         [SerializeField] private float typingDelay;
 
+        private string _speaker;
+        private string[] _lines;
         private int _lineIndex;
 
         //===== Lifecycle =====
@@ -21,27 +22,30 @@ namespace Features.Dialogue.Scripts
             if (!Input.GetMouseButtonDown(0)) return;
 
             // If the current line is already fully displayed, advance to the next one
-            if (textComponent.text == lines[_lineIndex]) NextLine();
+            if (textComponent.text == _lines[_lineIndex]) NextLine();
             // Skip the typing animation and instantly show the full line
             else
             {
                 StopAllCoroutines();
-                textComponent.text = lines[_lineIndex];
+                textComponent.text = _lines[_lineIndex];
             }
         }
 
         //===== Utility =====
 
-        public void StartDialogue()
+        public void StartDialogue(DialogueContent dialogue)
         {
-            gameObject.SetActive(true);
+            _speaker = dialogue.Speaker;
+            _lines = dialogue.Lines;
             _lineIndex = 0;
+            
+            gameObject.SetActive(true);
             StartCoroutine(TypeLine());
         }
 
         private IEnumerator TypeLine()
         {
-            foreach (var character in lines[_lineIndex].ToCharArray())
+            foreach (var character in _lines[_lineIndex].ToCharArray())
             {
                 textComponent.text += character;
                 yield return new WaitForSeconds(typingDelay);
@@ -50,7 +54,7 @@ namespace Features.Dialogue.Scripts
 
         private void NextLine()
         {
-            if (_lineIndex < lines.Length - 1)
+            if (_lineIndex < _lines.Length - 1)
             {
                 _lineIndex++;
                 textComponent.text = string.Empty;
