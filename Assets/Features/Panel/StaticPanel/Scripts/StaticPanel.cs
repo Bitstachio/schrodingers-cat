@@ -1,4 +1,4 @@
-using Features.Panel.StaticPanel.Exceptions;
+using Features.Panel.Common.Exceptions;
 using Features.Panel.StaticPanel.Interfaces;
 using UnityEngine;
 
