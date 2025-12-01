@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Features.Panel.DialoguePanel.Scripts
+namespace Features.Panel.Dialogue.Scripts
 {
     [CreateAssetMenu(fileName = "Dialogue Content", menuName = "Dialogue Content")]
     public class DialogueContent : ScriptableObject

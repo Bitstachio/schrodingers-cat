@@ -1,8 +1,8 @@
 using System;
-using Features.Panel.DialoguePanel.Models;
-using Features.Panel.DialoguePanel.Scripts;
+using Features.Panel.Dialogue.Models;
+using Features.Panel.Dialogue.Scripts;
 
-namespace Features.Panel.DialoguePanel.Interface
+namespace Features.Panel.Dialogue.Interfaces
 {
     public interface IDialogueService
     {

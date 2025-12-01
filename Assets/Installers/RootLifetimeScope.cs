@@ -1,6 +1,6 @@
-using Features.Panel.DialoguePanel.Interface;
-using Features.Panel.DialoguePanel.Scripts;
-using Features.Panel.DialoguePanel.Services;
+using Features.Panel.Dialogue.Interfaces;
+using Features.Panel.Dialogue.Scripts;
+using Features.Panel.Dialogue.Services;
 using Features.Panel.StaticPanel.Interfaces;
 using Features.Panel.StaticPanel.Scripts;
 using Features.Panel.StaticPanel.Services;
