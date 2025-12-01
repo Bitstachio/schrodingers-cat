@@ -1,8 +1,9 @@
 using System.Collections;
+using Features.Panel.Scripts.Panels;
 using TMPro;
 using UnityEngine;
 
-namespace Features.Panel.Scripts.Panels
+namespace Features.Dialogue.Scripts
 {
     public class DialoguePanel : BasePanel
     {
@@ -13,12 +14,6 @@ namespace Features.Panel.Scripts.Panels
         private int _lineIndex;
 
         //===== Lifecycle =====
-
-        private void Start()
-        {
-            textComponent.text = string.Empty;
-            StartDialogue();
-        }
 
         private void Update()
         {
@@ -37,8 +32,9 @@ namespace Features.Panel.Scripts.Panels
 
         //===== Utility =====
 
-        private void StartDialogue()
+        public void StartDialogue()
         {
+            gameObject.SetActive(true);
             _lineIndex = 0;
             StartCoroutine(TypeLine());
         }

@@ -1,3 +1,6 @@
+using Features.Dialogue.Interface;
+using Features.Dialogue.Scripts;
+using Features.Dialogue.Services;
 using Features.Panel.Interfaces;
 using Features.Panel.Scripts;
 using Features.Panel.Services;
@@ -17,6 +20,8 @@ namespace Installers
 
         protected override void Configure(IContainerBuilder builder)
         {
+            //===== Panel Service =====
+            
             builder.Register<IPanelService, PanelService>(Lifetime.Singleton);
 
             builder.RegisterBuildCallback(container =>
@@ -25,6 +30,17 @@ namespace Installers
                 foreach (var trigger in triggers) container.Inject(trigger);
             });
             builder.RegisterComponentInHierarchy<PanelDispatcher>();
+
+            //===== Dialogue Service =====
+            
+            builder.Register<IDialogueService, DialogueService>(Lifetime.Singleton);
+
+            builder.RegisterBuildCallback(container =>
+            {
+                var triggers = FindObjectsByType<DialogueInteractable>(FindObjectsSortMode.None);
+                foreach (var trigger in triggers) container.Inject(trigger);
+            });
+            builder.RegisterComponentInHierarchy<DialogueDispatcher>();
         }
     }
 }
