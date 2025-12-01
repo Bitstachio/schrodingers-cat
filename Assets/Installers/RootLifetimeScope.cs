@@ -1,3 +1,6 @@
+using Features.Panel.Banner.Interfaces;
+using Features.Panel.Banner.Scripts;
+using Features.Panel.Banner.Services;
 using Features.Panel.Dialogue.Interfaces;
 using Features.Panel.Dialogue.Scripts;
 using Features.Panel.Dialogue.Services;
@@ -41,6 +44,17 @@ namespace Installers
                 foreach (var trigger in triggers) container.Inject(trigger);
             });
             builder.RegisterComponentInHierarchy<DialogueDispatcher>();
+
+            //===== Banner Service =====
+            
+            builder.Register<IBannerService, BannerService>(Lifetime.Singleton);
+            
+            builder.RegisterBuildCallback(container =>
+            {
+                var triggers = FindObjectsByType<BannerInteractable>(FindObjectsSortMode.None);
+                foreach (var trigger in triggers) container.Inject(trigger);
+            });
+            builder.RegisterComponentInHierarchy<BannerDispatcher>();
         }
     }
 }
