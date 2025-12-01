@@ -10,9 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 8119304154250389901}
   - component: {fileID: 3840355825216339499}
-  - component: {fileID: 4156391331226488733}
+  - component: {fileID: 3823153462137795753}
   m_Layer: 0
-  m_Name: Console Trigger
+  m_Name: Panel Trigger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -70,7 +70,7 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0.25}
   m_Radius: 1.25
---- !u!114 &4156391331226488733
+--- !u!114 &3823153462137795753
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -79,7 +79,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8633527643940645783}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a2dc1aa5c0c74bd3a75e0a4f54c8e6ac, type: 3}
+  m_Script: {fileID: 11500000, guid: 6e6076399d2a4b0abe8c98642f8a02fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   indicator: {fileID: 6972091809640760911}

@@ -21,7 +21,7 @@ namespace Installers
 
             builder.RegisterBuildCallback(container =>
             {
-                var triggers = FindObjectsByType<PanelTrigger>(FindObjectsSortMode.None);
+                var triggers = FindObjectsByType<PanelInteractable>(FindObjectsSortMode.None);
                 foreach (var trigger in triggers) container.Inject(trigger);
             });
             builder.RegisterComponentInHierarchy<PanelDispatcher>();
