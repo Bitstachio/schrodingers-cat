@@ -1,7 +1,7 @@
 using System;
-using Features.Panel.Models;
+using Features.Panel.StaticPanel.Models;
 
-namespace Features.Panel.Interfaces
+namespace Features.Panel.StaticPanel.Interfaces
 {
     public interface IPanelService
     {

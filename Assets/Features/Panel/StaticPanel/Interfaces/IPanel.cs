@@ -1,4 +1,4 @@
-namespace Features.Panel.Interfaces
+namespace Features.Panel.StaticPanel.Interfaces
 {
     public interface IPanel
     {

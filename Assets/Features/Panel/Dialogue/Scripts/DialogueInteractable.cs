@@ -1,9 +1,9 @@
 using Features.Common.Interactable.Interfaces;
-using Features.Dialogue.Interface;
+using Features.Panel.DialoguePanel.Interface;
 using UnityEngine;
 using VContainer;
 
-namespace Features.Dialogue.Scripts
+namespace Features.Panel.DialoguePanel.Scripts
 {
     public class DialogueInteractable : MonoBehaviour, IInteractable
     {

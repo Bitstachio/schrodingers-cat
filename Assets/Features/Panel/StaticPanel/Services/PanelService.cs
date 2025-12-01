@@ -1,8 +1,8 @@
 using System;
-using Features.Panel.Interfaces;
-using Features.Panel.Models;
+using Features.Panel.StaticPanel.Interfaces;
+using Features.Panel.StaticPanel.Models;
 
-namespace Features.Panel.Services
+namespace Features.Panel.StaticPanel.Services
 {
     public class PanelService : IPanelService
     {

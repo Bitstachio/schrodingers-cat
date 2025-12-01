@@ -1,9 +1,9 @@
 using Features.Common.Interactable.Interfaces;
-using Features.Panel.Interfaces;
+using Features.Panel.StaticPanel.Interfaces;
 using UnityEngine;
 using VContainer;
 
-namespace Features.Panel.Scripts
+namespace Features.Panel.StaticPanel.Scripts
 {
     public class PanelInteractable : MonoBehaviour, IInteractable
     {

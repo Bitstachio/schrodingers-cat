@@ -1,6 +1,6 @@
 using System;
 
-namespace Features.Panel.Exceptions
+namespace Features.Panel.StaticPanel.Exceptions
 {
     public class PanelAlreadyOpenException : Exception
     {
