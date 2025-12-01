@@ -2,7 +2,7 @@ using System.Collections;
 using TMPro;
 using UnityEngine;
 
-namespace Features.Panel.DialoguePanel.Scripts
+namespace Features.Panel.Dialogue.Scripts
 {
     public class DialoguePanel : MonoBehaviour
     {
