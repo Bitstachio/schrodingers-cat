@@ -1,10 +1,10 @@
 namespace Features.Panel.StaticPanel.Models
 {
-    public class PanelInteractionEventArgs
+    public class StaticPanelInteractionEventArgs
     {
         public int PanelId { get; }
 
-        public PanelInteractionEventArgs(int panelId)
+        public StaticPanelInteractionEventArgs(int panelId)
         {
             PanelId = panelId;
         }

@@ -5,7 +5,7 @@ using VContainer;
 
 namespace Features.Panel.StaticPanel.Scripts
 {
-    public class PanelInteractable : MonoBehaviour, IInteractable
+    public class StaticPanelInteractable : MonoBehaviour, IInteractable
     {
         [SerializeField] private int panelId;
 

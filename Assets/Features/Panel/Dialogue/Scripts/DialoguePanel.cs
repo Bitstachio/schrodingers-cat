@@ -1,11 +1,10 @@
 using System.Collections;
-using Features.Panel.StaticPanel.Scripts.Panels;
 using TMPro;
 using UnityEngine;
 
 namespace Features.Panel.DialoguePanel.Scripts
 {
-    public class DialoguePanel : BasePanel
+    public class DialoguePanel : MonoBehaviour
     {
         [SerializeField] private TextMeshProUGUI textComponent;
         [SerializeField] private float typingDelay;

@@ -4,17 +4,17 @@ using Features.Panel.StaticPanel.Models;
 
 namespace Features.Panel.StaticPanel.Services
 {
-    public class PanelService : IPanelService
+    public class StaticPanelService : IPanelService
     {
         //===== Events =====
 
-        public event EventHandler<PanelInteractionEventArgs> Opened;
+        public event EventHandler<StaticPanelInteractionEventArgs> Opened;
 
         //===== Actions =====
 
         public void Open(int panelId)
         {
-            Opened?.Invoke(this, new PanelInteractionEventArgs(panelId));
+            Opened?.Invoke(this, new StaticPanelInteractionEventArgs(panelId));
         }
     }
 }

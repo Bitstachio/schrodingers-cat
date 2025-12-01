@@ -2,9 +2,9 @@ using Features.Panel.StaticPanel.Exceptions;
 using Features.Panel.StaticPanel.Interfaces;
 using UnityEngine;
 
-namespace Features.Panel.StaticPanel.Scripts.Panels
+namespace Features.Panel.StaticPanel.Scripts
 {
-    public abstract class BasePanel : MonoBehaviour, IPanel
+    public abstract class StaticPanel : MonoBehaviour, IPanel
     {
         [SerializeField] private int id;
 

@@ -6,7 +6,7 @@ using VContainer;
 
 namespace Features.Panel.StaticPanel.Scripts
 {
-    public class PanelDispatcher : MonoBehaviour
+    public class StaticPanelDispatcher : MonoBehaviour
     {
         //===== Internal Fields =====
 
@@ -45,7 +45,7 @@ namespace Features.Panel.StaticPanel.Scripts
 
         //===== Event Handlers =====
 
-        private void OnPanelOpened(object sender, PanelInteractionEventArgs e)
+        private void OnPanelOpened(object sender, StaticPanelInteractionEventArgs e)
         {
             foreach (var panel in _panels)
             {
