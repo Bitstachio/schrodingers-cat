@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d1ab5a9f27924ef8b18cd4327ba4656d, type: 3}
   m_Name: Banner Content
   m_EditorClassIdentifier: 
-  text: 
+  text: This is a banner
