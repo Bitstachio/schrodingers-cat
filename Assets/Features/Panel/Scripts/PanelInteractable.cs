@@ -5,7 +5,7 @@ using VContainer;
 
 namespace Features.Panel.Scripts
 {
-    public class PanelTrigger : MonoBehaviour, IInteractable
+    public class PanelInteractable : MonoBehaviour, IInteractable
     {
         [SerializeField] private int panelId;
 
@@ -14,10 +14,7 @@ namespace Features.Panel.Scripts
         private IPanelService _panelService;
 
         [Inject]
-        public void Construct(IPanelService panelService)
-        {
-            _panelService = panelService;
-        }
+        public void Construct(IPanelService panelService) => _panelService = panelService;
 
         //===== Interface Implementation =====
 

@@ -1,12 +1,11 @@
 using Features.Common.Interactable.Interfaces;
-using Features.Indicator.Scripts;
 using UnityEngine;
 
 namespace Features.Common.Interactable.Scripts
 {
     public class InteractionTrigger : MonoBehaviour
     {
-        [SerializeField] private IndicatorImpl indicator;
+        [SerializeField] private Indicator indicator;
 
         private Transform _root;
         private IInteractable[] _interactables;
