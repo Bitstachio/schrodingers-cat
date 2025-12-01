@@ -1,3 +1,4 @@
+using Features.Panel.Common.Exceptions;
 using UnityEngine;
 
 namespace Features.Panel.Banner.Scripts
@@ -6,13 +7,13 @@ namespace Features.Panel.Banner.Scripts
     {
         public void Show(BannerContent banner)
         {
-            // if (gameObject.activeSelf) throw new PanelAlreadyOpenException();
+            if (gameObject.activeSelf) throw new PanelAlreadyOpenException();
             gameObject.SetActive(true);
         }
 
         public void Hide()
         {
-            // if (!gameObject.activeSelf) throw new PanelNotOpenException();
+            if (!gameObject.activeSelf) throw new PanelNotOpenException();
             gameObject.SetActive(false);
         }
     }
