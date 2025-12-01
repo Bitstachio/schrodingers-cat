@@ -1,9 +1,9 @@
 using System;
-using Features.Dialogue.Interface;
-using Features.Dialogue.Models;
-using Features.Dialogue.Scripts;
+using Features.Panel.DialoguePanel.Interface;
+using Features.Panel.DialoguePanel.Models;
+using Features.Panel.DialoguePanel.Scripts;
 
-namespace Features.Dialogue.Services
+namespace Features.Panel.DialoguePanel.Services
 {
     public class DialogueService : IDialogueService
     {

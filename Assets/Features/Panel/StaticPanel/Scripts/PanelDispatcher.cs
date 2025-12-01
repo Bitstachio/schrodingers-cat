@@ -1,10 +1,10 @@
 using System.Linq;
-using Features.Panel.Interfaces;
-using Features.Panel.Models;
+using Features.Panel.StaticPanel.Interfaces;
+using Features.Panel.StaticPanel.Models;
 using UnityEngine;
 using VContainer;
 
-namespace Features.Panel.Scripts
+namespace Features.Panel.StaticPanel.Scripts
 {
     public class PanelDispatcher : MonoBehaviour
     {

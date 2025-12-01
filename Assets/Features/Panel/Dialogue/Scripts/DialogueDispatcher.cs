@@ -1,9 +1,9 @@
-using Features.Dialogue.Interface;
-using Features.Dialogue.Models;
+using Features.Panel.DialoguePanel.Interface;
+using Features.Panel.DialoguePanel.Models;
 using UnityEngine;
 using VContainer;
 
-namespace Features.Dialogue.Scripts
+namespace Features.Panel.DialoguePanel.Scripts
 {
     public class DialogueDispatcher : MonoBehaviour
     {

@@ -1,8 +1,8 @@
-using Features.Panel.Exceptions;
-using Features.Panel.Interfaces;
+using Features.Panel.StaticPanel.Exceptions;
+using Features.Panel.StaticPanel.Interfaces;
 using UnityEngine;
 
-namespace Features.Panel.Scripts.Panels
+namespace Features.Panel.StaticPanel.Scripts.Panels
 {
     public abstract class BasePanel : MonoBehaviour, IPanel
     {

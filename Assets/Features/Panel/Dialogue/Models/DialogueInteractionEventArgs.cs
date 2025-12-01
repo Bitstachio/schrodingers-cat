@@ -1,6 +1,6 @@
-using Features.Dialogue.Scripts;
+using Features.Panel.DialoguePanel.Scripts;
 
-namespace Features.Dialogue.Models
+namespace Features.Panel.DialoguePanel.Models
 {
     public class DialogueInteractionEventArgs
     {

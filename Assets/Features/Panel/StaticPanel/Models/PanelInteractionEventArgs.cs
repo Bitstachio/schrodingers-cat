@@ -1,4 +1,4 @@
-namespace Features.Panel.Models
+namespace Features.Panel.StaticPanel.Models
 {
     public class PanelInteractionEventArgs
     {

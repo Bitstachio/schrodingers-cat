@@ -1,9 +1,9 @@
-using Features.Dialogue.Interface;
-using Features.Dialogue.Scripts;
-using Features.Dialogue.Services;
-using Features.Panel.Interfaces;
-using Features.Panel.Scripts;
-using Features.Panel.Services;
+using Features.Panel.DialoguePanel.Interface;
+using Features.Panel.DialoguePanel.Scripts;
+using Features.Panel.DialoguePanel.Services;
+using Features.Panel.StaticPanel.Interfaces;
+using Features.Panel.StaticPanel.Scripts;
+using Features.Panel.StaticPanel.Services;
 using UnityEngine;
 using VContainer;
 using VContainer.Unity;

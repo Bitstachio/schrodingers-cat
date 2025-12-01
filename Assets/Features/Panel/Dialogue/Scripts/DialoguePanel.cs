@@ -1,9 +1,9 @@
 using System.Collections;
-using Features.Panel.Scripts.Panels;
+using Features.Panel.StaticPanel.Scripts.Panels;
 using TMPro;
 using UnityEngine;
 
-namespace Features.Dialogue.Scripts
+namespace Features.Panel.DialoguePanel.Scripts
 {
     public class DialoguePanel : BasePanel
     {

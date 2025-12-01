@@ -1,6 +1,6 @@
-using Features.Panel.Interfaces;
+using Features.Panel.StaticPanel.Interfaces;
 
-namespace Features.Panel.Models
+namespace Features.Panel.StaticPanel.Models
 {
     public class AcceleratorData : IPanelData
     {
