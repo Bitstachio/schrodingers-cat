@@ -8,13 +8,11 @@ namespace Features.Panel.Common.Exceptions
         {
         }
 
-        public PanelAlreadyOpenException(string message)
-            : base(message)
+        public PanelAlreadyOpenException(string message) : base(message)
         {
         }
 
-        public PanelAlreadyOpenException(string message, Exception innerException)
-            : base(message, innerException)
+        public PanelAlreadyOpenException(string message, Exception innerException) : base(message, innerException)
         {
         }
     }

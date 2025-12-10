@@ -1,6 +1,7 @@
 using System.Linq;
 using Features.Common.Interactable.Interfaces;
 using Features.Panel.Common.Interfaces;
+using Features.Panel.StaticPanel.Exceptions;
 using Features.Panel.StaticPanel.Interfaces;
 using Features.Panel.StaticPanel.Models;
 using UnityEngine;
@@ -49,8 +50,12 @@ namespace Features.Panel.StaticPanel.Scripts
         {
             foreach (var panel in _panels)
             {
-                if (panel.Id == e.PanelId) panel.Show(e.PanelId);
+                if (panel.Id != e.PanelId) continue;
+                panel.Show(e.PanelId);
+                return;
             }
+
+            throw new PanelIdNotFound(e.PanelId);
         }
     }
 }
