@@ -1,3 +1,4 @@
+using Features.Common.Interactable.Interfaces;
 using Features.Panel.Banner.Scripts;
 using Features.Panel.Common.Interfaces;
 using Features.Panel.Common.Services;
@@ -34,20 +35,10 @@ namespace Installers
 
             //===== Dialogue Service =====
 
-            builder.RegisterBuildCallback(container =>
-            {
-                var triggers = FindObjectsByType<DialogueInteractable>(FindObjectsSortMode.None);
-                foreach (var trigger in triggers) container.Inject(trigger);
-            });
             builder.RegisterComponentInHierarchy<DialogueDispatcher>();
 
             //===== Banner Service =====
 
-            builder.RegisterBuildCallback(container =>
-            {
-                var triggers = FindObjectsByType<BannerInteractable>(FindObjectsSortMode.None);
-                foreach (var trigger in triggers) container.Inject(trigger);
-            });
             builder.RegisterComponentInHierarchy<BannerDispatcher>();
 
             //===== Panel Service =====
@@ -55,6 +46,15 @@ namespace Installers
             builder.Register(typeof(PanelService<>), Lifetime.Singleton)
                 .As(typeof(IPanelService<>))
                 .AsSelf();
+
+            // Inject into all interface inheritors
+            builder.RegisterBuildCallback(container =>
+            {
+                foreach (var behaviour in FindObjectsByType<MonoBehaviour>(FindObjectsSortMode.None))
+                {
+                    if (behaviour is IInteractable interactable) container.Inject(interactable);
+                }
+            });
         }
     }
 }
