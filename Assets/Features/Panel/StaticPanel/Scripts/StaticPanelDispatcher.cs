@@ -11,8 +11,6 @@ namespace Features.Panel.StaticPanel.Scripts
 {
     public class StaticPanelDispatcher : MonoBehaviour, IInteractionDispatcher
     {
-        //===== Internal Fields =====
-
         private IPanel[] _panels;
 
         //===== Dependency Injection =====
@@ -34,28 +32,16 @@ namespace Features.Panel.StaticPanel.Scripts
 
         // Handle subscription to panel service
 
-        private void OnEnable()
-        {
-            _panelService.Opened += OnPanelOpened;
-        }
+        private void OnEnable() => _panelService.Opened += OnPanelOpened;
 
-        private void OnDisable()
-        {
-            _panelService.Opened -= OnPanelOpened;
-        }
+        private void OnDisable() => _panelService.Opened -= OnPanelOpened;
 
         //===== Event Handlers =====
 
         private void OnPanelOpened(object sender, StaticPanelInteractionEventArgs e)
         {
-            foreach (var panel in _panels)
-            {
-                if (panel.Id != e.PanelId) continue;
-                panel.Show(e.PanelId);
-                return;
-            }
-
-            throw new PanelIdNotFound(e.PanelId);
+            var panel = _panels.FirstOrDefault(p => p.Id == e.PanelId) ?? throw new PanelIdNotFound(e.PanelId);
+            panel.Show(e.PanelId);
         }
     }
 }
