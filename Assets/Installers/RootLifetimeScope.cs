@@ -1,3 +1,4 @@
+using System.Linq;
 using Features.Common.Interactable.Interfaces;
 using Features.Panel.Banner.Scripts;
 using Features.Panel.Common.Interfaces;
@@ -52,7 +53,11 @@ namespace Installers
             {
                 foreach (var behaviour in FindObjectsByType<MonoBehaviour>(FindObjectsSortMode.None))
                 {
-                    if (behaviour is IInteractable interactable) container.Inject(interactable);
+                    if (GlobalInjectionConfig.AutoInjectInterfaces.Any(iface =>
+                            iface.IsAssignableFrom(behaviour.GetType())))
+                    {
+                        container.Inject(behaviour);
+                    }
                 }
             });
         }
