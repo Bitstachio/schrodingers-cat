@@ -1,6 +1,8 @@
 using Features.Panel.Banner.Interfaces;
 using Features.Panel.Banner.Scripts;
 using Features.Panel.Banner.Services;
+using Features.Panel.Common.Interfaces;
+using Features.Panel.Common.Services;
 using Features.Panel.Dialogue.Interfaces;
 using Features.Panel.Dialogue.Scripts;
 using Features.Panel.Dialogue.Services;
@@ -24,7 +26,7 @@ namespace Installers
         protected override void Configure(IContainerBuilder builder)
         {
             //===== Panel Service =====
-            
+
             builder.Register<IPanelService, StaticPanelService>(Lifetime.Singleton);
 
             builder.RegisterBuildCallback(container =>
@@ -35,7 +37,7 @@ namespace Installers
             builder.RegisterComponentInHierarchy<StaticPanelDispatcher>();
 
             //===== Dialogue Service =====
-            
+
             builder.Register<IDialogueService, DialogueService>(Lifetime.Singleton);
 
             builder.RegisterBuildCallback(container =>
@@ -46,15 +48,21 @@ namespace Installers
             builder.RegisterComponentInHierarchy<DialogueDispatcher>();
 
             //===== Banner Service =====
-            
+
             builder.Register<IBannerService, BannerService>(Lifetime.Singleton);
-            
+
             builder.RegisterBuildCallback(container =>
             {
                 var triggers = FindObjectsByType<BannerInteractable>(FindObjectsSortMode.None);
                 foreach (var trigger in triggers) container.Inject(trigger);
             });
             builder.RegisterComponentInHierarchy<BannerDispatcher>();
+
+            //===== Panel Service =====
+
+            builder.Register(typeof(PanelService<>), Lifetime.Singleton)
+                .As(typeof(IPanelService<>))
+                .AsSelf();
         }
     }
 }
