@@ -23,7 +23,10 @@ namespace Features.Common.Interactable.Scripts
         {
             // TODO: Update control system
             if (!_playerInRange || !Input.GetKeyDown(KeyCode.E)) return;
-            foreach (var interactable in _interactables) interactable.Interact();
+            foreach (var interactable in _interactables)
+            {
+                if (((MonoBehaviour)interactable).isActiveAndEnabled) interactable.Interact();
+            }
         }
 
         //===== Trigger Events =====

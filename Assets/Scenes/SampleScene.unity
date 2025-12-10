@@ -1035,8 +1035,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1348390954}
   - component: {fileID: 1348390955}
+  - component: {fileID: 1348390957}
+  - component: {fileID: 1348390956}
   m_Layer: 0
-  m_Name: PanelSprite
+  m_Name: Panel 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1051,11 +1053,12 @@ Transform:
   m_GameObject: {fileID: 1348390953}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.5, z: 0}
+  m_LocalPosition: {x: 3, y: 1.5, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1885662018}
+  m_Children:
+  - {fileID: 2106586603}
+  m_Father: {fileID: 1503343961}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1348390955
 SpriteRenderer:
@@ -1112,6 +1115,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1348390956
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1348390953}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01cf34c43bf34691902fe8a2e467be25, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue: {fileID: 11400000, guid: 6e0fbc1540c284713b3d2ecefac5c27c, type: 2}
+--- !u!114 &1348390957
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1348390953}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f2b06328fd84f398f83bb02180fded0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  banner: {fileID: 11400000, guid: d0b3fac1840c342d99aa536edf5c3840, type: 2}
 --- !u!1 &1359861082
 GameObject:
   m_ObjectHideFlags: 0
@@ -1278,7 +1307,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1885662018}
+  - {fileID: 1348390954}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1538702086
@@ -1559,53 +1588,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1844733542}
   m_CullTransparentMesh: 1
---- !u!1 &1885662017
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1885662018}
-  - component: {fileID: 1885662019}
-  m_Layer: 0
-  m_Name: Panel 1
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1885662018
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1885662017}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3, y: 1, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1348390954}
-  - {fileID: 2106586603}
-  m_Father: {fileID: 1503343961}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1885662019
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1885662017}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3f2b06328fd84f398f83bb02180fded0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  banner: {fileID: 11400000, guid: d0b3fac1840c342d99aa536edf5c3840, type: 2}
 --- !u!4 &2106586603 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8119304154250389901, guid: bb22e43991b294ae3b3db62dc7dfbfc9, type: 3}
@@ -1617,7 +1599,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1885662018}
+    m_TransformParent: {fileID: 1348390954}
     m_Modifications:
     - target: {fileID: 4156391331226488733, guid: bb22e43991b294ae3b3db62dc7dfbfc9, type: 3}
       propertyPath: panelId
@@ -1636,12 +1618,20 @@ PrefabInstance:
       value: Input
       objectReference: {fileID: 0}
     - target: {fileID: 8119304154250389901, guid: bb22e43991b294ae3b3db62dc7dfbfc9, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8119304154250389901, guid: bb22e43991b294ae3b3db62dc7dfbfc9, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8119304154250389901, guid: bb22e43991b294ae3b3db62dc7dfbfc9, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8119304154250389901, guid: bb22e43991b294ae3b3db62dc7dfbfc9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.1
       objectReference: {fileID: 0}
     - target: {fileID: 8119304154250389901, guid: bb22e43991b294ae3b3db62dc7dfbfc9, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1653,15 +1643,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8119304154250389901, guid: bb22e43991b294ae3b3db62dc7dfbfc9, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 8119304154250389901, guid: bb22e43991b294ae3b3db62dc7dfbfc9, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 8119304154250389901, guid: bb22e43991b294ae3b3db62dc7dfbfc9, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 8119304154250389901, guid: bb22e43991b294ae3b3db62dc7dfbfc9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1677,7 +1667,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8633527643940645783, guid: bb22e43991b294ae3b3db62dc7dfbfc9, type: 3}
       propertyPath: m_Name
-      value: Panel Trigger
+      value: Trigger
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

@@ -1,5 +1,6 @@
 using Features.Common.Interactable.Interfaces;
-using Features.Panel.Dialogue.Interfaces;
+using Features.Panel.Common.Interfaces;
+using Features.Panel.Dialogue.Models;
 using UnityEngine;
 using VContainer;
 
@@ -10,14 +11,14 @@ namespace Features.Panel.Dialogue.Scripts
         [SerializeField] private DialogueContent dialogue;
 
         //===== Dependency Injection =====
-        
-        private IDialogueService _dialogueService;
-        
+
+        private IPanelService<DialogueInteractionEventArgs> _panelService;
+
         [Inject]
-        public void Construt(IDialogueService dialogueService) => _dialogueService = dialogueService;
+        public void Construct(IPanelService<DialogueInteractionEventArgs> panelService) => _panelService = panelService;
 
         //===== Interface Implementation =====
-        
-        public void Interact() => _dialogueService.Open(dialogue);
+
+        public void Interact() => _panelService.Open(new DialogueInteractionEventArgs(dialogue));
     }
 }

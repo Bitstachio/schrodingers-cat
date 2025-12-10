@@ -1,4 +1,4 @@
-using Features.Panel.Dialogue.Interfaces;
+using Features.Panel.Common.Interfaces;
 using Features.Panel.Dialogue.Models;
 using UnityEngine;
 using VContainer;
@@ -11,17 +11,17 @@ namespace Features.Panel.Dialogue.Scripts
 
         //===== Dependency Injection =====
 
-        private IDialogueService _dialogueService;
+        private IPanelService<DialogueInteractionEventArgs> _panelService;
 
         [Inject]
-        public void Construct(IDialogueService panelService) => _dialogueService = panelService;
+        public void Construct(IPanelService<DialogueInteractionEventArgs> panelService) => _panelService = panelService;
 
         //===== Lifecycle =====
         // Handle subscription to dialogue service
 
-        private void OnEnable() => _dialogueService.Opened += OnDialogueOpened;
+        private void OnEnable() => _panelService.Opened += OnDialogueOpened;
 
-        private void OnDisable() => _dialogueService.Opened -= OnDialogueOpened;
+        private void OnDisable() => _panelService.Opened -= OnDialogueOpened;
 
         //===== Event Handlers =====
 
