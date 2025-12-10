@@ -1,4 +1,5 @@
 using Features.Common.Interactable.Interfaces;
+using Features.Panel.Banner.Models;
 using Features.Panel.Common.Interfaces;
 using UnityEngine;
 using VContainer;
@@ -11,13 +12,13 @@ namespace Features.Panel.Banner.Scripts
 
         //===== Dependency Injection =====
         
-        private IPanelService<BannerContent> _panelService;
+        private IPanelService<BannerInteractionEventArgs> _panelService;
         
         [Inject ]
-        public void Construct(IPanelService<BannerContent> panelService) => _panelService = panelService;
+        public void Construct(IPanelService<BannerInteractionEventArgs> panelService) => _panelService = panelService;
 
         //===== Interface Implementation =====
  
-        public void Interact() => _panelService.Open(banner);
+        public void Interact() => _panelService.Open(new BannerInteractionEventArgs(banner));
     }
 }
