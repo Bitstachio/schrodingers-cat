@@ -1,0 +1,8 @@
+namespace Features.Panel.Common.Interfaces
+{
+    public interface IPanel<in TArgs>
+    {
+        void Show(TArgs args);
+        void Hide();
+    }
+}
