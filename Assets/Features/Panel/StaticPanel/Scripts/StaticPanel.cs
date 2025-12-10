@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace Features.Panel.StaticPanel.Scripts
 {
-    public class StaticPanel : MonoBehaviour, IPanel
+    public class StaticPanel : MonoBehaviour, IStaticPanel
     {
         [SerializeField] private int id;
 

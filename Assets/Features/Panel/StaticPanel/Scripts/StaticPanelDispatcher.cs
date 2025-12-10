@@ -11,7 +11,7 @@ namespace Features.Panel.StaticPanel.Scripts
 {
     public class StaticPanelDispatcher : MonoBehaviour, IInteractionDispatcher
     {
-        private IPanel[] _panels;
+        private IStaticPanel[] _panels;
 
         //===== Dependency Injection =====
 
@@ -26,7 +26,7 @@ namespace Features.Panel.StaticPanel.Scripts
         private void Awake()
         {
             _panels = GetComponentsInChildren<MonoBehaviour>(true)
-                .OfType<IPanel>()
+                .OfType<IStaticPanel>()
                 .ToArray();
         }
 
