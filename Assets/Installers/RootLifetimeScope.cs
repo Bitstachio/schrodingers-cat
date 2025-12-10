@@ -1,6 +1,4 @@
-using Features.Panel.Banner.Interfaces;
 using Features.Panel.Banner.Scripts;
-using Features.Panel.Banner.Services;
 using Features.Panel.Common.Interfaces;
 using Features.Panel.Common.Services;
 using Features.Panel.Dialogue.Interfaces;
@@ -48,8 +46,6 @@ namespace Installers
             builder.RegisterComponentInHierarchy<DialogueDispatcher>();
 
             //===== Banner Service =====
-
-            builder.Register<IBannerService, BannerService>(Lifetime.Singleton);
 
             builder.RegisterBuildCallback(container =>
             {
