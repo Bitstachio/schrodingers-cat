@@ -8,6 +8,7 @@ namespace Installers
         public static readonly Type[] AutoInjectInterfaces =
         {
             typeof(IInteractable),
+            typeof(IInteractionDispatcher),
         };
     }
 }

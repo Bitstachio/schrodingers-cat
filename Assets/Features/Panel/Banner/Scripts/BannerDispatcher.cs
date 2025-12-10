@@ -1,3 +1,4 @@
+using Features.Common.Interactable.Interfaces;
 using Features.Panel.Banner.Models;
 using Features.Panel.Common.Interfaces;
 using UnityEngine;
@@ -5,15 +6,15 @@ using VContainer;
 
 namespace Features.Panel.Banner.Scripts
 {
-    public class BannerDispatcher : MonoBehaviour
+    public class BannerDispatcher : MonoBehaviour, IInteractionDispatcher
     {
         [SerializeField] private BannerPanel panel;
 
         //===== Dependency Injection =====
 
         private IPanelService<BannerInteractionEventArgs> _panelService;
-        
-        [Inject ]
+
+        [Inject]
         public void Construct(IPanelService<BannerInteractionEventArgs> panelService) => _panelService = panelService;
 
         //===== Lifecycle =====

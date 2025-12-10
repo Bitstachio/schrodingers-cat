@@ -1,9 +1,6 @@
 using System.Linq;
-using Features.Common.Interactable.Interfaces;
-using Features.Panel.Banner.Scripts;
 using Features.Panel.Common.Interfaces;
 using Features.Panel.Common.Services;
-using Features.Panel.Dialogue.Scripts;
 using Features.Panel.StaticPanel.Interfaces;
 using Features.Panel.StaticPanel.Scripts;
 using Features.Panel.StaticPanel.Services;
@@ -33,14 +30,6 @@ namespace Installers
                 foreach (var trigger in triggers) container.Inject(trigger);
             });
             builder.RegisterComponentInHierarchy<StaticPanelDispatcher>();
-
-            //===== Dialogue Service =====
-
-            builder.RegisterComponentInHierarchy<DialogueDispatcher>();
-
-            //===== Banner Service =====
-
-            builder.RegisterComponentInHierarchy<BannerDispatcher>();
 
             //===== Panel Service =====
 
