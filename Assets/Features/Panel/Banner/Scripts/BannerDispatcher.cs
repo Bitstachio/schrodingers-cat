@@ -1,3 +1,4 @@
+using Features.Panel.Banner.Models;
 using Features.Panel.Common.Interfaces;
 using UnityEngine;
 using VContainer;
@@ -10,10 +11,10 @@ namespace Features.Panel.Banner.Scripts
 
         //===== Dependency Injection =====
 
-        private IPanelService<BannerContent> _panelService;
+        private IPanelService<BannerInteractionEventArgs> _panelService;
         
         [Inject ]
-        public void Construct(IPanelService<BannerContent> panelService) => _panelService = panelService;
+        public void Construct(IPanelService<BannerInteractionEventArgs> panelService) => _panelService = panelService;
 
         //===== Lifecycle =====
         // Handle subscription to dialogue service
@@ -24,6 +25,6 @@ namespace Features.Panel.Banner.Scripts
 
         //===== Event Handlers =====
 
-        private void OnBannerOpened(object sender, BannerContent e) => panel.Show(e);
+        private void OnBannerOpened(object sender, BannerInteractionEventArgs e) => panel.Show(e.Banner);
     }
 }
