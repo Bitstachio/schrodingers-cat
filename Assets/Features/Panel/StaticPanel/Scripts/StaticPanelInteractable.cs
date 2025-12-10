@@ -1,5 +1,6 @@
 using Features.Common.Interactable.Interfaces;
-using Features.Panel.StaticPanel.Interfaces;
+using Features.Panel.Common.Interfaces;
+using Features.Panel.StaticPanel.Models;
 using UnityEngine;
 using VContainer;
 
@@ -11,13 +12,14 @@ namespace Features.Panel.StaticPanel.Scripts
 
         //===== Dependency Injection =====
 
-        private IPanelService _panelService;
+        private IPanelService<StaticPanelInteractionEventArgs> _panelService;
 
         [Inject]
-        public void Construct(IPanelService panelService) => _panelService = panelService;
+        public void Construct(IPanelService<StaticPanelInteractionEventArgs> panelService) =>
+            _panelService = panelService;
 
         //===== Interface Implementation =====
 
-        public void Interact() => _panelService.Open(panelId);
+        public void Interact() => _panelService.Open(new StaticPanelInteractionEventArgs(panelId));
     }
 }
