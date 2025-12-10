@@ -1,9 +1,7 @@
 using Features.Panel.Banner.Scripts;
 using Features.Panel.Common.Interfaces;
 using Features.Panel.Common.Services;
-using Features.Panel.Dialogue.Interfaces;
 using Features.Panel.Dialogue.Scripts;
-using Features.Panel.Dialogue.Services;
 using Features.Panel.StaticPanel.Interfaces;
 using Features.Panel.StaticPanel.Scripts;
 using Features.Panel.StaticPanel.Services;
@@ -35,8 +33,6 @@ namespace Installers
             builder.RegisterComponentInHierarchy<StaticPanelDispatcher>();
 
             //===== Dialogue Service =====
-
-            builder.Register<IDialogueService, DialogueService>(Lifetime.Singleton);
 
             builder.RegisterBuildCallback(container =>
             {
