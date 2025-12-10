@@ -1,14 +1,16 @@
 using Features.Panel.Common.Exceptions;
-using Features.Panel.StaticPanel.Interfaces;
+using Features.Panel.Common.Interfaces;
 using UnityEngine;
 
 namespace Features.Panel.StaticPanel.Scripts
 {
-    public class StaticPanel : MonoBehaviour, IStaticPanel
+    public class StaticPanel : MonoBehaviour, IPanel<int>
     {
         [SerializeField] private int id;
 
         public int Id => id;
+
+        //===== Interface Implementation =====
 
         public void Show(int panelId)
         {

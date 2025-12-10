@@ -2,7 +2,6 @@ using System.Linq;
 using Features.Common.Interactable.Interfaces;
 using Features.Panel.Common.Interfaces;
 using Features.Panel.StaticPanel.Exceptions;
-using Features.Panel.StaticPanel.Interfaces;
 using Features.Panel.StaticPanel.Models;
 using UnityEngine;
 using VContainer;
@@ -11,7 +10,7 @@ namespace Features.Panel.StaticPanel.Scripts
 {
     public class StaticPanelDispatcher : MonoBehaviour, IInteractionDispatcher
     {
-        private IStaticPanel[] _panels;
+        private StaticPanel[] _panels;
 
         //===== Dependency Injection =====
 
@@ -26,7 +25,7 @@ namespace Features.Panel.StaticPanel.Scripts
         private void Awake()
         {
             _panels = GetComponentsInChildren<MonoBehaviour>(true)
-                .OfType<IStaticPanel>()
+                .OfType<StaticPanel>()
                 .ToArray();
         }
 
