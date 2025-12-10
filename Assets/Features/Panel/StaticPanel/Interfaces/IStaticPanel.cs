@@ -1,6 +1,7 @@
 namespace Features.Panel.StaticPanel.Interfaces
 {
-    public interface IPanel
+    // TODO: Remove this interface after creating generic IPanel
+    public interface IStaticPanel
     {
         void Show(int panelId);
         void Hide();
