@@ -14,15 +14,17 @@ namespace Features.Panel.Banner.Scripts
         public void Show(BannerContent banner)
         {
             if (gameObject.activeSelf) throw new PanelAlreadyOpenException();
-            textComponent.text = banner.Text;
             gameObject.SetActive(true);
+            
+            textComponent.text = banner.Text;
         }
 
         public void Hide()
         {
             if (!gameObject.activeSelf) throw new PanelNotOpenException();
-            textComponent.text = string.Empty;
             gameObject.SetActive(false);
+            
+            textComponent.text = string.Empty;
         }
     }
 }

@@ -1,10 +1,12 @@
 using System.Collections;
+using Features.Panel.Common.Exceptions;
+using Features.Panel.Common.Interfaces;
 using TMPro;
 using UnityEngine;
 
 namespace Features.Panel.Dialogue.Scripts
 {
-    public class DialoguePanel : MonoBehaviour
+    public class DialoguePanel : MonoBehaviour, IPanel<DialogueContent>
     {
         [SerializeField] private TextMeshProUGUI textComponent;
         [SerializeField] private float typingDelay;
@@ -30,17 +32,31 @@ namespace Features.Panel.Dialogue.Scripts
             }
         }
 
-        //===== Utility =====
+        //===== Interafce Implementation =====
 
-        public void StartDialogue(DialogueContent dialogue)
+        public void Show(DialogueContent dialogue)
         {
+            if (gameObject.activeSelf) throw new PanelAlreadyOpenException();
+            gameObject.SetActive(true);
+            
             _speaker = dialogue.Speaker;
             _lines = dialogue.Lines;
             _lineIndex = 0;
-            
-            gameObject.SetActive(true);
+
             StartCoroutine(TypeLine());
         }
+
+        public void Hide()
+        {
+            if (!gameObject.activeSelf) throw new PanelNotOpenException();
+            gameObject.SetActive(false);
+            
+            StopAllCoroutines();
+            textComponent.text = string.Empty;
+            _lineIndex = 0;
+        }
+
+        //===== Utility =====
 
         private IEnumerator TypeLine()
         {
