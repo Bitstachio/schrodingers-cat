@@ -32,13 +32,13 @@ namespace Features.Panel.Dialogue.Scripts
             }
         }
 
-        //===== Interafce Implementation =====
+        //===== Interface Implementation =====
 
         public void Show(DialogueContent dialogue)
         {
             if (gameObject.activeSelf) throw new PanelAlreadyOpenException();
             gameObject.SetActive(true);
-            
+
             _speaker = dialogue.Speaker;
             _lines = dialogue.Lines;
             _lineIndex = 0;
@@ -50,7 +50,7 @@ namespace Features.Panel.Dialogue.Scripts
         {
             if (!gameObject.activeSelf) throw new PanelNotOpenException();
             gameObject.SetActive(false);
-            
+
             StopAllCoroutines();
             textComponent.text = string.Empty;
             _lineIndex = 0;
@@ -75,10 +75,7 @@ namespace Features.Panel.Dialogue.Scripts
                 textComponent.text = string.Empty;
                 StartCoroutine(TypeLine());
             }
-            else
-            {
-                gameObject.SetActive(false);
-            }
+            else Hide();
         }
     }
 }

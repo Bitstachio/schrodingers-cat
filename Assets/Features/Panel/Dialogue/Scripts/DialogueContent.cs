@@ -2,7 +2,7 @@ using UnityEngine;
 
 namespace Features.Panel.Dialogue.Scripts
 {
-    [CreateAssetMenu(fileName = "Dialogue Content", menuName = "Dialogue Content")]
+    [CreateAssetMenu(fileName = "Dialogue Content", menuName = "Panel Content/Dialogue Content")]
     public class DialogueContent : ScriptableObject
     {
         [SerializeField] private string speaker;
