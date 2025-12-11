@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5df330dbc7b64755b401cb025f0db6ea, type: 3}
-  m_Name: Dialogue Content
+  m_Name: Puzzle1_LilithDialogue
   m_EditorClassIdentifier: 
-  speaker: Chase
+  speaker: Lilith
   lines:
-  - I gave you a compliment
-  - I criticized you
+  - Everyone says I always lie.
+  - But let me assure you that Basil is completely innocent.
