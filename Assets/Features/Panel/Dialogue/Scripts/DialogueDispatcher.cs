@@ -26,6 +26,6 @@ namespace Features.Panel.Dialogue.Scripts
 
         //===== Event Handlers =====
 
-        private void OnDialogueOpened(object sender, DialogueInteractionEventArgs e) => panel.StartDialogue(e.Dialogue);
+        private void OnDialogueOpened(object sender, DialogueInteractionEventArgs e) => panel.Show(e.Dialogue);
     }
 }
