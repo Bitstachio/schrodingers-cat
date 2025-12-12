@@ -10,13 +10,5 @@ namespace Shared.Exceptions
         public ColliderNotTriggerException() : base("`isTrigger` is required to be checked")
         {
         }
-
-        public ColliderNotTriggerException(string message) : base(message)
-        {
-        }
-
-        public ColliderNotTriggerException(string message, Exception inner) : base(message, inner)
-        {
-        }
     }
 }

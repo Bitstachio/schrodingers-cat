@@ -1,5 +1,6 @@
 using Features.Common.Interactable.Interfaces;
 using Shared.Scripts;
+using Shared.Utils;
 using UnityEngine;
 
 namespace Features.Common.Interactable.Scripts
@@ -13,6 +14,9 @@ namespace Features.Common.Interactable.Scripts
 
         private void Awake()
         {
+            var colliders = GetComponents<CircleCollider2D>();
+            ComponentValidationUtils.ValidateSingleTrigger(colliders);
+
             _interactables = GetComponentsInChildren<IInteractable>(true);
         }
 
