@@ -1,4 +1,4 @@
-namespace Features.Common.Interactable.Interfaces
+namespace Features.Indicator.Interfaces
 {
     public interface IIndicator
     {
