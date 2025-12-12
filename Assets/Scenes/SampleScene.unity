@@ -130,9 +130,9 @@ GameObject:
   - component: {fileID: 1551272}
   - component: {fileID: 1551271}
   - component: {fileID: 1551270}
-  - component: {fileID: 1551274}
-  - component: {fileID: 1551273}
   - component: {fileID: 1551275}
+  - component: {fileID: 1551277}
+  - component: {fileID: 1551276}
   m_Layer: 0
   m_Name: Lock Interactable
   m_TagString: Untagged
@@ -224,7 +224,19 @@ Transform:
   - {fileID: 322297117}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1551273
+--- !u!114 &1551275
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1551269}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e6076399d2a4b0abe8c98642f8a02fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1551276
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -237,7 +249,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   indicator: {fileID: 322297115}
---- !u!58 &1551274
+--- !u!58 &1551277
 CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -273,18 +285,6 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 1.25
---- !u!114 &1551275
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1551269}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6e6076399d2a4b0abe8c98642f8a02fd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &182576016
 GameObject:
   m_ObjectHideFlags: 0
@@ -3994,7 +3994,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3309152174309944388, guid: 61397dc627b3541a9a1c65281ba5346c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.25
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3309152174309944388, guid: 61397dc627b3541a9a1c65281ba5346c, type: 3}
       propertyPath: m_LocalPosition.z
