@@ -1,4 +1,4 @@
-using Features.Common.Interactable.Interfaces;
+using Features.Interactable.Interfaces;
 using Features.Panel.Common.Interfaces;
 using Features.Panel.Dialogue.Models;
 using UnityEngine;

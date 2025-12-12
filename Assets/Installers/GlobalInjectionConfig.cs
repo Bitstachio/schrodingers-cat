@@ -1,5 +1,5 @@
 using System;
-using Features.Common.Interactable.Interfaces;
+using Features.Interactable.Interfaces;
 
 namespace Installers
 {
