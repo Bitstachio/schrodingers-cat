@@ -1,11 +1,11 @@
 using Features.Common.Interactable.Interfaces;
+using Shared.Scripts;
 using UnityEngine;
 
 namespace Features.Common.Interactable.Scripts
 {
     public class InteractionTrigger : MonoBehaviour
     {
-        private Transform _root;
         private IInteractable[] _interactables;
         private bool _playerInRange;
 
@@ -13,8 +13,7 @@ namespace Features.Common.Interactable.Scripts
 
         private void Awake()
         {
-            _root = transform.parent != null ? transform.parent : transform;
-            _interactables = _root.GetComponentsInChildren<IInteractable>(true);
+            _interactables = GetComponentsInChildren<IInteractable>(true);
         }
 
         private void Update()
@@ -31,14 +30,12 @@ namespace Features.Common.Interactable.Scripts
 
         private void OnTriggerEnter2D(Collider2D other)
         {
-            if (!other.CompareTag("Player")) return;
-            _playerInRange = true;
+            if (other.CompareTag(Tags.Player)) _playerInRange = true;
         }
 
         private void OnTriggerExit2D(Collider2D other)
         {
-            if (!other.CompareTag("Player")) return;
-            _playerInRange = false;
+            if (other.CompareTag(Tags.Player)) _playerInRange = false;
         }
     }
 }
