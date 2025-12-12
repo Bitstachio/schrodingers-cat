@@ -1543,7 +1543,7 @@ Camera:
   far clip plane: 1000
   field of view: 34
   orthographic: 1
-  orthographic size: 6.6161075
+  orthographic size: 5
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -2238,7 +2238,20 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 629626002}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1545903168}
+        m_TargetAssemblyTypeName: Features.Panel.StaticPanel.Scripts.Panels.LockPanel,
+          Assembly-CSharp
+        m_MethodName: AttemptUnlock
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &629626002
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3411,7 +3424,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TrackerSettings:
     BindingMode: 4
-    PositionDamping: {x: 1, y: 1, z: 1}
+    PositionDamping: {x: 0, y: 0, z: 0}
     AngularDampingMode: 0
     RotationDamping: {x: 1, y: 1, z: 1}
     QuaternionDamping: 1
@@ -3441,7 +3454,7 @@ MonoBehaviour:
     CustomLookAtTarget: 0
   Lens:
     FieldOfView: 34
-    OrthographicSize: 6.6161075
+    OrthographicSize: 5
     NearClipPlane: 0.3
     FarClipPlane: 1000
     Dutch: 0
@@ -4252,6 +4265,7 @@ GameObject:
   - component: {fileID: 1545903167}
   - component: {fileID: 1545903166}
   - component: {fileID: 1545903165}
+  - component: {fileID: 1545903168}
   m_Layer: 5
   m_Name: Lock Panel
   m_TagString: Untagged
@@ -4333,6 +4347,26 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1545903163}
   m_CullTransparentMesh: 1
+--- !u!114 &1545903168
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1545903163}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60d7d91ed80c475c972630608884ddff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  toggles:
+  - {fileID: 622982312}
+  - {fileID: 2088156121}
+  - {fileID: 1177569963}
+  - {fileID: 1528702501}
+  - {fileID: 1317491962}
+  - {fileID: 1705768843}
+  key: 010101000000
 --- !u!1 &1549156992
 GameObject:
   m_ObjectHideFlags: 0
