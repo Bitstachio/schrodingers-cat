@@ -1,4 +1,4 @@
-namespace Features.Common.Interactable.Interfaces
+namespace Features.Interactable.Interfaces
 {
     /// <summary>
     /// Marker interface for all interaction dispatcher components.

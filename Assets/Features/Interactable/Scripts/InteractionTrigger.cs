@@ -1,9 +1,9 @@
-using Features.Common.Interactable.Interfaces;
+using Features.Interactable.Interfaces;
 using Shared.Scripts;
 using Shared.Utils;
 using UnityEngine;
 
-namespace Features.Common.Interactable.Scripts
+namespace Features.Interactable.Scripts
 {
     public class InteractionTrigger : MonoBehaviour
     {

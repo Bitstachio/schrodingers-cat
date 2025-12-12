@@ -1,5 +1,5 @@
 using System.Linq;
-using Features.Common.Interactable.Interfaces;
+using Features.Interactable.Interfaces;
 using Features.Panel.Common.Interfaces;
 using Features.Panel.StaticPanel.Exceptions;
 using Features.Panel.StaticPanel.Models;
