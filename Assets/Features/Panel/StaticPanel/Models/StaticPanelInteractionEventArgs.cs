@@ -4,9 +4,6 @@ namespace Features.Panel.StaticPanel.Models
     {
         public int PanelId { get; }
 
-        public StaticPanelInteractionEventArgs(int panelId)
-        {
-            PanelId = panelId;
-        }
+        public StaticPanelInteractionEventArgs(int panelId) => PanelId = panelId;
     }
 }
