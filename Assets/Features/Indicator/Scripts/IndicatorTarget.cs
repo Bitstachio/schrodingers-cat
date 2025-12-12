@@ -8,6 +8,8 @@ namespace Features.Indicator.Scripts
     {
         [SerializeField] private Indicator indicator;
 
+        //===== Trigger Events =====
+
         private void OnTriggerEnter2D(Collider2D other)
         {
             if (other.CompareTag(Tags.Player)) indicator.Show();
