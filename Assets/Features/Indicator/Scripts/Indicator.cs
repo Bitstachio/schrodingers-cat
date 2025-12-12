@@ -1,7 +1,7 @@
-using Features.Common.Interactable.Interfaces;
+using Features.Indicator.Interfaces;
 using UnityEngine;
 
-namespace Features.Common.Interactable.Scripts
+namespace Features.Indicator.Scripts
 {
     public class Indicator : MonoBehaviour, IIndicator
     {

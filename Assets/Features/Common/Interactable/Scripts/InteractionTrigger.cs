@@ -5,8 +5,6 @@ namespace Features.Common.Interactable.Scripts
 {
     public class InteractionTrigger : MonoBehaviour
     {
-        [SerializeField] private Indicator indicator;
-
         private Transform _root;
         private IInteractable[] _interactables;
         private bool _playerInRange;
@@ -35,14 +33,12 @@ namespace Features.Common.Interactable.Scripts
         {
             if (!other.CompareTag("Player")) return;
             _playerInRange = true;
-            indicator.Show();
         }
 
         private void OnTriggerExit2D(Collider2D other)
         {
             if (!other.CompareTag("Player")) return;
             _playerInRange = false;
-            indicator.Hide();
         }
     }
 }
