@@ -1,5 +1,6 @@
 using Features.Panel.Common.Exceptions;
 using Features.Panel.Common.Interfaces;
+using Shared.ScriptableObjects.Panel.Banner;
 using TMPro;
 using UnityEngine;
 

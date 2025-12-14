@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Features.Panel.Banner.Scripts
+namespace Shared.ScriptableObjects.Panel.Banner
 {
     [CreateAssetMenu(fileName = "Banner Content", menuName = "Panel Content/Banner Content", order = 0)]
     public class BannerContent : ScriptableObject

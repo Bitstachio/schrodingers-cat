@@ -1,4 +1,4 @@
-using Features.Panel.Banner.Scripts;
+using Shared.ScriptableObjects.Panel.Banner;
 
 namespace Shared.Events.Interactable.Structs
 {
