@@ -1,10 +1,10 @@
 using Features.Interactable.Interfaces;
 using Features.Panel.Common.Interfaces;
-using Features.Panel.StaticPanel.Models;
+using Shared.EventBus.Structs;
 using UnityEngine;
 using VContainer;
 
-namespace Features.Panel.StaticPanel.Scripts
+namespace Features.Interactable.Scripts
 {
     public class StaticPanelInteractable : MonoBehaviour, IInteractable
     {

@@ -1,6 +1,6 @@
 using System;
-using Features.Panel.StaticPanel.Models;
 using Features.Panel.StaticPanel.Utils;
+using Shared.EventBus.Structs;
 using UnityEngine;
 using UnityEngine.UI;
 
