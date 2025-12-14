@@ -1,4 +1,4 @@
-using Shared.Scripts;
+using Shared.Constants;
 using Shared.Utils;
 using UnityEngine;
 

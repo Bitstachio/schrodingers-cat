@@ -1,4 +1,4 @@
-namespace Shared.Scripts
+namespace Shared.Constants
 {
     public static class Tags
     {
