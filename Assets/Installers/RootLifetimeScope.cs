@@ -1,6 +1,8 @@
 using System.Linq;
-using Features.Panel.Common.Interfaces;
-using Features.Panel.Common.Services;
+using Features.Interactable.Interfaces;
+using Features.Interactable.Services;
+using Shared.EventBus.Implementation;
+using Shared.EventBus.Interfaces;
 using UnityEngine;
 using VContainer;
 using VContainer.Unity;
@@ -31,11 +33,16 @@ namespace Installers
                 }
             });
 
-            //===== Services =====
+            //===== Events =====
+            
+            builder.Register(typeof(EventBus<>), Lifetime.Singleton)
+                .As(typeof(IEvent<>))
+                .As(typeof(IEventPublisher<>));
 
-            builder.Register(typeof(PanelService<>), Lifetime.Singleton)
-                .As(typeof(IPanelService<>))
-                .AsSelf();
+            //===== Services =====
+            
+            builder.Register(typeof(InteractionService<>), Lifetime.Singleton)
+                .As(typeof(IInteractableService<>));
         }
     }
 }

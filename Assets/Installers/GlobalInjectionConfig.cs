@@ -1,5 +1,6 @@
 using System;
 using Features.Interactable.Interfaces;
+using Shared.EventBus.Interfaces;
 
 namespace Installers
 {
@@ -8,7 +9,7 @@ namespace Installers
         public static readonly Type[] AutoInjectInterfaces =
         {
             typeof(IInteractable),
-            typeof(IInteractionDispatcher),
+            typeof(IEventListener),
         };
     }
 }
