@@ -1,0 +1,20 @@
+using System;
+
+namespace Features.Puzzle.Exceptions
+{
+    public class ToggleLengthMismatchException : Exception
+    {
+        public ToggleLengthMismatchException(int togglesLength, int keyLength) : base(
+            $"toggles length = {togglesLength}, key length = {keyLength}")
+        {
+        }
+
+        public ToggleLengthMismatchException(string message) : base(message)
+        {
+        }
+
+        public ToggleLengthMismatchException(string message, Exception inner) : base(message, inner)
+        {
+        }
+    }
+}

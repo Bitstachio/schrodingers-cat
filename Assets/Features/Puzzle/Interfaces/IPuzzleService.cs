@@ -1,0 +1,7 @@
+namespace Features.Puzzle.Interfaces
+{
+    public interface IPuzzleService
+    {
+        void Attempt(int id, bool[] solution, bool[] key);
+    }
+}
