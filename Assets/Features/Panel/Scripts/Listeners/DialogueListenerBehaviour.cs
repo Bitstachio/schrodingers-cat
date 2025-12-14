@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace Features.Panel.Scripts.Listeners
 {
-    public class DialogueListener : EventListener<DialogueInteractionEventArgs>
+    public class DialogueListenerBehaviour : EventListenerBehaviour<DialogueInteractionEventArgs>
     {
         [SerializeField] private DialoguePanel panel;
 

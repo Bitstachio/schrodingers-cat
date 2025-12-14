@@ -4,7 +4,7 @@ using VContainer;
 
 namespace Shared.EventBus.Implementation
 {
-    public abstract class EventListener<T> : MonoBehaviour, IEventListener
+    public abstract class EventListenerBehaviour<T> : MonoBehaviour, IEventListener
     {
         private IEvent<T> _event;
 
