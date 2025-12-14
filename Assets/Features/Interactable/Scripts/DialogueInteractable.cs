@@ -1,5 +1,4 @@
 using Features.Interactable.Interfaces;
-using Features.Panel.Common.Interfaces;
 using Shared.EventBus.Structs;
 using Shared.ScriptableObjects.Panel.Dialogue;
 using UnityEngine;
@@ -13,13 +12,14 @@ namespace Features.Interactable.Scripts
 
         //===== Dependency Injection =====
 
-        private IPanelService<DialogueInteractionEventArgs> _panelService;
+        private IInteractableService<DialogueInteractionEventArgs> _interactableService;
 
         [Inject]
-        public void Construct(IPanelService<DialogueInteractionEventArgs> panelService) => _panelService = panelService;
+        public void Construct(IInteractableService<DialogueInteractionEventArgs> interactableService) =>
+            _interactableService = interactableService;
 
         //===== Interface Implementation =====
 
-        public void Interact() => _panelService.Open(new DialogueInteractionEventArgs(dialogue));
+        public void Interact() => _interactableService.Apply(new DialogueInteractionEventArgs(dialogue));
     }
 }

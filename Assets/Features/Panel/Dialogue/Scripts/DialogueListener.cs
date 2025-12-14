@@ -1,4 +1,3 @@
-using Features.Panel.Common.Interfaces;
 using Shared.EventBus.Interfaces;
 using Shared.EventBus.Structs;
 using UnityEngine;
@@ -12,20 +11,20 @@ namespace Features.Panel.Dialogue.Scripts
 
         //===== Dependency Injection =====
 
-        private IPanelService<DialogueInteractionEventArgs> _panelService;
+        private IEvent<DialogueInteractionEventArgs> _event;
 
         [Inject]
-        public void Construct(IPanelService<DialogueInteractionEventArgs> panelService) => _panelService = panelService;
+        public void Construct(IEvent<DialogueInteractionEventArgs> @event) => _event = @event;
 
         //===== Lifecycle =====
         // Handle subscription to dialogue service
 
-        private void OnEnable() => _panelService.Opened += OnDialogueOpened;
+        private void OnEnable() => _event.Invoked += OnDialogueOpened;
 
-        private void OnDisable() => _panelService.Opened -= OnDialogueOpened;
+        private void OnDisable() => _event.Invoked -= OnDialogueOpened;
 
         //===== Event Handlers =====
 
-        private void OnDialogueOpened(object sender, DialogueInteractionEventArgs e) => panel.Show(e.Dialogue);
+        private void OnDialogueOpened(DialogueInteractionEventArgs e) => panel.Show(e.Dialogue);
     }
 }
