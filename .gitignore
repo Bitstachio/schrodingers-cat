@@ -69,7 +69,8 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 
 # Third-Party Assets
-/Assets/External/.keep
+/Assets/External
+/Assets/External.meta
 
 # JetBrains Rider
 .idea/
