@@ -1,25 +1,13 @@
-using Features.Interactable.Interfaces;
 using Shared.EventBus.Structs;
 using Shared.ScriptableObjects.Panel.Banner;
 using UnityEngine;
-using VContainer;
 
 namespace Features.Interactable.Scripts
 {
-    public class BannerInteractable : MonoBehaviour, IInteractable
+    public class BannerInteractable : InteractableBehaviour<BannerInteractionEventArgs>
     {
         [SerializeField] private BannerContent banner;
 
-        //===== Dependency Injection =====
-
-        private IInteractableService<BannerInteractionEventArgs> _interactableService;
-
-        [Inject]
-        public void Construct(IInteractableService<BannerInteractionEventArgs> interactableService) =>
-            _interactableService = interactableService;
-
-        //===== Interface Implementation =====
-
-        public void Interact() => _interactableService.Apply(new BannerInteractionEventArgs(banner));
+        protected override void Interact() => InteractableService.Apply(new BannerInteractionEventArgs(banner));
     }
 }
