@@ -1,11 +1,11 @@
-using Features.Panel.Dialogue.Scripts;
+using Shared.ScriptableObjects.Panel.Dialogue;
 
-namespace Features.Panel.Dialogue.Models
+namespace Shared.EventBus.Structs
 {
-    public class DialogueInteractionEventArgs
+    public readonly struct DialogueInteractionEventArgs
     {
         public DialogueContent Dialogue { get; }
-        
+
         public DialogueInteractionEventArgs(DialogueContent dialogue) => Dialogue = dialogue;
     }
 }

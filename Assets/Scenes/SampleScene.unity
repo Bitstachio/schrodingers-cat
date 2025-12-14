@@ -2834,6 +2834,7 @@ GameObject:
   - component: {fileID: 845780325}
   - component: {fileID: 845780324}
   - component: {fileID: 845780323}
+  - component: {fileID: 845780327}
   m_Layer: 0
   m_Name: Interactivity
   m_TagString: Untagged
@@ -2876,7 +2877,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 845780321}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 01cf34c43bf34691902fe8a2e467be25, type: 3}
   m_Name: 
@@ -2931,6 +2932,19 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 1.25
+--- !u!114 &845780327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 845780321}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f2b06328fd84f398f83bb02180fded0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  banner: {fileID: 11400000, guid: d0b3fac1840c342d99aa536edf5c3840, type: 2}
 --- !u!1 &878268907
 GameObject:
   m_ObjectHideFlags: 0

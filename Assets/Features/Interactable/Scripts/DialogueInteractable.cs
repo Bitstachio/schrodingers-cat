@@ -1,10 +1,11 @@
 using Features.Interactable.Interfaces;
 using Features.Panel.Common.Interfaces;
-using Features.Panel.Dialogue.Models;
+using Shared.EventBus.Structs;
+using Shared.ScriptableObjects.Panel.Dialogue;
 using UnityEngine;
 using VContainer;
 
-namespace Features.Panel.Dialogue.Scripts
+namespace Features.Interactable.Scripts
 {
     public class DialogueInteractable : MonoBehaviour, IInteractable
     {

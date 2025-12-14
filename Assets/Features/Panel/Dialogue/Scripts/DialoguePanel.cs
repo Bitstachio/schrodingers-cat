@@ -1,6 +1,7 @@
 using System.Collections;
 using Features.Panel.Common.Exceptions;
 using Features.Panel.Common.Interfaces;
+using Shared.ScriptableObjects.Panel.Dialogue;
 using TMPro;
 using UnityEngine;
 
