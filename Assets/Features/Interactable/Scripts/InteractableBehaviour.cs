@@ -2,35 +2,27 @@ using Features.Interactable.Interfaces;
 using Shared.Constants;
 using Shared.Utils;
 using UnityEngine;
+using VContainer;
 
 namespace Features.Interactable.Scripts
 {
-    public class InteractionTrigger : MonoBehaviour
+    public abstract class InteractableBehaviour<T> : MonoBehaviour, IInteractable
     {
-        private IInteractable[] _interactables;
         private bool _playerInRange;
 
-        //===== Lifecycle =====
+        protected IInteractableService<T> InteractableService;
 
-        private void Awake()
-        {
-            var colliders = GetComponents<CircleCollider2D>();
-            ComponentValidationUtils.ValidateSingleTrigger(colliders);
+        [Inject]
+        public void Construct(IInteractableService<T> interactableService) => InteractableService = interactableService;
 
-            _interactables = GetComponentsInChildren<IInteractable>(true);
-        }
+        private void Awake() => ComponentValidationUtils.ValidateSingleTrigger(GetComponents<CircleCollider2D>());
 
         private void Update()
         {
             // TODO: Update control system
             if (!_playerInRange || !Input.GetKeyDown(KeyCode.E)) return;
-            foreach (var interactable in _interactables)
-            {
-                // if (((MonoBehaviour)interactable).isActiveAndEnabled) interactable.Interact();
-            }
+            Interact();
         }
-
-        //===== Trigger Events =====
 
         private void OnTriggerEnter2D(Collider2D other)
         {
@@ -41,5 +33,7 @@ namespace Features.Interactable.Scripts
         {
             if (other.CompareTag(Tags.Player)) _playerInRange = false;
         }
+
+        protected abstract void Interact();
     }
 }
