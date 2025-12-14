@@ -1,6 +1,6 @@
 using System;
-using Features.Panel.Banner.Models;
 using Features.Panel.Banner.Scripts;
+using Shared.Events.Interactable.Structs;
 
 namespace Features.Panel.Banner.Interfaces
 {

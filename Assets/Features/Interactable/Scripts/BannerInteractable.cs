@@ -1,9 +1,10 @@
 using Features.Interactable.Interfaces;
-using Features.Panel.Banner.Models;
+using Features.Panel.Banner.Scripts;
+using Shared.Events.Interactable.Structs;
 using UnityEngine;
 using VContainer;
 
-namespace Features.Panel.Banner.Scripts
+namespace Features.Interactable.Scripts
 {
     public class BannerInteractable : MonoBehaviour, IInteractable
     {

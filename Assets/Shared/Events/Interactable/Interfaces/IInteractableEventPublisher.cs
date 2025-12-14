@@ -1,4 +1,4 @@
-namespace Shared.Contracts
+namespace Shared.Events.Interactable.Interfaces
 {
     public interface IInteractableEventPublisher<in T>
     {
