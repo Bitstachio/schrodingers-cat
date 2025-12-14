@@ -1,6 +1,6 @@
 using Features.Interactable.Interfaces;
-using Features.Panel.Banner.Scripts;
 using Shared.Events.Interactable.Structs;
+using Shared.ScriptableObjects.Panel.Banner;
 using UnityEngine;
 using VContainer;
 
