@@ -1,6 +1,8 @@
 using System.Linq;
 using Features.Interactable.Interfaces;
 using Features.Interactable.Services;
+using Features.Puzzle.Interfaces;
+using Features.Puzzle.Services;
 using Shared.EventBus.Implementation;
 using Shared.EventBus.Interfaces;
 using UnityEngine;
@@ -23,7 +25,9 @@ namespace Installers
 
             builder.RegisterBuildCallback(container =>
             {
-                foreach (var behaviour in FindObjectsByType<MonoBehaviour>(FindObjectsSortMode.None))
+                foreach (var behaviour in FindObjectsByType<MonoBehaviour>(
+                             FindObjectsInactive.Include,
+                             FindObjectsSortMode.None))
                 {
                     if (GlobalInjectionConfig.AutoInjectInterfaces.Any(iface =>
                             iface.IsAssignableFrom(behaviour.GetType())))
@@ -34,15 +38,18 @@ namespace Installers
             });
 
             //===== Events =====
-            
+
             builder.Register(typeof(EventBus<>), Lifetime.Singleton)
                 .As(typeof(IEvent<>))
                 .As(typeof(IEventPublisher<>));
 
             //===== Services =====
-            
+
             builder.Register(typeof(InteractionService<>), Lifetime.Singleton)
                 .As(typeof(IInteractableService<>));
+
+            builder.Register<PuzzleService>(Lifetime.Singleton)
+                .As<IPuzzleService>();
         }
     }
 }
