@@ -13,7 +13,7 @@ namespace Features.Puzzle.Services
         [Inject]
         public void Construct(IEventPublisher<PuzzleAttemptEventArgs> publisher) => _publisher = publisher;
 
-        public void Attempt(bool[] solution, bool[] key) =>
-            _publisher.Invoke(new PuzzleAttemptEventArgs(PuzzleUtils.CheckLockCombination(solution, key)));
+        public void Attempt(int id, bool[] solution, bool[] key) =>
+            _publisher.Invoke(new PuzzleAttemptEventArgs(id, PuzzleUtils.CheckLockCombination(solution, key)));
     }
 }

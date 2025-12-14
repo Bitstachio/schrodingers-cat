@@ -8,6 +8,7 @@ namespace Features.Puzzle.Scripts
 {
     public class TogglePuzzle : MonoBehaviour, IPuzzle
     {
+        [SerializeField] private int id;
         [SerializeField] private Toggle[] toggles;
         [SerializeField] private bool[] key;
 
@@ -16,6 +17,6 @@ namespace Features.Puzzle.Scripts
         [Inject]
         public void Construct(IPuzzleService puzzleService) => _puzzleService = puzzleService;
 
-        public void Attempt() => _puzzleService.Attempt(toggles.Select(t => t.isOn).ToArray(), key);
+        public void Attempt() => _puzzleService.Attempt(id, toggles.Select(t => t.isOn).ToArray(), key);
     }
 }
