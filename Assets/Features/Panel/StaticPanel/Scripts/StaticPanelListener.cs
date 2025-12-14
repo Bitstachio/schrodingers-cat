@@ -2,14 +2,14 @@ using System.Linq;
 using Features.Interactable.Interfaces;
 using Features.Panel.Common.Interfaces;
 using Features.Panel.StaticPanel.Exceptions;
-using Features.Panel.StaticPanel.Models;
 using Shared.EventBus.Interfaces;
+using Shared.EventBus.Structs;
 using UnityEngine;
 using VContainer;
 
 namespace Features.Panel.StaticPanel.Scripts
 {
-    public class StaticPanelDispatcher : MonoBehaviour, IEventListener
+    public class StaticPanelListener : MonoBehaviour, IEventListener
     {
         private StaticPanel[] _panels;
 

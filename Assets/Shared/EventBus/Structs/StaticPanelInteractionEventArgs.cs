@@ -1,6 +1,6 @@
-namespace Features.Panel.StaticPanel.Models
+namespace Shared.EventBus.Structs
 {
-    public class StaticPanelInteractionEventArgs
+    public readonly struct StaticPanelInteractionEventArgs
     {
         public int PanelId { get; }
 

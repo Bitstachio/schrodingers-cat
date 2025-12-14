@@ -1,6 +1,6 @@
-namespace Features.Panel.StaticPanel.Models
+namespace Shared.EventBus.Structs
 {
-    public class LockPanelAttemptUnlockEventArgs
+    public readonly struct LockPanelAttemptUnlockEventArgs
     {
         public bool Result { get; }
 
