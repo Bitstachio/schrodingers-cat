@@ -1,11 +1,11 @@
 using System.Collections;
-using Features.Panel.Common.Exceptions;
-using Features.Panel.Common.Interfaces;
+using Features.Panel.Exceptions;
+using Features.Panel.Interfaces;
 using Shared.ScriptableObjects.Panel.Dialogue;
 using TMPro;
 using UnityEngine;
 
-namespace Features.Panel.Dialogue.Scripts
+namespace Features.Panel.Scripts.Panels
 {
     public class DialoguePanel : MonoBehaviour, IPanel<DialogueContent>
     {

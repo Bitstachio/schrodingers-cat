@@ -1,11 +1,12 @@
 using System.Linq;
-using Features.Panel.StaticPanel.Exceptions;
+using Features.Panel.Exceptions;
+using Features.Panel.Scripts.Panels;
 using Shared.EventBus.Interfaces;
 using Shared.EventBus.Structs;
 using UnityEngine;
 using VContainer;
 
-namespace Features.Panel.StaticPanel.Scripts
+namespace Features.Panel.Scripts.Listeners
 {
     public class StaticPanelListener : MonoBehaviour, IEventListener
     {

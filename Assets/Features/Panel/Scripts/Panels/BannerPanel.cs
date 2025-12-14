@@ -1,10 +1,10 @@
-using Features.Panel.Common.Exceptions;
-using Features.Panel.Common.Interfaces;
+using Features.Panel.Exceptions;
+using Features.Panel.Interfaces;
 using Shared.ScriptableObjects.Panel.Banner;
 using TMPro;
 using UnityEngine;
 
-namespace Features.Panel.Banner.Scripts
+namespace Features.Panel.Scripts.Panels
 {
     public class BannerPanel : MonoBehaviour, IPanel<BannerContent>
     {

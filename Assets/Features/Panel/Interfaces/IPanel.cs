@@ -1,4 +1,4 @@
-namespace Features.Panel.Common.Interfaces
+namespace Features.Panel.Interfaces
 {
     public interface IPanel<in TArgs>
     {
