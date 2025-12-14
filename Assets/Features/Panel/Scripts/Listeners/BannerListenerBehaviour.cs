@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace Features.Panel.Scripts.Listeners
 {
-    public class BannerListener : EventListener<BannerInteractionEventArgs>
+    public class BannerListenerBehaviour : EventListenerBehaviour<BannerInteractionEventArgs>
     {
         [SerializeField] private BannerPanel panel;
 

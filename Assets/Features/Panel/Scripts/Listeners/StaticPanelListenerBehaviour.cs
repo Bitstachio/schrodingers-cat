@@ -7,7 +7,7 @@ using UnityEngine;
 
 namespace Features.Panel.Scripts.Listeners
 {
-    public class StaticPanelListener : EventListener<StaticPanelInteractionEventArgs>
+    public class StaticPanelListenerBehaviour : EventListenerBehaviour<StaticPanelInteractionEventArgs>
     {
         private StaticPanel[] _panels;
 
