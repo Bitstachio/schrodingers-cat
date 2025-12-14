@@ -3,6 +3,8 @@ using Features.Interactable.Interfaces;
 using Features.Interactable.Services;
 using Features.Puzzle.Interfaces;
 using Features.Puzzle.Services;
+using Features.Task.Interfaces;
+using Features.Task.Services;
 using Shared.EventBus.Implementation;
 using Shared.EventBus.Interfaces;
 using UnityEngine;
@@ -50,6 +52,9 @@ namespace Installers
 
             builder.Register<PuzzleService>(Lifetime.Singleton)
                 .As<IPuzzleService>();
+
+            builder.Register<TaskService>(Lifetime.Singleton)
+                .As<ITaskService>();
         }
     }
 }

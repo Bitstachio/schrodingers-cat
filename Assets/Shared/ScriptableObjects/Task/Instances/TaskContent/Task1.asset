@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5de39c386dba4a1f88d95ca23b1a44b9, type: 3}
   m_Name: Task1
   m_EditorClassIdentifier: 
-  id: 0
-  text: 
-  target: 0
+  id: 1
+  text: Open door lock
+  target: 1
