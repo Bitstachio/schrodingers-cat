@@ -1,6 +1,6 @@
 using System;
 
-namespace Features.Panel.Common.Exceptions
+namespace Features.Panel.Exceptions
 {
     public class PanelNotOpenException : Exception
     {

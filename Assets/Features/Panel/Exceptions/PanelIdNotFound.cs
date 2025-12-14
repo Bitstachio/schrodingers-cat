@@ -1,6 +1,6 @@
 using System;
 
-namespace Features.Panel.StaticPanel.Exceptions
+namespace Features.Panel.Exceptions
 {
     public class PanelIdNotFound : Exception
     {

@@ -1,8 +1,6 @@
 using System.Linq;
 using Features.Interactable.Interfaces;
 using Features.Interactable.Services;
-using Features.Panel.Common.Interfaces;
-using Features.Panel.Common.Services;
 using Shared.EventBus.Implementation;
 using Shared.EventBus.Interfaces;
 using UnityEngine;
@@ -42,10 +40,6 @@ namespace Installers
                 .As(typeof(IEventPublisher<>));
 
             //===== Services =====
-
-            builder.Register(typeof(PanelService<>), Lifetime.Singleton)
-                .As(typeof(IPanelService<>))
-                .AsSelf();
             
             builder.Register(typeof(InteractionService<>), Lifetime.Singleton)
                 .As(typeof(IInteractableService<>));

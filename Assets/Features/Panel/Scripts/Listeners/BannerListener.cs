@@ -1,9 +1,10 @@
+using Features.Panel.Scripts.Panels;
 using Shared.EventBus.Interfaces;
 using Shared.EventBus.Structs;
 using UnityEngine;
 using VContainer;
 
-namespace Features.Panel.Banner.Scripts
+namespace Features.Panel.Scripts.Listeners
 {
     public class BannerListener : MonoBehaviour, IEventListener
     {
