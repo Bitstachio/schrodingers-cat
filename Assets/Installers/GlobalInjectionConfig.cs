@@ -1,5 +1,6 @@
 using System;
 using Features.Interactable.Interfaces;
+using Features.Puzzle.Interfaces;
 using Shared.EventBus.Interfaces;
 
 namespace Installers
@@ -10,6 +11,7 @@ namespace Installers
         {
             typeof(IInteractable),
             typeof(IEventListener),
+            typeof(IPuzzle),
         };
     }
 }
