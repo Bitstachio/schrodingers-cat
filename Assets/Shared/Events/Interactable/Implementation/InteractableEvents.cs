@@ -1,7 +1,7 @@
 using System;
-using Shared.Contracts;
+using Shared.Events.Interactable.Interfaces;
 
-namespace Shared.Events
+namespace Shared.Events.Interactable.Implementation
 {
     public class InteractableEvents<T> : IInteractableEvents<T>, IInteractableEventPublisher<T>
     {

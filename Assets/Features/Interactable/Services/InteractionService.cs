@@ -1,5 +1,5 @@
 using Features.Interactable.Interfaces;
-using Shared.Contracts;
+using Shared.Events.Interactable.Interfaces;
 using VContainer;
 
 namespace Features.Interactable.Services

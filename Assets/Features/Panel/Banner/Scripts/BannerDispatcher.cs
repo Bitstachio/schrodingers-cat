@@ -1,6 +1,6 @@
 using Features.Interactable.Interfaces;
-using Features.Panel.Banner.Models;
-using Shared.Contracts;
+using Shared.Events.Interactable.Interfaces;
+using Shared.Events.Interactable.Structs;
 using UnityEngine;
 using VContainer;
 
