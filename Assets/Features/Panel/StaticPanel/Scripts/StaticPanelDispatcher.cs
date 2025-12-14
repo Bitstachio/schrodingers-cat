@@ -3,12 +3,13 @@ using Features.Interactable.Interfaces;
 using Features.Panel.Common.Interfaces;
 using Features.Panel.StaticPanel.Exceptions;
 using Features.Panel.StaticPanel.Models;
+using Shared.EventBus.Interfaces;
 using UnityEngine;
 using VContainer;
 
 namespace Features.Panel.StaticPanel.Scripts
 {
-    public class StaticPanelDispatcher : MonoBehaviour, IInteractionDispatcher
+    public class StaticPanelDispatcher : MonoBehaviour, IEventListener
     {
         private StaticPanel[] _panels;
 

@@ -1,7 +1,7 @@
 using System;
-using Shared.Events.EventBus.Interfaces;
+using Shared.EventBus.Interfaces;
 
-namespace Shared.Events.EventBus.Implementation
+namespace Shared.EventBus.Implementation
 {
     public class EventBus<T> : IEvent<T>, IEventPublisher<T>
     {
