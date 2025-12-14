@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Task1
   m_EditorClassIdentifier: 
   id: 1
-  text: Open door lock
+  text: Open Lock
   target: 1
