@@ -22,8 +22,13 @@ namespace Features.Task.Scripts
 
         protected override void OnInvoked(PuzzleAttemptEventArgs e)
         {
-            if (e.Result) taskList.Tasks.FirstOrDefault(t => t.Id == e.Id)?.MakeProgress();
-            if (taskList.IsComplete()) _taskService.Complete(e.Id);
+            if (!e.Result) return;
+
+            var task = taskList.Tasks.FirstOrDefault(t => t.Id == e.Id);
+            if (task == null) return;
+
+            task.MakeProgress();
+            _taskService.Update(taskList.Id, task.Id, task.Progress);
         }
     }
 }

@@ -2,6 +2,6 @@ namespace Features.Task.Interfaces
 {
     public interface ITaskService
     {
-        void Complete(int taskListId);
+        void Update(int taskListId, int taskId, int progress);
     }
 }
