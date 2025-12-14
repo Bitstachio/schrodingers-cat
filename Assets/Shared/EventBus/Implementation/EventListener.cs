@@ -1,0 +1,20 @@
+using Shared.EventBus.Interfaces;
+using UnityEngine;
+using VContainer;
+
+namespace Shared.EventBus.Implementation
+{
+    public abstract class EventListener<T> : MonoBehaviour, IEventListener
+    {
+        private IEvent<T> _event;
+
+        [Inject]
+        public void Construct(IEvent<T> @event) => _event = @event;
+
+        private void OnEnable() => _event.Invoked += OnInvoked;
+
+        private void OnDisable() => _event.Invoked -= OnInvoked;
+
+        protected abstract void OnInvoked(T e);
+    }
+}

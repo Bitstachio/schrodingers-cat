@@ -1,31 +1,14 @@
 using Features.Panel.Scripts.Panels;
-using Shared.EventBus.Interfaces;
+using Shared.EventBus.Implementation;
 using Shared.EventBus.Structs;
 using UnityEngine;
-using VContainer;
 
 namespace Features.Panel.Scripts.Listeners
 {
-    public class BannerListener : MonoBehaviour, IEventListener
+    public class BannerListener : EventListener<BannerInteractionEventArgs>
     {
         [SerializeField] private BannerPanel panel;
 
-        //===== Dependency Injection =====
-
-        private IEvent<BannerInteractionEventArgs> _event;
-
-        [Inject]
-        public void Construct(IEvent<BannerInteractionEventArgs> @event) => _event = @event;
-
-        //===== Lifecycle =====
-        // Handle subscription to dialogue service
-
-        private void OnEnable() => _event.Invoked += OnBannerOpened;
-
-        private void OnDisable() => _event.Invoked -= OnBannerOpened;
-
-        //===== Event Handlers =====
-
-        private void OnBannerOpened(BannerInteractionEventArgs e) => panel.Show(e.Banner);
+        protected override void OnInvoked(BannerInteractionEventArgs e) => panel.Show(e.Banner);
     }
 }
