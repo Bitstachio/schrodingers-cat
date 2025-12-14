@@ -1,3 +1,4 @@
+using System.Linq;
 using UnityEngine;
 
 namespace Shared.ScriptableObjects.Task
@@ -6,7 +7,10 @@ namespace Shared.ScriptableObjects.Task
     public class TaskList : ScriptableObject
     {
         [SerializeField] private TaskContent[] tasks;
-        
+
         public TaskContent[] Tasks => tasks;
+
+        public bool IsComplete() => tasks.All(t => t.IsComplete);
+        public void ResetProgress() => tasks.ToList().ForEach(t => t.ResetProgress());
     }
 }

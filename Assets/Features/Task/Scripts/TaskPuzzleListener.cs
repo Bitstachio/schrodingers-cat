@@ -10,10 +10,11 @@ namespace Features.Task.Scripts
     {
         [SerializeField] private TaskList taskList;
 
+        // TODO: This is a temporary solution; investigate a better approach to prevent SO from persisting progress
+        private void Awake() => taskList.ResetProgress();
+
         protected override void OnInvoked(PuzzleAttemptEventArgs e)
         {
-            Debug.Log($"Detected Task - ({e.Id}, {e.Result}, {taskList.Tasks[0].IsComplete})");
-            Debug.Log($"target = {taskList.Tasks[0].Target}, progress = {taskList.Tasks[0].Progress}");
             if (e.Result) taskList.Tasks.FirstOrDefault(t => t.Id == e.Id)?.MakeProgress();
         }
     }
