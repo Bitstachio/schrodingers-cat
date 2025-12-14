@@ -4,8 +4,8 @@ using Features.Interactable.Services;
 using Features.Panel.Common.Interfaces;
 using Features.Panel.Common.Services;
 using Shared.Events;
-using Shared.Events.Interactable.Implementation;
-using Shared.Events.Interactable.Interfaces;
+using Shared.Events.EventBus.Implementation;
+using Shared.Events.EventBus.Interfaces;
 using UnityEngine;
 using VContainer;
 using VContainer.Unity;
@@ -38,9 +38,9 @@ namespace Installers
 
             //===== Events =====
             
-            builder.Register(typeof(InteractableEvents<>), Lifetime.Singleton)
-                .As(typeof(IInteractableEvents<>))
-                .As(typeof(IInteractableEventPublisher<>));
+            builder.Register(typeof(EventBus<>), Lifetime.Singleton)
+                .As(typeof(IEvent<>))
+                .As(typeof(IEventPublisher<>));
 
             //===== Services =====
 

@@ -1,6 +1,6 @@
 using Features.Interactable.Interfaces;
-using Shared.Events.Interactable.Interfaces;
-using Shared.Events.Interactable.Structs;
+using Shared.Events.EventBus.Interfaces;
+using Shared.Events.EventBus.Structs;
 using UnityEngine;
 using VContainer;
 
@@ -12,18 +12,17 @@ namespace Features.Panel.Banner.Scripts
 
         //===== Dependency Injection =====
 
-        private IInteractableEvents<BannerInteractionEventArgs> _interactableEvents;
+        private IEvent<BannerInteractionEventArgs> _event;
 
         [Inject]
-        public void Construct(IInteractableEvents<BannerInteractionEventArgs> interactableEvents) =>
-            _interactableEvents = interactableEvents;
+        public void Construct(IEvent<BannerInteractionEventArgs> @event) => _event = @event;
 
         //===== Lifecycle =====
         // Handle subscription to dialogue service
 
-        private void OnEnable() => _interactableEvents.Interacted += OnBannerOpened;
+        private void OnEnable() => _event.Invoked += OnBannerOpened;
 
-        private void OnDisable() => _interactableEvents.Interacted -= OnBannerOpened;
+        private void OnDisable() => _event.Invoked -= OnBannerOpened;
 
         //===== Event Handlers =====
 
