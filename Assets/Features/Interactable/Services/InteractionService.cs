@@ -1,5 +1,5 @@
 using Features.Interactable.Interfaces;
-using Shared.Events.Interactable.Interfaces;
+using Shared.Events.EventBus.Interfaces;
 using VContainer;
 
 namespace Features.Interactable.Services
@@ -8,10 +8,10 @@ namespace Features.Interactable.Services
     {
         //===== Dependency Injection =====
 
-        private IInteractableEventPublisher<T> _eventPublisher;
+        private IEventPublisher<T> _eventPublisher;
 
         [Inject]
-        public void Construct(IInteractableEventPublisher<T> eventPublisher) => _eventPublisher = eventPublisher;
+        public void Construct(IEventPublisher<T> eventPublisher) => _eventPublisher = eventPublisher;
 
         //===== Interface Implementation =====
 

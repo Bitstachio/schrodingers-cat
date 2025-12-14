@@ -1,6 +1,6 @@
 using Shared.ScriptableObjects.Panel.Banner;
 
-namespace Shared.Events.Interactable.Structs
+namespace Shared.Events.EventBus.Structs
 {
     public readonly struct BannerInteractionEventArgs
     {

@@ -1,5 +1,5 @@
 using Features.Interactable.Interfaces;
-using Shared.Events.Interactable.Structs;
+using Shared.Events.EventBus.Structs;
 using Shared.ScriptableObjects.Panel.Banner;
 using UnityEngine;
 using VContainer;
