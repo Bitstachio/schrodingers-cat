@@ -1,18 +1,16 @@
 using Features.Task.Interfaces;
-using Shared.EventBus.Interfaces;
+using Shared.EventBus.Implementation;
 using Shared.EventBus.Structs;
 using UnityEngine;
-using VContainer;
 
 namespace Features.Task.Services
 {
-    public class TaskService : ITaskService
+    public class TaskService : EventPublisherService<TaskCompletionEventArgs>, ITaskService
     {
-        private IEventPublisher<TaskCompletionEventArgs> _publisher;
-
-        [Inject]
-        public void Construct(IEventPublisher<TaskCompletionEventArgs> publisher) => _publisher = publisher;
-
-        public void Complete(int taskListId) => _publisher.Invoke(new TaskCompletionEventArgs(taskListId));
+        public void Complete(int taskListId)
+        {
+            Debug.Log("Task completed");
+            Publisher.Invoke(new TaskCompletionEventArgs(taskListId));
+        }
     }
 }

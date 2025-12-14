@@ -1,19 +1,13 @@
 using Features.Puzzle.Interfaces;
 using Features.Puzzle.Utils;
-using Shared.EventBus.Interfaces;
+using Shared.EventBus.Implementation;
 using Shared.EventBus.Structs;
-using VContainer;
 
 namespace Features.Puzzle.Services
 {
-    public class PuzzleService : IPuzzleService
+    public class PuzzleService : EventPublisherService<PuzzleAttemptEventArgs>, IPuzzleService
     {
-        private IEventPublisher<PuzzleAttemptEventArgs> _publisher;
-
-        [Inject]
-        public void Construct(IEventPublisher<PuzzleAttemptEventArgs> publisher) => _publisher = publisher;
-
         public void Attempt(int id, bool[] solution, bool[] key) =>
-            _publisher.Invoke(new PuzzleAttemptEventArgs(id, PuzzleUtils.CheckLockCombination(solution, key)));
+            Publisher.Invoke(new PuzzleAttemptEventArgs(id, PuzzleUtils.CheckLockCombination(solution, key)));
     }
 }

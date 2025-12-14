@@ -1,16 +1,10 @@
 using Features.Interactable.Interfaces;
-using Shared.EventBus.Interfaces;
-using VContainer;
+using Shared.EventBus.Implementation;
 
 namespace Features.Interactable.Services
 {
-    public class InteractionService<T> : IInteractableService<T>
+    public class InteractionService<T> : EventPublisherService<T>, IInteractableService<T>
     {
-        private IEventPublisher<T> _eventPublisher;
-
-        [Inject]
-        public void Construct(IEventPublisher<T> eventPublisher) => _eventPublisher = eventPublisher;
-
-        public void Apply(T content) => _eventPublisher.Invoke(content);
+        public void Apply(T content) => Publisher.Invoke(content);
     }
 }
