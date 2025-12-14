@@ -1,5 +1,4 @@
 using Features.Interactable.Interfaces;
-using Features.Panel.Common.Interfaces;
 using Shared.EventBus.Structs;
 using UnityEngine;
 using VContainer;
@@ -12,14 +11,14 @@ namespace Features.Interactable.Scripts
 
         //===== Dependency Injection =====
 
-        private IPanelService<StaticPanelInteractionEventArgs> _panelService;
+        private IInteractableService<StaticPanelInteractionEventArgs> _interactableService;
 
         [Inject]
-        public void Construct(IPanelService<StaticPanelInteractionEventArgs> panelService) =>
-            _panelService = panelService;
+        public void Construct(IInteractableService<StaticPanelInteractionEventArgs> interactableService) =>
+            _interactableService = interactableService;
 
         //===== Interface Implementation =====
 
-        public void Interact() => _panelService.Open(new StaticPanelInteractionEventArgs(panelId));
+        public void Interact() => _interactableService.Apply(new StaticPanelInteractionEventArgs(panelId));
     }
 }

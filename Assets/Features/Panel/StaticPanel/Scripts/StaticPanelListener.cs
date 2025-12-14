@@ -1,6 +1,4 @@
 using System.Linq;
-using Features.Interactable.Interfaces;
-using Features.Panel.Common.Interfaces;
 using Features.Panel.StaticPanel.Exceptions;
 using Shared.EventBus.Interfaces;
 using Shared.EventBus.Structs;
@@ -15,11 +13,10 @@ namespace Features.Panel.StaticPanel.Scripts
 
         //===== Dependency Injection =====
 
-        private IPanelService<StaticPanelInteractionEventArgs> _panelService;
+        private IEvent<StaticPanelInteractionEventArgs> _event;
 
         [Inject]
-        public void Construct(IPanelService<StaticPanelInteractionEventArgs> panelService) =>
-            _panelService = panelService;
+        public void Construct(IEvent<StaticPanelInteractionEventArgs> @event) => _event = @event;
 
         //===== Lifecycle =====
 
@@ -32,13 +29,13 @@ namespace Features.Panel.StaticPanel.Scripts
 
         // Handle subscription to panel service
 
-        private void OnEnable() => _panelService.Opened += OnPanelOpened;
+        private void OnEnable() => _event.Invoked += OnPanelOpened;
 
-        private void OnDisable() => _panelService.Opened -= OnPanelOpened;
+        private void OnDisable() => _event.Invoked -= OnPanelOpened;
 
         //===== Event Handlers =====
 
-        private void OnPanelOpened(object sender, StaticPanelInteractionEventArgs e)
+        private void OnPanelOpened(StaticPanelInteractionEventArgs e)
         {
             var panel = _panels.FirstOrDefault(p => p.Id == e.PanelId) ?? throw new PanelIdNotFound(e.PanelId);
             panel.Show(e.PanelId);
