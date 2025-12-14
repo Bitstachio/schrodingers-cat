@@ -1,12 +1,13 @@
 using Features.Interactable.Interfaces;
 using Features.Panel.Common.Interfaces;
 using Features.Panel.Dialogue.Models;
+using Shared.EventBus.Interfaces;
 using UnityEngine;
 using VContainer;
 
 namespace Features.Panel.Dialogue.Scripts
 {
-    public class DialogueDispatcher : MonoBehaviour, IInteractionDispatcher
+    public class DialogueDispatcher : MonoBehaviour, IEventListener
     {
         [SerializeField] private DialoguePanel panel;
 

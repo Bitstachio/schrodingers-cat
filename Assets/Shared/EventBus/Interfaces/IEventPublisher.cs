@@ -1,4 +1,4 @@
-namespace Shared.Events.EventBus.Interfaces
+namespace Shared.EventBus.Interfaces
 {
     public interface IEventPublisher<in T>
     {

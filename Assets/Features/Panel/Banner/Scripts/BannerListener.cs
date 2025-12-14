@@ -1,12 +1,11 @@
-using Features.Interactable.Interfaces;
-using Shared.Events.EventBus.Interfaces;
-using Shared.Events.EventBus.Structs;
+using Shared.EventBus.Interfaces;
+using Shared.EventBus.Structs;
 using UnityEngine;
 using VContainer;
 
 namespace Features.Panel.Banner.Scripts
 {
-    public class BannerDispatcher : MonoBehaviour, IInteractionDispatcher
+    public class BannerListener : MonoBehaviour, IEventListener
     {
         [SerializeField] private BannerPanel panel;
 

@@ -1,5 +1,5 @@
 using Features.Interactable.Interfaces;
-using Shared.Events.EventBus.Interfaces;
+using Shared.EventBus.Interfaces;
 using VContainer;
 
 namespace Features.Interactable.Services

@@ -1,6 +1,6 @@
 using System;
 
-namespace Shared.Events.EventBus.Interfaces
+namespace Shared.EventBus.Interfaces
 {
     public interface IEvent<out T>
     {
