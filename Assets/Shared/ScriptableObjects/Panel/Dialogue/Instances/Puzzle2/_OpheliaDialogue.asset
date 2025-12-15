@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5df330dbc7b64755b401cb025f0db6ea, type: 3}
-  m_Name: Puzzle1_BasilDialogue
+  m_Name: _OpheliaDialogue
   m_EditorClassIdentifier: 
-  speaker: Basil
+  speaker: Ophelia
   lines:
-  - Either I betrayed the master, or Cecilia did.
-  - "But it can\u2019t be both of us."
+  - I was in the library all night.
+  - "If that\u2019s true, then I couldn\u2019t have betrayed the master."
