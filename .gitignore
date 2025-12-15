@@ -72,6 +72,20 @@ crashlytics-build.properties
 /Assets/External
 /Assets/External.meta
 
+# Paid third-party asset pack
+Assets/Characters/
+Assets/Props/
+Assets/Tilesets/
+Assets/TiledMap Editor/
+Assets/Mockups/
+
+Assets/Characters.meta
+Assets/Props.meta
+Assets/Tilesets.meta
+Assets/TiledMap Editor.meta
+Assets/Mockups.meta
+
+
 # JetBrains Rider
 .idea/
 
