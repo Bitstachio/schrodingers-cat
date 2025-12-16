@@ -1,11 +1,11 @@
 using Shared.Constants;
 using UnityEngine;
 
-namespace Features.NPC.Ophelia.Scripts
+namespace Features.NPC.Cats.Shared.Scripts
 {
     [RequireComponent(typeof(CircleCollider2D))]
     [RequireComponent(typeof(Animator))]
-    public class OpheliaEncounter : MonoBehaviour
+    public class CatEncounter : MonoBehaviour
     {
         private static readonly int PlayerInRange = Animator.StringToHash("PlayerInRange");
 

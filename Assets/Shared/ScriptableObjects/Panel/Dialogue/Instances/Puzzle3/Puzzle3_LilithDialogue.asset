@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5df330dbc7b64755b401cb025f0db6ea, type: 3}
-  m_Name: _CeciliaDialogue
+  m_Name: Puzzle3_LilithDialogue
   m_EditorClassIdentifier: 
-  speaker: Cecilia
+  speaker: Lilith
   lines:
-  - 'Let me put it this way: Cornelius is only guilty if both Lilith and Basil are
-    innocent.'
+  - Everyone says I always lie.
+  - But let me assure you that Basil is completely innocent.

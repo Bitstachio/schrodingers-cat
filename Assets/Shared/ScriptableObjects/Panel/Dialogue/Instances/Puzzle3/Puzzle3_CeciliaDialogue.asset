@@ -10,9 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5df330dbc7b64755b401cb025f0db6ea, type: 3}
-  m_Name: _CorneliusDialogue
+  m_Name: Puzzle3_CeciliaDialogue
   m_EditorClassIdentifier: 
-  speaker: Cornelius
+  speaker: Cecilia
   lines:
-  - The ghost in the portrait says I lied about the heirloom.
-  - "If the ghost is telling the truth about that, then I\u2019m guilty."
+  - Say something...

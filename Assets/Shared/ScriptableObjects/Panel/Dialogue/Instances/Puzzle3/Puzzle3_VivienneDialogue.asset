@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5df330dbc7b64755b401cb025f0db6ea, type: 3}
-  m_Name: _VivienneDialogue
+  m_Name: Puzzle3_VivienneDialogue
   m_EditorClassIdentifier: 
   speaker: Vivienne
   lines:
