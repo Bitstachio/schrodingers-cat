@@ -1,9 +1,9 @@
-using Features.SFX.Interfaces;
+using Features.Audio.Interfaces;
 using Shared.EventBus.Implementation;
 using UnityEngine;
 using VContainer;
 
-namespace Features.SFX.Scripts
+namespace Features.Audio.Scripts
 {
     public abstract class SfxListenerBehaviour<T> : EventListenerBehaviour<T>
     {

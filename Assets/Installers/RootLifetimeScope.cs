@@ -1,10 +1,10 @@
 using System.Linq;
+using Features.Audio.Interfaces;
+using Features.Audio.Scripts;
 using Features.Interactable.Interfaces;
 using Features.Interactable.Services;
 using Features.Puzzle.Interfaces;
 using Features.Puzzle.Services;
-using Features.SFX.Interfaces;
-using Features.SFX.Scripts;
 using Features.Task.Interfaces;
 using Features.Task.Services;
 using Shared.EventBus.Implementation;
