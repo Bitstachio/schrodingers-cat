@@ -1,13 +1,13 @@
 using Features.Door.Interfaces;
-using Shared.Constants;
 using UnityEngine;
 using VContainer;
 
 namespace Features.Door.Scripts
 {
-    [RequireComponent(typeof(BoxCollider2D), typeof(CapsuleCollider2D), typeof(Animator))]
-    public class Door : MonoBehaviour, IDoor
+    [RequireComponent(typeof(BoxCollider2D), typeof(Animator))]
+    public class DoorBehaviour : MonoBehaviour, IDoor
     {
+        private static readonly int OpenDoor = Animator.StringToHash("OpenDoor");
         private static readonly int CloseDoor = Animator.StringToHash("CloseDoor");
 
         private IDoorService _doorService;
@@ -23,12 +23,14 @@ namespace Features.Door.Scripts
             _animator = GetComponent<Animator>();
         }
 
-        private void OnTriggerEnter2D(Collider2D other)
+        public void Open()
         {
-            if (other.CompareTag(Tags.Player)) Close();
+            _animator.SetTrigger(OpenDoor);
+            _boxCollider.enabled = false;
+            _doorService.Open();
         }
 
-        private void Close()
+        public void Close()
         {
             _animator.SetTrigger(CloseDoor);
             _boxCollider.enabled = true;
