@@ -1,6 +1,8 @@
 using System.Linq;
 using Features.Audio.Interfaces;
 using Features.Audio.Scripts;
+using Features.Door.Interfaces;
+using Features.Door.Services;
 using Features.Interactable.Interfaces;
 using Features.Interactable.Services;
 using Features.Puzzle.Interfaces;
@@ -60,6 +62,9 @@ namespace Installers
             
             builder.RegisterComponentInHierarchy<SfxPlayer>()
                 .As<ISfxPlayer>();
+            
+            builder.Register<DoorService>(Lifetime.Singleton)
+                .As<IDoorService>();
         }
     }
 }

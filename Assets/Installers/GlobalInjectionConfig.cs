@@ -1,4 +1,5 @@
 using System;
+using Features.Door.Interfaces;
 using Features.Interactable.Interfaces;
 using Features.Puzzle.Interfaces;
 using Shared.EventBus.Interfaces;
@@ -12,6 +13,7 @@ namespace Installers
             typeof(IInteractable),
             typeof(IEventListener),
             typeof(IPuzzle),
+            typeof(IDoor),
         };
     }
 }
