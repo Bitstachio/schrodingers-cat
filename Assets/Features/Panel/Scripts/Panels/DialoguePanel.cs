@@ -9,10 +9,10 @@ namespace Features.Panel.Scripts.Panels
 {
     public class DialoguePanel : MonoBehaviour, IPanel<DialogueContent>
     {
-        [SerializeField] private TextMeshProUGUI textComponent;
+        [SerializeField] private TextMeshProUGUI speakerTextComponent;
+        [SerializeField] private TextMeshProUGUI contentTextComponent;
         [SerializeField] private float typingDelay;
 
-        private string _speaker;
         private string[] _lines;
         private int _lineIndex;
 
@@ -24,12 +24,12 @@ namespace Features.Panel.Scripts.Panels
             if (!Input.GetMouseButtonDown(0)) return;
 
             // If the current line is already fully displayed, advance to the next one
-            if (textComponent.text == _lines[_lineIndex]) NextLine();
+            if (contentTextComponent.text == _lines[_lineIndex]) NextLine();
             // Skip the typing animation and instantly show the full line
             else
             {
                 StopAllCoroutines();
-                textComponent.text = _lines[_lineIndex];
+                contentTextComponent.text = _lines[_lineIndex];
             }
         }
 
@@ -40,7 +40,9 @@ namespace Features.Panel.Scripts.Panels
             if (gameObject.activeSelf) throw new PanelAlreadyOpenException();
             gameObject.SetActive(true);
 
-            _speaker = dialogue.Speaker;
+            // The inspector may contain placeholder text for visualization purposes, which should be cleared
+            contentTextComponent.text = string.Empty;
+            speakerTextComponent.text = dialogue.Speaker;
             _lines = dialogue.Lines;
             _lineIndex = 0;
 
@@ -53,7 +55,7 @@ namespace Features.Panel.Scripts.Panels
             gameObject.SetActive(false);
 
             StopAllCoroutines();
-            textComponent.text = string.Empty;
+            contentTextComponent.text = string.Empty;
             _lineIndex = 0;
         }
 
@@ -63,7 +65,7 @@ namespace Features.Panel.Scripts.Panels
         {
             foreach (var character in _lines[_lineIndex].ToCharArray())
             {
-                textComponent.text += character;
+                contentTextComponent.text += character;
                 yield return new WaitForSeconds(typingDelay);
             }
         }
@@ -73,7 +75,7 @@ namespace Features.Panel.Scripts.Panels
             if (_lineIndex < _lines.Length - 1)
             {
                 _lineIndex++;
-                textComponent.text = string.Empty;
+                contentTextComponent.text = string.Empty;
                 StartCoroutine(TypeLine());
             }
             else Hide();
