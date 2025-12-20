@@ -4,6 +4,6 @@ namespace Features.SFX.Interfaces
 {
     public interface ISfxPlayer
     {
-        void Play(AudioClip audioClip);
+        void Play(AudioClip audioClip, float volume);
     }
 }

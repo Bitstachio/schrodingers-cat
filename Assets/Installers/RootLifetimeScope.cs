@@ -58,7 +58,7 @@ namespace Installers
             builder.Register<TaskService>(Lifetime.Singleton)
                 .As<ITaskService>();
             
-            builder.Register<SfxPlayer>(Lifetime.Singleton)
+            builder.RegisterComponentInHierarchy<SfxPlayer>()
                 .As<ISfxPlayer>();
         }
     }
