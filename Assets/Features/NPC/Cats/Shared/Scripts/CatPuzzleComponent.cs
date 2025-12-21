@@ -20,6 +20,6 @@ namespace Features.NPC.Cats.Shared.Scripts
             PuzzleId = puzzleId;
         }
 
-        public bool Evaluate() => _state.Current == expected;
+        public bool Check() => _state.Current == expected;
     }
 }
