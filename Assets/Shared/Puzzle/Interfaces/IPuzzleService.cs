@@ -1,4 +1,4 @@
-namespace Features.Puzzle.Interfaces
+namespace Shared.Puzzle.Interfaces
 {
     public interface IPuzzleService
     {

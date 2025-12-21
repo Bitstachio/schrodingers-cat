@@ -1,9 +1,9 @@
-using Features.Puzzle.Interfaces;
-using Features.Puzzle.Utils;
 using Shared.EventBus.Implementation;
 using Shared.EventBus.Structs;
+using Shared.Puzzle.Interfaces;
+using Shared.Puzzle.Utils;
 
-namespace Features.Puzzle.Services
+namespace Shared.Puzzle.Services
 {
     public class PuzzleService : EventPublisherService<PuzzleAttemptEventArgs>, IPuzzleService
     {

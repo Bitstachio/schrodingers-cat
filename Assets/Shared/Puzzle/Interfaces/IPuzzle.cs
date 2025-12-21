@@ -1,4 +1,4 @@
-namespace Features.Puzzle.Interfaces
+namespace Shared.Puzzle.Interfaces
 {
     /// <summary>
     /// Marker interface for classes that represent puzzles.

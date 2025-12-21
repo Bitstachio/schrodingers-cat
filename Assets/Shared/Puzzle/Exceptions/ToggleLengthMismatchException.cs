@@ -1,6 +1,6 @@
 using System;
 
-namespace Features.Puzzle.Exceptions
+namespace Shared.Puzzle.Exceptions
 {
     public class ToggleLengthMismatchException : Exception
     {

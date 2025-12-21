@@ -1,8 +1,8 @@
 using System;
 using Features.Door.Interfaces;
 using Features.Interactable.Interfaces;
-using Features.Puzzle.Interfaces;
 using Shared.EventBus.Interfaces;
+using Shared.Puzzle.Interfaces;
 
 namespace Installers
 {

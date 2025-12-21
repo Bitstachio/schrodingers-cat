@@ -1,10 +1,10 @@
 using System.Linq;
-using Features.Puzzle.Interfaces;
+using Shared.Puzzle.Interfaces;
 using UnityEngine;
 using UnityEngine.UI;
 using VContainer;
 
-namespace Features.Puzzle.Scripts
+namespace Shared.Puzzle.Scripts
 {
     public class TogglePuzzle : MonoBehaviour, IPuzzle
     {

@@ -1,5 +1,5 @@
 using Features.NPC.Cats.Shared.Enums;
-using Features.Puzzle.Interfaces;
+using Shared.Puzzle.Interfaces;
 using Shared.StateMachine.Exceptions;
 using UnityEngine;
 

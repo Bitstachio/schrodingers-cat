@@ -1,7 +1,7 @@
 using System.Linq;
-using Features.Puzzle.Exceptions;
+using Shared.Puzzle.Exceptions;
 
-namespace Features.Puzzle.Utils
+namespace Shared.Puzzle.Utils
 {
     public static class PuzzleUtils
     {
