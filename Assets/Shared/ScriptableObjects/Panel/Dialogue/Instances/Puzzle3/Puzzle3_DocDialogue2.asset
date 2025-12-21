@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5df330dbc7b64755b401cb025f0db6ea, type: 3}
-  m_Name: Puzzle3_DocDialogue
+  m_Name: Puzzle3_DocDialogue2
   m_EditorClassIdentifier: 
   speaker: Doc
   lines:
-  - You have to find the traitor
+  - This is my second dialogue
