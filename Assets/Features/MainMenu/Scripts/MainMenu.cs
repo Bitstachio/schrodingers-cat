@@ -2,17 +2,22 @@ using UnityEngine;
 
 namespace Features.MainMenu.Scripts
 {
-    // TODO: This works, but I'm not sure if it's best practice; especially for panels game object array
+    // TODO: This is not best practice, so consider refactoring it in the future
     public class MainMenu : MonoBehaviour
     {
         [SerializeField] private GameObject backButton;
         [SerializeField] private GameObject[] pages;
 
-        public void BackToMain()
+        private void OpenPage(string target, bool hasBackButton = true)
         {
-            backButton.SetActive(false);
-            // TODO: I don't like using a magic string here
-            foreach (var page in pages) page.SetActive(page.name == "Main");
+            backButton.SetActive(hasBackButton);
+            foreach (var page in pages) page.SetActive(page.name == target);
         }
+
+        public void BackToMain() => OpenPage("Main", false);
+
+        public void OpenGuide() => OpenPage("Guide");
+
+        public void OpenCredits() => OpenPage("Credits");
     }
 }
