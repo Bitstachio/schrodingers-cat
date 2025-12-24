@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace Features.MainMenu.Scripts
 {
@@ -13,6 +14,8 @@ namespace Features.MainMenu.Scripts
             backButton.SetActive(hasBackButton);
             foreach (var page in pages) page.SetActive(page.name == target);
         }
+        
+        public void OpenGame() => SceneManager.LoadScene("GameScene");
 
         public void BackToMain() => OpenPage("Main", false);
 
