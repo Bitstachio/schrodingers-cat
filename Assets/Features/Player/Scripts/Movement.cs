@@ -6,15 +6,15 @@ namespace Features.Player.Scripts
     [RequireComponent(typeof(Rigidbody2D))]
     public class Movement : MonoBehaviour
     {
+        private static readonly int IsMoving = Animator.StringToHash("IsMoving");
+        
         [SerializeField] private float moveSpeed = 5f;
-
+        
         private Rigidbody2D _rb;
         private Animator _animator;
-        private Vector2 _movement;
         private SpriteRenderer _spriteRenderer;
-
-        private static readonly int IsMoving = Animator.StringToHash("IsMoving");
-
+        private Vector2 _movement;
+        
         private void Awake()
         {
             _rb = GetComponent<Rigidbody2D>();
@@ -39,7 +39,7 @@ namespace Features.Player.Scripts
             // Normalize to prevent faster diagonal movement
             var normalizedMovement = _movement.normalized;
 
-            _rb.MovePosition(_rb.position + normalizedMovement * moveSpeed * Time.fixedDeltaTime);
+            _rb.MovePosition(_rb.position + normalizedMovement * (moveSpeed * Time.fixedDeltaTime));
         }
     }
 }

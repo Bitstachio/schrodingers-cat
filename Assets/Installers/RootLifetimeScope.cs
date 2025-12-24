@@ -5,6 +5,8 @@ using Features.Door.Interfaces;
 using Features.Door.Services;
 using Features.Interactable.Interfaces;
 using Features.Interactable.Services;
+using Features.Player.Interfaces;
+using Features.Player.Services;
 using Features.Task.Interfaces;
 using Features.Task.Services;
 using Shared.EventBus.Implementation;
@@ -35,8 +37,8 @@ namespace Installers
                              FindObjectsInactive.Include,
                              FindObjectsSortMode.None))
                 {
-                    if (GlobalInjectionConfig.AutoInjectInterfaces.Any(iface =>
-                            iface.IsAssignableFrom(behaviour.GetType())))
+                    if (GlobalInjectionConfig.AutoInjectInterfaces.Any(@interface =>
+                            @interface.IsAssignableFrom(behaviour.GetType())))
                     {
                         container.Inject(behaviour);
                     }
@@ -51,6 +53,9 @@ namespace Installers
 
             //===== Services =====
 
+            builder.Register(typeof(PlayerService), Lifetime.Singleton)
+                .As(typeof(IPlayerService));
+
             builder.Register(typeof(InteractionService<>), Lifetime.Singleton)
                 .As(typeof(IInteractableService<>));
 
@@ -59,10 +64,10 @@ namespace Installers
 
             builder.Register<TaskService>(Lifetime.Singleton)
                 .As<ITaskService>();
-            
+
             builder.RegisterComponentInHierarchy<SfxPlayer>()
                 .As<ISfxPlayer>();
-            
+
             builder.Register<DoorService>(Lifetime.Singleton)
                 .As<IDoorService>();
         }
