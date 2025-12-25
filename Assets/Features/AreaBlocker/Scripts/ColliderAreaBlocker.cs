@@ -2,10 +2,10 @@ using Shared.Constants;
 using Shared.Utils;
 using UnityEngine;
 
-namespace Features.Door.Scripts
+namespace Features.AreaBlocker.Scripts
 {
     [RequireComponent(typeof(CapsuleCollider2D))]
-    public class AreaBlocker : MonoBehaviour
+    public class ColliderAreaBlocker : MonoBehaviour
     {
         private void Awake() => ComponentValidationUtils.ValidateSingleTrigger(GetComponents<CapsuleCollider2D>());
 
