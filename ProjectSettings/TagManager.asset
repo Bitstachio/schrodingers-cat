@@ -44,6 +44,9 @@ TagManager:
   - name: Terrain Overlay
     uniqueID: 1741465799
     locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
   - name: Walls Base
     uniqueID: 2949802199
     locked: 0
@@ -59,14 +62,14 @@ TagManager:
   - name: Top Decor
     uniqueID: 1278576663
     locked: 0
-  - name: Default
-    uniqueID: 0
-    locked: 0
   - name: Tall Objects
     uniqueID: 292993639
     locked: 0
   - name: Gate
     uniqueID: 2243639271
+    locked: 0
+  - name: Top
+    uniqueID: 1136726401
     locked: 0
   m_RenderingLayers:
   - Default

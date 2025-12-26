@@ -1013,7 +1013,7 @@ Transform:
   m_GameObject: {fileID: 182576016}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 17.8, y: -45.86, z: 0}
+  m_LocalPosition: {x: 39.75, y: -17.47, z: 0}
   m_LocalScale: {x: 3.25, y: 3.25, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2998,8 +2998,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 1136726401
+  m_SortingLayer: 8
   m_SortingOrder: 0
   m_Sprite: {fileID: -4060010429196580965, guid: a9550e70216db4a3496e299e2ea8cd46, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -3321,7 +3321,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 17.8, y: -45.86, z: -10}
+  m_LocalPosition: {x: 39.75, y: -17.47, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3770,7 +3770,7 @@ MonoBehaviour:
   m_Intensity: 1
   m_LightVolumeIntensity: 1
   m_LightVolumeEnabled: 0
-  m_ApplyToSortingLayers: 000000000144478dc7a8cc67d768d2af5fc58aef15fd4caf259f88a267ba76111788354ce737bb85
+  m_ApplyToSortingLayers: 000000000144478dc7a8cc67d768d2af5fc58aef15fd4caf259f88a267ba76111788354ce737bb858111c143
   m_LightCookieSprite: {fileID: 0}
   m_DeprecatedPointLightCookieSprite: {fileID: 0}
   m_LightOrder: 0
@@ -5729,6 +5729,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   door: {fileID: 1032674464}
+--- !u!114 &1032674480
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1032674463}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2dc1aa5c0c74bd3a75e0a4f54c8e6ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  panelId: 1
 --- !u!1 &1038199701
 GameObject:
   m_ObjectHideFlags: 0
@@ -6639,7 +6652,7 @@ Transform:
   m_GameObject: {fileID: 1179549846}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 17.8, y: -45.86, z: -10}
+  m_LocalPosition: {x: 39.75, y: -17.47, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8721,8 +8734,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -2051328025
+  m_SortingLayer: 7
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
@@ -10845,6 +10858,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Locked Door
       objectReference: {fileID: 0}
+    - target: {fileID: 5436830217600176545, guid: b1aba7eae71d8413ab35e95f955ebbb6, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7119952956374764144, guid: b1aba7eae71d8413ab35e95f955ebbb6, type: 3}
       propertyPath: m_LocalPosition.x
       value: 64.24
@@ -10900,6 +10917,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 3784681214621136926, guid: b1aba7eae71d8413ab35e95f955ebbb6, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1032674472}
+    - targetCorrespondingSourceObject: {fileID: 3784681214621136926, guid: b1aba7eae71d8413ab35e95f955ebbb6, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1032674480}
   m_SourcePrefab: {fileID: 100100000, guid: b1aba7eae71d8413ab35e95f955ebbb6, type: 3}
 --- !u!1001 &8254374007422625993
 PrefabInstance:
