@@ -1013,7 +1013,7 @@ Transform:
   m_GameObject: {fileID: 182576016}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 39.75, y: -17.47, z: 0}
+  m_LocalPosition: {x: 65.7, y: -55.5, z: 0}
   m_LocalScale: {x: 3.25, y: 3.25, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3321,7 +3321,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 39.75, y: -17.47, z: -10}
+  m_LocalPosition: {x: 65.7, y: -55.5, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5742,6 +5742,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   panelId: 1
+--- !u!114 &1032674481
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1032674463}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0d0b533f4994859ab76ce473973323e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  door: {fileID: 1032674464}
+  puzzleId: 1
 --- !u!1 &1038199701
 GameObject:
   m_ObjectHideFlags: 0
@@ -6652,7 +6666,7 @@ Transform:
   m_GameObject: {fileID: 1179549846}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 39.75, y: -17.47, z: -10}
+  m_LocalPosition: {x: 65.7, y: -55.5, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8583,11 +8597,11 @@ MonoBehaviour:
   id: 1
   toggles:
   - {fileID: 622982312}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 287278439}
+  - {fileID: 1591489059}
+  - {fileID: 993792753}
+  - {fileID: 1860858859}
+  - {fileID: 7978147}
   key: 010100000000
 --- !u!1 &1549156992
 GameObject:
@@ -10910,7 +10924,8 @@ PrefabInstance:
       propertyPath: m_SpriteTilingProperty.oldSize.y
       value: 2.40625
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5436830217600176545, guid: b1aba7eae71d8413ab35e95f955ebbb6, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -10920,6 +10935,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 3784681214621136926, guid: b1aba7eae71d8413ab35e95f955ebbb6, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1032674480}
+    - targetCorrespondingSourceObject: {fileID: 3784681214621136926, guid: b1aba7eae71d8413ab35e95f955ebbb6, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1032674481}
   m_SourcePrefab: {fileID: 100100000, guid: b1aba7eae71d8413ab35e95f955ebbb6, type: 3}
 --- !u!1001 &8254374007422625993
 PrefabInstance:
