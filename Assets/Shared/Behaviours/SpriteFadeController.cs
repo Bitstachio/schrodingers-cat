@@ -13,6 +13,7 @@ namespace Shared.Behaviours
 
         [SerializeField] private SpriteRenderer spriteRenderer;
         [SerializeField] private float duration = 0.5f;
+        [SerializeField] private bool persist;
 
         private Coroutine _fadeRoutine;
 
@@ -57,7 +58,7 @@ namespace Shared.Behaviours
 
         private void OnTriggerExit2D(Collider2D other)
         {
-            if (other.CompareTag(Tags.Player)) FadeTo(MinAlpha);
+            if (!persist && other.CompareTag(Tags.Player)) FadeTo(MinAlpha);
         }
     }
 }
