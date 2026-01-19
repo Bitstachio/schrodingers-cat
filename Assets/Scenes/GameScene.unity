@@ -782,8 +782,8 @@ GameObject:
   - component: {fileID: 182576019}
   - component: {fileID: 182576020}
   - component: {fileID: 182576021}
-  - component: {fileID: 182576022}
   - component: {fileID: 182576023}
+  - component: {fileID: 182576024}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -832,8 +832,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 373425469
-  m_SortingLayer: 3
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: -4380494521951243042, guid: 02775b1d85dc1481b9f25828a82de1d6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -923,8 +923,20 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 4
---- !u!61 &182576022
-BoxCollider2D:
+--- !u!114 &182576023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 182576016}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8796e89ed3a345f8b4b7695673529019, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!70 &182576024
+CapsuleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -957,30 +969,9 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.00037808716, y: 0.0005668029}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.18, y: 0.3}
-    newSize: {x: 0.8125, y: 0.75}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Size: {x: 0.16469368, y: 0.28381437}
-  m_EdgeRadius: 0
---- !u!114 &182576023
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 182576016}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8796e89ed3a345f8b4b7695673529019, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Offset: {x: 0.0034770188, y: 0.0355306}
+  m_Size: {x: 0.18525632, y: 0.060630653}
+  m_Direction: 1
 --- !u!1 &224930232
 GameObject:
   m_ObjectHideFlags: 0
@@ -3612,7 +3603,7 @@ MonoBehaviour:
   m_Intensity: 1
   m_LightVolumeIntensity: 1
   m_LightVolumeEnabled: 0
-  m_ApplyToSortingLayers: 000000000144478dc7a8cc67d768d2af5fc58aef15fd4caf259f88a267ba76111788354ce737bb858111c1433d054216
+  m_ApplyToSortingLayers: 000000000144478dc7a8cc67d768d2af5fc58aef15fd4caf259f88a267ba76111788354ce737bb858111c1433d0542169bc5d9af
   m_LightCookieSprite: {fileID: 0}
   m_DeprecatedPointLightCookieSprite: {fileID: 0}
   m_LightOrder: 0

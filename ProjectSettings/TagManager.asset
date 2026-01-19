@@ -74,5 +74,8 @@ TagManager:
   - name: Top
     uniqueID: 1136726401
     locked: 0
+  - name: Floor Clutter
+    uniqueID: 2950284699
+    locked: 0
   m_RenderingLayers:
   - Default
