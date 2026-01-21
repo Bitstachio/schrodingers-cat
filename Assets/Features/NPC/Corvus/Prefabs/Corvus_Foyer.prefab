@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 3767120595046539143}
   - component: {fileID: 5517782437779675392}
   - component: {fileID: 1148716487455443793}
-  - component: {fileID: 747722066293314399}
   - component: {fileID: 4058952810272591705}
   m_Layer: 0
   m_Name: Interaction
@@ -85,18 +84,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   indicator: {fileID: 2597179517656636836}
---- !u!114 &747722066293314399
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1261018389654220440}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bcce7ed4e51b4542b4fc550dbd7afac9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &4058952810272591705
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -225,7 +212,7 @@ GameObject:
   - component: {fileID: 7019209067851601350}
   - component: {fileID: 5694017659866843470}
   m_Layer: 0
-  m_Name: Doc - The 6 Suspects Puzzle
+  m_Name: Corvus_Foyer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
