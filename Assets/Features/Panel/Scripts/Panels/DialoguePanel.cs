@@ -1,7 +1,7 @@
-using System.Collections;
 using Features.Panel.Exceptions;
 using Features.Panel.Interfaces;
 using Shared.ScriptableObjects.Panel.Dialogue;
+using Shared.Utils;
 using TMPro;
 using UnityEngine;
 
@@ -13,61 +13,43 @@ namespace Features.Panel.Scripts.Panels
         [SerializeField] private TextMeshProUGUI contentTextComponent;
         [SerializeField] private float typingDelay;
 
+        private TypewriterEffect _typewriter;
         private string[] _lines;
         private int _lineIndex;
 
-        //===== Lifecycle =====
+        private void Awake()
+        {
+            _typewriter = contentTextComponent.GetComponent<TypewriterEffect>();
+        }
 
         private void Update()
         {
             // TODO: Update control system
             if (!Input.GetMouseButtonDown(0)) return;
 
-            // If the current line is already fully displayed, advance to the next one
-            if (contentTextComponent.text == _lines[_lineIndex]) NextLine();
-            // Skip the typing animation and instantly show the full line
-            else
-            {
-                StopAllCoroutines();
-                contentTextComponent.text = _lines[_lineIndex];
-            }
+            // Use the typewriter if it exists, otherwise fallback to standard text logic
+            if (_typewriter && _typewriter.IsTyping) _typewriter.Skip();
+            else NextLine();
         }
-
-        //===== Interface Implementation =====
 
         public void Show(DialogueContent dialogue)
         {
             if (gameObject.activeSelf) throw new PanelAlreadyOpenException();
             gameObject.SetActive(true);
 
-            // The inspector may contain placeholder text for visualization purposes, which should be cleared
-            contentTextComponent.text = string.Empty;
             speakerTextComponent.text = dialogue.Speaker;
             _lines = dialogue.Lines;
             _lineIndex = 0;
 
-            StartCoroutine(TypeLine());
+            DisplayCurrentLine();
         }
 
-        public void Hide()
+        private void DisplayCurrentLine()
         {
-            if (!gameObject.activeSelf) throw new PanelNotOpenException();
-            gameObject.SetActive(false);
+            var line = _lines[_lineIndex];
 
-            StopAllCoroutines();
-            contentTextComponent.text = string.Empty;
-            _lineIndex = 0;
-        }
-
-        //===== Utility =====
-
-        private IEnumerator TypeLine()
-        {
-            foreach (var character in _lines[_lineIndex].ToCharArray())
-            {
-                contentTextComponent.text += character;
-                yield return new WaitForSeconds(typingDelay);
-            }
+            if (_typewriter) _typewriter.Play(line, typingDelay);
+            else contentTextComponent.text = line;
         }
 
         private void NextLine()
@@ -75,10 +57,18 @@ namespace Features.Panel.Scripts.Panels
             if (_lineIndex < _lines.Length - 1)
             {
                 _lineIndex++;
-                contentTextComponent.text = string.Empty;
-                StartCoroutine(TypeLine());
+                DisplayCurrentLine();
             }
             else Hide();
+        }
+
+        public void Hide()
+        {
+            if (!gameObject.activeSelf) throw new PanelNotOpenException();
+            if (_typewriter) _typewriter.Stop();
+
+            gameObject.SetActive(false);
+            _lineIndex = 0;
         }
     }
 }
